@@ -1,0 +1,24 @@
+{
+  "name": "javascript-mastery",
+  "version": "4.0.0",
+  "description": "JavaScript mastery structure with theory, snippets, interview questions, output questions, coding questions, and revision.",
+  "private": true,
+  "scripts": {
+    "var": "node 01-variables/var/snippets.js",
+    "let": "node 01-variables/let/snippets.js",
+    "const": "node 01-variables/const/snippets.js",
+    "hoisting": "node 01-variables/hoisting/snippets.js",
+    "scope": "node 01-variables/scope/snippets.js",
+    "tdz": "node 01-variables/tdz/snippets.js",
+    "string": "node 02-data-types/string/snippets.js",
+    "number": "node 02-data-types/number/snippets.js",
+    "object": "node 02-data-types/object/snippets.js",
+    "map": "node 05-arrays/map/snippets.js",
+    "reduce": "node 05-arrays/reduce/snippets.js",
+    "closure": "node 12-closures/basics/snippets.js",
+    "this": "node 13-this-keyword/object-this/snippets.js",
+    "async": "node 15-async-javascript/async-await/snippets.js",
+    "event-loop": "node 16-event-loop/event-loop-working/snippets.js"
+  },
+  "license": "MIT"
+}
