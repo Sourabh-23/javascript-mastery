@@ -40,6 +40,5 @@ Callback is useful because it controls how data is read, changed, compared, stor
 
 1. Read this file once.
 2. Run `02_snippets.js`.
-3. Predict every answer in `04_coding-output-practice.js`.
-4. Speak answers from `03_interview-questions.md` out loud.
-5. Write two small examples without looking.
+3. Predict every answer in `03_coding-output-practice.js`.
+4. Write two small examples without looking.

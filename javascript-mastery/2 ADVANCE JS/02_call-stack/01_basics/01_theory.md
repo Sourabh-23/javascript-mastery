@@ -42,5 +42,5 @@ Basics is important because it changes how JavaScript stores work, calls functio
 
 1. Read this file once.
 2. Run `02_snippets.js`.
-3. Predict every answer in `04_coding-output-practice.js`.
+3. Predict every answer in `03_coding-output-practice.js`.
 4. Explain the flow in your own words.
