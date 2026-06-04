@@ -1,48 +1,55 @@
 "use strict";
 
 /*
-Path: 13-this-keyword/interview-traps/snippets.js
-Topic: Interview Traps
+Path: 2 ADVANCE JS\04_this-keyword\06_interview-traps\02_snippets.js
+Topic: Interview Traps snippets
 
 How to study:
-1. Read one example.
+1. Read one snippet.
 2. Predict output.
 3. Run this file.
-4. Change one line and run again.
+4. Change one value and run again.
 
 Run:
-node 13-this-keyword/interview-traps/snippets.js
+node "2 ADVANCE JS/04_this-keyword/06_interview-traps/02_snippets.js"
 */
 
 function section(label) {
   console.log("\n--- " + label + " ---");
 }
 
-section("Topic");
-console.log("Interview traps test tricky output behavior.");
-
-section("Example 1: Basic idea");
+section("1. object this");
 {
-  const topic = "Interview Traps";
-  console.log("Learning:", topic);
+  const user = {
+    name: "Amit",
+    getName() {
+      return this.name;
+    }
+  };
+  console.log(user.getName());
 }
 
 /////////////////////////////
 
-section("Example 2: Practical use");
+section("2. call sets this");
 {
-  function show(value) {
-    return "Value: " + value;
+  const user = { name: "Amit" };
+  function getName() {
+    return this.name;
   }
-  console.log(show("Interview Traps"));
+  console.log(getName.call(user));
 }
 
 /////////////////////////////
 
-section("Example 3: Mini check");
+section("3. bind returns function");
 {
-  const steps = ["read", "run", "revise"];
-  console.log(steps.join(" -> "));
+  const user = { name: "Amit" };
+  function getName() {
+    return this.name;
+  }
+  const bound = getName.bind(user);
+  console.log(bound());
 }
 
 /////////////////////////////

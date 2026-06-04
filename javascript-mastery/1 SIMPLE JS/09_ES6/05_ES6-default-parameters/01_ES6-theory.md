@@ -1,38 +1,43 @@
-# ES6 Default Parameters
+# Default Parameters
 
 Path: `1 SIMPLE JS\09_ES6\05_ES6-default-parameters\01_ES6-theory.md`
 
 ## Simple Meaning
 
-ES6 default-parameters is a JavaScript concept you use to write clearer and more predictable code.
+default parameters provide fallback values when an argument is missing or passed as undefined.
 
-## Understand It Like This
+## Mental Model
 
-Think about what problem it solves, what input it works with, and what output or behavior it creates.
+Read the code in this order:
 
-## Why We Use It
+1. What is created first?
+2. Which line runs next?
+3. What value is stored or returned?
 
-You use it while reading code, solving output questions, writing interview examples, and building real JavaScript features.
+## Real Use
+
+You will use Default Parameters when tracing interview output questions and debugging real code behavior.
 
 ## Small Example
 
 ```js
-const value = "example";
-console.log(value);
+function greet(name = "User") {
+  return "Hi " + name;
+}
+console.log(greet());
 ```
 
 ## Common Mistake
 
-Do not memorize only the definition. Try to explain what happens line by line.
+The common mistake is jumping to the answer without tracing each function call, variable value, or returned result.
 
 ## Interview Answer
 
-ES6 default-parameters is important because it affects how JavaScript code behaves at runtime.
+Default Parameters is important because it changes how JavaScript stores work, calls functions, or reads values at runtime.
 
 ## How To Study
 
-1. Read this theory slowly.
-2. Open `02_ES6-snippets.js` and run each example.
-3. Predict output before checking the answer.
-4. Read `03_ES6-interview-questions.md` for spoken interview answers.
-5. Practice `04_ES6-output-questions.js` for confidence.
+1. Read this file once.
+2. Run `02_ES6-snippets.js`.
+3. Predict every answer in `04_ES6-coding-output-practice.js`.
+4. Explain the flow in your own words.

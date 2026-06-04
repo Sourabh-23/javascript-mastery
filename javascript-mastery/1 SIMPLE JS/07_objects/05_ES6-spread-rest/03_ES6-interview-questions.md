@@ -1,31 +1,38 @@
 # Spread Rest Interview Questions
 
-Path: `07-objects/spread-rest/interview-questions.md`
+Path: `1 SIMPLE JS\07_objects\05_ES6-spread-rest\03_ES6-interview-questions.md`
 
-## Beginner
+## Basic
 
 1. What is Spread Rest?
-Answer: Spread Rest is a JavaScript topic. Learn the basic idea first, then run the snippet and practice questions.
+Answer: objects store key-value data and this topic explains one way to read, update, copy, or protect that data.
 
 2. Why do we use Spread Rest?
-Answer: To write predictable JavaScript and avoid runtime confusion.
+Answer: We use it to make code behavior clear and predictable for this specific case.
 
-3. Where is this used in backend code?
-Answer: In handlers, services, helpers, validation, and data transformation.
+3. Give a small example.
+
+```js
+const user = { name: "Amit" };
+console.log({ ...user, active: true });
+```
 
 ## Intermediate
 
-1. What is one common mistake with Spread Rest?
-Answer: Reading the code without tracing scope, value, or execution order.
+1. What is the common mistake?
+Answer: The common mistake is memorizing the definition but not tracing the value line by line.
 
-2. How do you debug Spread Rest issues?
-Answer: Create a small snippet, log values step by step, and explain why each line runs.
+2. How do you debug Spread Rest?
+Answer: Make a tiny example, log the input and output, then change one value and check what changed.
+
+3. What should you mention in interview?
+Answer: Mention behavior, mutation or non-mutation, return value, and one edge case.
 
 ## Advanced
 
-1. Explain Spread Rest in terms of memory and execution.
-Answer: First identify what exists before execution, then trace runtime changes line by line.
+1. Explain Spread Rest in runtime terms.
+Answer: First identify what is created, then trace how JavaScript executes each line and what value is returned.
 
 ## One Line Revision
 
-Spread Rest is a JavaScript topic. Learn the basic idea first, then run the snippet and practice questions.
+Spread Rest: objects store key-value data and this topic explains one way to read, update, copy, or protect that data.

@@ -9,7 +9,7 @@ In every topic folder, read files in this order:
 1. `01_theory.md` / `01_ES6-theory.md`
 2. `02_snippets.js` / `02_ES6-snippets.js`
 3. `03_interview-questions.md` / `03_ES6-interview-questions.md`
-4. `04_output-questions.js` / `04_ES6-output-questions.js`
+4. `04_coding-output-practice.js` / `04_ES6-coding-output-practice.js`
 5. `05_coding-questions.md` / `05_ES6-coding-questions.md`
 6. `06_revision.md` / `06_ES6-revision.md`
 

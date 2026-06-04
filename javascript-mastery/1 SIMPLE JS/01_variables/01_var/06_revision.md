@@ -1,20 +1,30 @@
 # Var Revision
 
-Path: `01-variables/var/revision.md`
+Path: `1 SIMPLE JS\01_variables\01_var\06_revision.md`
 
-## Remember
+## Must Remember
 
-- var is the old way to declare variables. It is function scoped and hoisted with undefined.
-- Run `snippets.js`.
-- Predict output before terminal.
-- Explain in simple words.
+- var is function scoped, can be redeclared, and is hoisted with undefined.
+- Always predict output before running code.
+- Check whether the original value changes or a new value is returned.
+- Practice one simple case and one edge case.
 
-## Quick Command
+## Quick Example
 
-```bash
-node 01-variables/var/snippets.js
+```js
+function run(value) {
+  return value;
+}
+console.log(run("Var"));
 ```
+
+## Study Order
+
+1. Read `01_theory.md`.
+2. Run `02_snippets.js`.
+3. Predict answers in `04_coding-output-practice.js`.
+4. Revise this file before interview.
 
 ## Interview Sentence
 
-Var means: var is the old way to declare variables. It is function scoped and hoisted with undefined.
+Var means: var is function scoped, can be redeclared, and is hoisted with undefined.

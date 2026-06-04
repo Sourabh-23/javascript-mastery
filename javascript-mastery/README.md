@@ -7,7 +7,7 @@ Every topic folder has:
 - `theory.md`
 - `snippets.js`
 - `interview-questions.md`
-- `output-questions.js`
+- `coding-output-practice.js`
 - `coding-questions.md`
 - `revision.md`
 
@@ -16,7 +16,7 @@ Every topic folder has:
 1. Read `theory.md`.
 2. Run `snippets.js`.
 3. Read `interview-questions.md`.
-4. Run `output-questions.js`.
+4. Run `coding-output-practice.js`.
 5. Solve `coding-questions.md`.
 6. Revise with `revision.md`.
 

@@ -1,20 +1,28 @@
 # Object Questions Revision
 
-Path: `07-objects/object-questions/revision.md`
+Path: `1 SIMPLE JS\07_objects\11_object-questions\06_revision.md`
 
-## Remember
+## Must Remember
 
-- Object Questions is a JavaScript topic. Learn the basic idea first, then run the snippet and practice questions.
-- Run `snippets.js`.
-- Predict output before terminal.
-- Explain in simple words.
+- objects store key-value data and this topic explains one way to read, update, copy, or protect that data.
+- Always predict output before running code.
+- Check whether the original value changes or a new value is returned.
+- Practice one simple case and one edge case.
 
-## Quick Command
+## Quick Example
 
-```bash
-node 07-objects/object-questions/snippets.js
+```js
+const user = { name: "Amit" };
+console.log({ ...user, active: true });
 ```
+
+## Study Order
+
+1. Read `01_theory.md`.
+2. Run `02_snippets.js`.
+3. Predict answers in `04_coding-output-practice.js`.
+4. Revise this file before interview.
 
 ## Interview Sentence
 
-Object Questions means: Object Questions is a JavaScript topic. Learn the basic idea first, then run the snippet and practice questions.
+Object Questions means: objects store key-value data and this topic explains one way to read, update, copy, or protect that data.

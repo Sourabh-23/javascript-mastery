@@ -1,20 +1,30 @@
 # Truthy Falsy Revision
 
-Path: `02-data-types/truthy-falsy/revision.md`
+Path: `1 SIMPLE JS\02_data-types\14_truthy-falsy\06_revision.md`
 
-## Remember
+## Must Remember
 
-- Truthy and falsy decide how values behave in conditions.
-- Run `snippets.js`.
-- Predict output before terminal.
-- Explain in simple words.
+- boolean and truthy/falsy values decide how conditions behave.
+- Always predict output before running code.
+- Check whether the original value changes or a new value is returned.
+- Practice one simple case and one edge case.
 
-## Quick Command
+## Quick Example
 
-```bash
-node 02-data-types/truthy-falsy/snippets.js
+```js
+function run(value) {
+  return value;
+}
+console.log(run("Truthy Falsy"));
 ```
+
+## Study Order
+
+1. Read `01_theory.md`.
+2. Run `02_snippets.js`.
+3. Predict answers in `04_coding-output-practice.js`.
+4. Revise this file before interview.
 
 ## Interview Sentence
 
-Truthy Falsy means: Truthy and falsy decide how values behave in conditions.
+Truthy Falsy means: boolean and truthy/falsy values decide how conditions behave.

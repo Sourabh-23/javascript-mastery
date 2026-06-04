@@ -1,22 +1,15 @@
 # String Coding Questions
 
-Path: `02-data-types/string/coding-questions.md`
+Path: `1 SIMPLE JS/02_data-types/01_string/05_coding-questions.md`
 
-## Easy
+String coding/output practice has been added in:
 
-1. Create one small example for String.
-2. Print the output.
-3. Change one input and run again.
+`04_coding-output-practice.js`
 
-## Medium
+Use that file like this:
 
-1. Use String inside a function.
-2. Return a result instead of only printing.
-3. Handle one edge case.
-
-## Interview Discussion
-
-- What is the input?
-- What is the output?
-- What can go wrong?
-- What is the time complexity if this is a DSA problem?
+1. Read the function.
+2. Predict the output.
+3. Check expected output.
+4. Read the reason.
+5. Rewrite the function yourself without seeing the answer.

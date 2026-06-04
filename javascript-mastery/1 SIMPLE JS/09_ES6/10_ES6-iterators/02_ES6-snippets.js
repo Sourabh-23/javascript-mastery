@@ -1,48 +1,36 @@
 "use strict";
 
 /*
-Path: 09-es6/iterators/snippets.js
-Topic: Iterators
+Path: 1 SIMPLE JS\09_ES6\10_ES6-iterators\02_ES6-snippets.js
+Topic: Iterators snippets
 
 How to study:
-1. Read one example.
+1. Read one snippet.
 2. Predict output.
 3. Run this file.
-4. Change one line and run again.
+4. Change one value and run again.
 
 Run:
-node 09-es6/iterators/snippets.js
+node "1 SIMPLE JS/09_ES6/10_ES6-iterators/02_ES6-snippets.js"
 */
 
 function section(label) {
   console.log("\n--- " + label + " ---");
 }
 
-section("Topic");
-console.log("Iterators define step-by-step value access.");
-
-section("Example 1: Basic idea");
+section("1. array iterator");
 {
-  const topic = "Iterators";
-  console.log("Learning:", topic);
+  const iterator = [1, 2][Symbol.iterator]();
+  console.log(iterator.next().value);
 }
 
 /////////////////////////////
 
-section("Example 2: Practical use");
+section("2. iterator done");
 {
-  function show(value) {
-    return "Value: " + value;
-  }
-  console.log(show("Iterators"));
-}
-
-/////////////////////////////
-
-section("Example 3: Mini check");
-{
-  const steps = ["read", "run", "revise"];
-  console.log(steps.join(" -> "));
+  const iterator = [1][Symbol.iterator]();
+  iterator.next();
+  console.log(iterator.next().done);
 }
 
 /////////////////////////////

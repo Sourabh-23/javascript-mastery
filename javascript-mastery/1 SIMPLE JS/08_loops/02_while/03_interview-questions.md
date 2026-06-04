@@ -1,31 +1,41 @@
 # While Interview Questions
 
-Path: `08-loops/while/interview-questions.md`
+Path: `1 SIMPLE JS\08_loops\02_while\03_interview-questions.md`
 
-## Beginner
+## Basic
 
 1. What is While?
-Answer: While is a JavaScript topic. Learn the basic idea first, then run the snippet and practice questions.
+Answer: while repeats while a condition is true and needs a condition update.
 
 2. Why do we use While?
-Answer: To write predictable JavaScript and avoid runtime confusion.
+Answer: We use it to make code behavior clear and predictable for this specific case.
 
-3. Where is this used in backend code?
-Answer: In handlers, services, helpers, validation, and data transformation.
+3. Give a small example.
+
+```js
+let count = 1;
+while (count <= 3) {
+  console.log(count);
+  count++;
+}
+```
 
 ## Intermediate
 
-1. What is one common mistake with While?
-Answer: Reading the code without tracing scope, value, or execution order.
+1. What is the common mistake?
+Answer: The common mistake is memorizing the definition but not tracing the value line by line.
 
-2. How do you debug While issues?
-Answer: Create a small snippet, log values step by step, and explain why each line runs.
+2. How do you debug While?
+Answer: Make a tiny example, log the input and output, then change one value and check what changed.
+
+3. What should you mention in interview?
+Answer: Mention behavior, mutation or non-mutation, return value, and one edge case.
 
 ## Advanced
 
-1. Explain While in terms of memory and execution.
-Answer: First identify what exists before execution, then trace runtime changes line by line.
+1. Explain While in runtime terms.
+Answer: First identify what is created, then trace how JavaScript executes each line and what value is returned.
 
 ## One Line Revision
 
-While is a JavaScript topic. Learn the basic idea first, then run the snippet and practice questions.
+While: while repeats while a condition is true and needs a condition update.

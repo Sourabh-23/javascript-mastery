@@ -1,48 +1,81 @@
 "use strict";
 
 /*
-Path: 07-objects/freeze-seal/snippets.js
-Topic: Freeze Seal
+Path: 1 SIMPLE JS\07_objects\09_freeze-seal\02_snippets.js
+Topic: Freeze Seal snippets
 
 How to study:
-1. Read one example.
+1. Read one snippet.
 2. Predict output.
 3. Run this file.
-4. Change one line and run again.
+4. Change one value and run again.
 
 Run:
-node 07-objects/freeze-seal/snippets.js
+node "1 SIMPLE JS/07_objects/09_freeze-seal/02_snippets.js"
 */
 
 function section(label) {
   console.log("\n--- " + label + " ---");
 }
 
-section("Topic");
-console.log("freeze and seal restrict object changes.");
-
-section("Example 1: Basic idea");
+section("1. read property");
 {
-  const topic = "Freeze Seal";
-  console.log("Learning:", topic);
-}
-
-/////////////////////////////
-
-section("Example 2: Practical use");
-{
-  function show(value) {
-    return "Value: " + value;
+  function run(user) {
+    return user.name;
   }
-  console.log(show("Freeze Seal"));
+  console.log(run({ name: "Amit" }));
 }
 
 /////////////////////////////
 
-section("Example 3: Mini check");
+section("2. add property");
 {
-  const steps = ["read", "run", "revise"];
-  console.log(steps.join(" -> "));
+  function run(user) {
+    user.active = true;
+    return user;
+  }
+  console.log(run({ name: "Amit" }));
+}
+
+/////////////////////////////
+
+section("3. object keys");
+{
+  function run(obj) {
+    return Object.keys(obj);
+  }
+  console.log(run({ a: 1, b: 2 }));
+}
+
+/////////////////////////////
+
+section("4. object values");
+{
+  function run(obj) {
+    return Object.values(obj);
+  }
+  console.log(run({ a: 1, b: 2 }));
+}
+
+/////////////////////////////
+
+section("5. destructure");
+{
+  function run(user) {
+    const { name } = user;
+    return name;
+  }
+  console.log(run({ name: "Amit" }));
+}
+
+/////////////////////////////
+
+section("6. spread copy");
+{
+  function run(user) {
+    return { ...user, role: "dev" };
+  }
+  console.log(run({ name: "Amit" }));
 }
 
 /////////////////////////////

@@ -1,20 +1,31 @@
 # Do While Revision
 
-Path: `08-loops/do-while/revision.md`
+Path: `1 SIMPLE JS\08_loops\03_do-while\06_revision.md`
 
-## Remember
+## Must Remember
 
-- Do While is a JavaScript topic. Learn the basic idea first, then run the snippet and practice questions.
-- Run `snippets.js`.
-- Predict output before terminal.
-- Explain in simple words.
+- while repeats while a condition is true and needs a condition update.
+- Always predict output before running code.
+- Check whether the original value changes or a new value is returned.
+- Practice one simple case and one edge case.
 
-## Quick Command
+## Quick Example
 
-```bash
-node 08-loops/do-while/snippets.js
+```js
+let count = 1;
+while (count <= 3) {
+  console.log(count);
+  count++;
+}
 ```
+
+## Study Order
+
+1. Read `01_theory.md`.
+2. Run `02_snippets.js`.
+3. Predict answers in `04_coding-output-practice.js`.
+4. Revise this file before interview.
 
 ## Interview Sentence
 
-Do While means: Do While is a JavaScript topic. Learn the basic idea first, then run the snippet and practice questions.
+Do While means: while repeats while a condition is true and needs a condition update.

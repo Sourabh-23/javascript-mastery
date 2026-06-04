@@ -1,31 +1,40 @@
 # Recursion Interview Questions
 
-Path: `04-functions/recursion/interview-questions.md`
+Path: `1 SIMPLE JS\04_functions\07_recursion\03_interview-questions.md`
 
-## Beginner
+## Basic
 
 1. What is Recursion?
-Answer: Recursion means a function calls itself.
+Answer: DSA is about solving problems efficiently using the right algorithm and data structure.
 
 2. Why do we use Recursion?
-Answer: To write predictable JavaScript and avoid runtime confusion.
+Answer: We use it to make code behavior clear and predictable for this specific case.
 
-3. Where is this used in backend code?
-Answer: In handlers, services, helpers, validation, and data transformation.
+3. Give a small example.
+
+```js
+function run(value) {
+  return value;
+}
+console.log(run("Recursion"));
+```
 
 ## Intermediate
 
-1. What is one common mistake with Recursion?
-Answer: Reading the code without tracing scope, value, or execution order.
+1. What is the common mistake?
+Answer: The common mistake is memorizing the definition but not tracing the value line by line.
 
-2. How do you debug Recursion issues?
-Answer: Create a small snippet, log values step by step, and explain why each line runs.
+2. How do you debug Recursion?
+Answer: Make a tiny example, log the input and output, then change one value and check what changed.
+
+3. What should you mention in interview?
+Answer: Mention behavior, mutation or non-mutation, return value, and one edge case.
 
 ## Advanced
 
-1. Explain Recursion in terms of memory and execution.
-Answer: First identify what exists before execution, then trace runtime changes line by line.
+1. Explain Recursion in runtime terms.
+Answer: First identify what is created, then trace how JavaScript executes each line and what value is returned.
 
 ## One Line Revision
 
-Recursion means a function calls itself.
+Recursion: DSA is about solving problems efficiently using the right algorithm and data structure.

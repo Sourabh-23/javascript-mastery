@@ -1,20 +1,30 @@
 # Ternary Revision
 
-Path: `03-operators/ternary/revision.md`
+Path: `1 SIMPLE JS\03_operators\06_ternary\06_revision.md`
 
-## Remember
+## Must Remember
 
-- Ternary is a JavaScript topic. Learn the basic idea first, then run the snippet and practice questions.
-- Run `snippets.js`.
-- Predict output before terminal.
-- Explain in simple words.
+- Ternary belongs to operators and should be understood by tracing inputs, operations, and output.
+- Always predict output before running code.
+- Check whether the original value changes or a new value is returned.
+- Practice one simple case and one edge case.
 
-## Quick Command
+## Quick Example
 
-```bash
-node 03-operators/ternary/snippets.js
+```js
+function run(value) {
+  return value;
+}
+console.log(run("Ternary"));
 ```
+
+## Study Order
+
+1. Read `01_theory.md`.
+2. Run `02_snippets.js`.
+3. Predict answers in `04_coding-output-practice.js`.
+4. Revise this file before interview.
 
 ## Interview Sentence
 
-Ternary means: Ternary is a JavaScript topic. Learn the basic idea first, then run the snippet and practice questions.
+Ternary means: Ternary belongs to operators and should be understood by tracing inputs, operations, and output.

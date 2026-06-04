@@ -1,20 +1,30 @@
 # Continue Revision
 
-Path: `08-loops/continue/revision.md`
+Path: `1 SIMPLE JS\08_loops\08_continue\06_revision.md`
 
-## Remember
+## Must Remember
 
-- Continue is a JavaScript topic. Learn the basic idea first, then run the snippet and practice questions.
-- Run `snippets.js`.
-- Predict output before terminal.
-- Explain in simple words.
+- continue skips the current iteration and moves to the next one.
+- Always predict output before running code.
+- Check whether the original value changes or a new value is returned.
+- Practice one simple case and one edge case.
 
-## Quick Command
+## Quick Example
 
-```bash
-node 08-loops/continue/snippets.js
+```js
+function run(value) {
+  return value;
+}
+console.log(run("Continue"));
 ```
+
+## Study Order
+
+1. Read `01_theory.md`.
+2. Run `02_snippets.js`.
+3. Predict answers in `04_coding-output-practice.js`.
+4. Revise this file before interview.
 
 ## Interview Sentence
 
-Continue means: Continue is a JavaScript topic. Learn the basic idea first, then run the snippet and practice questions.
+Continue means: continue skips the current iteration and moves to the next one.

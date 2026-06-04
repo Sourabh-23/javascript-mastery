@@ -1,20 +1,30 @@
 # Undefined Revision
 
-Path: `02-data-types/undefined/revision.md`
+Path: `1 SIMPLE JS\02_data-types\04_undefined\06_revision.md`
 
-## Remember
+## Must Remember
 
-- undefined means a variable exists but has no assigned value.
-- Run `snippets.js`.
-- Predict output before terminal.
-- Explain in simple words.
+- undefined means a variable or property exists but currently has no assigned value.
+- Always predict output before running code.
+- Check whether the original value changes or a new value is returned.
+- Practice one simple case and one edge case.
 
-## Quick Command
+## Quick Example
 
-```bash
-node 02-data-types/undefined/snippets.js
+```js
+function run(value) {
+  return value;
+}
+console.log(run("Undefined"));
 ```
+
+## Study Order
+
+1. Read `01_theory.md`.
+2. Run `02_snippets.js`.
+3. Predict answers in `04_coding-output-practice.js`.
+4. Revise this file before interview.
 
 ## Interview Sentence
 
-Undefined means: undefined means a variable exists but has no assigned value.
+Undefined means: undefined means a variable or property exists but currently has no assigned value.

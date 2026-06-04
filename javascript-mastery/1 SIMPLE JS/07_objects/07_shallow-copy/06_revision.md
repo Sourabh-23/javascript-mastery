@@ -1,20 +1,28 @@
 # Shallow Copy Revision
 
-Path: `07-objects/shallow-copy/revision.md`
+Path: `1 SIMPLE JS\07_objects\07_shallow-copy\06_revision.md`
 
-## Remember
+## Must Remember
 
-- Shallow copy copies only the first level.
-- Run `snippets.js`.
-- Predict output before terminal.
-- Explain in simple words.
+- objects store key-value data and this topic explains one way to read, update, copy, or protect that data.
+- Always predict output before running code.
+- Check whether the original value changes or a new value is returned.
+- Practice one simple case and one edge case.
 
-## Quick Command
+## Quick Example
 
-```bash
-node 07-objects/shallow-copy/snippets.js
+```js
+const user = { name: "Amit" };
+console.log({ ...user, active: true });
 ```
+
+## Study Order
+
+1. Read `01_theory.md`.
+2. Run `02_snippets.js`.
+3. Predict answers in `04_coding-output-practice.js`.
+4. Revise this file before interview.
 
 ## Interview Sentence
 
-Shallow Copy means: Shallow copy copies only the first level.
+Shallow Copy means: objects store key-value data and this topic explains one way to read, update, copy, or protect that data.

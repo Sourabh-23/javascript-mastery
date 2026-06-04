@@ -1,20 +1,29 @@
 # Filter Revision
 
-Path: `05-arrays/filter/revision.md`
+Path: `1 SIMPLE JS\05_arrays\05_filter\06_revision.md`
 
-## Remember
+## Must Remember
 
-- filter keeps matching items and returns a new array.
-- Run `snippets.js`.
-- Predict output before terminal.
-- Explain in simple words.
+- filter keeps only items that pass a condition and returns a new array.
+- Always predict output before running code.
+- Check whether the original value changes or a new value is returned.
+- Practice one simple case and one edge case.
 
-## Quick Command
+## Quick Example
 
-```bash
-node 05-arrays/filter/snippets.js
+```js
+const nums = [-1, 2, 3];
+const result = nums.filter((num) => num > 0);
+console.log(result);
 ```
+
+## Study Order
+
+1. Read `01_theory.md`.
+2. Run `02_snippets.js`.
+3. Predict answers in `04_coding-output-practice.js`.
+4. Revise this file before interview.
 
 ## Interview Sentence
 
-Filter means: filter keeps matching items and returns a new array.
+Filter means: filter keeps only items that pass a condition and returns a new array.

@@ -1,20 +1,30 @@
 # Abstraction Revision
 
-Path: `18-oop/abstraction/revision.md`
+Path: `2 ADVANCE JS\09_oop\07_abstraction\06_revision.md`
 
-## Remember
+## Must Remember
 
-- Abstraction is a JavaScript topic. Learn the basic idea first, then run the snippet and practice questions.
-- Run `snippets.js`.
-- Predict output before terminal.
-- Explain in simple words.
+- OOP organizes code using objects, prototypes, classes, and reusable behavior.
+- Always predict output before running code.
+- Check whether the original value changes or a new value is returned.
+- Practice one simple case and one edge case.
 
-## Quick Command
+## Quick Example
 
-```bash
-node 18-oop/abstraction/snippets.js
+```js
+function run(value) {
+  return value;
+}
+console.log(run("Abstraction"));
 ```
+
+## Study Order
+
+1. Read `01_theory.md`.
+2. Run `02_snippets.js`.
+3. Predict answers in `04_coding-output-practice.js`.
+4. Revise this file before interview.
 
 ## Interview Sentence
 
-Abstraction means: Abstraction is a JavaScript topic. Learn the basic idea first, then run the snippet and practice questions.
+Abstraction means: OOP organizes code using objects, prototypes, classes, and reusable behavior.

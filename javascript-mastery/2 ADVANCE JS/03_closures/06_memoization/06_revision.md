@@ -1,20 +1,35 @@
 # Memoization Revision
 
-Path: `12-closures/memoization/revision.md`
+Path: `2 ADVANCE JS\03_closures\06_memoization\06_revision.md`
 
-## Remember
+## Must Remember
 
-- Memoization caches results to avoid repeated work.
-- Run `snippets.js`.
-- Predict output before terminal.
-- Explain in simple words.
+- closure lets an inner function remember variables from its outer scope.
+- Always predict output before running code.
+- Check whether the original value changes or a new value is returned.
+- Practice one simple case and one edge case.
 
-## Quick Command
+## Quick Example
 
-```bash
-node 12-closures/memoization/snippets.js
+```js
+function createCounter() {
+  let count = 0;
+  return function () {
+    count++;
+    return count;
+  };
+}
+const counter = createCounter();
+console.log(counter());
 ```
+
+## Study Order
+
+1. Read `01_theory.md`.
+2. Run `02_snippets.js`.
+3. Predict answers in `04_coding-output-practice.js`.
+4. Revise this file before interview.
 
 ## Interview Sentence
 
-Memoization means: Memoization caches results to avoid repeated work.
+Memoization means: closure lets an inner function remember variables from its outer scope.

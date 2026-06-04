@@ -1,20 +1,35 @@
 # Private Variables Revision
 
-Path: `12-closures/private-variables/revision.md`
+Path: `2 ADVANCE JS\03_closures\04_private-variables\06_revision.md`
 
-## Remember
+## Must Remember
 
-- Private variables are hidden from outside access.
-- Run `snippets.js`.
-- Predict output before terminal.
-- Explain in simple words.
+- var is function scoped, can be redeclared, and is hoisted with undefined.
+- Always predict output before running code.
+- Check whether the original value changes or a new value is returned.
+- Practice one simple case and one edge case.
 
-## Quick Command
+## Quick Example
 
-```bash
-node 12-closures/private-variables/snippets.js
+```js
+function createCounter() {
+  let count = 0;
+  return function () {
+    count++;
+    return count;
+  };
+}
+const counter = createCounter();
+console.log(counter());
 ```
+
+## Study Order
+
+1. Read `01_theory.md`.
+2. Run `02_snippets.js`.
+3. Predict answers in `04_coding-output-practice.js`.
+4. Revise this file before interview.
 
 ## Interview Sentence
 
-Private Variables means: Private variables are hidden from outside access.
+Private Variables means: var is function scoped, can be redeclared, and is hoisted with undefined.

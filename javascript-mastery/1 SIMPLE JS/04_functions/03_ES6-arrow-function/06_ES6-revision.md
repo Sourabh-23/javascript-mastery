@@ -1,20 +1,30 @@
 # Arrow Function Revision
 
-Path: `04-functions/arrow-function/revision.md`
+Path: `1 SIMPLE JS\04_functions\03_ES6-arrow-function\06_ES6-revision.md`
 
-## Remember
+## Must Remember
 
-- Arrow function is shorter syntax and does not have its own this.
-- Run `snippets.js`.
-- Predict output before terminal.
-- Explain in simple words.
+- functions package reusable logic and this topic explains one style of creating, calling, or controlling functions.
+- Always predict output before running code.
+- Check whether the original value changes or a new value is returned.
+- Practice one simple case and one edge case.
 
-## Quick Command
+## Quick Example
 
-```bash
-node 04-functions/arrow-function/snippets.js
+```js
+function run(value) {
+  return value;
+}
+console.log(run("Arrow Function"));
 ```
+
+## Study Order
+
+1. Read `01_theory.md`.
+2. Run `02_ES6-snippets.js`.
+3. Predict answers in `04_ES6-coding-output-practice.js`.
+4. Revise this file before interview.
 
 ## Interview Sentence
 
-Arrow Function means: Arrow function is shorter syntax and does not have its own this.
+Arrow Function means: functions package reusable logic and this topic explains one style of creating, calling, or controlling functions.

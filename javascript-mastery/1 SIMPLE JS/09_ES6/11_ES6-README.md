@@ -5,7 +5,7 @@ This module follows the same pattern in every topic folder:
 - `ES6-theory.md`
 - `ES6-snippets.js`
 - `ES6-interview-questions.md`
-- `ES6-output-questions.js`
+- `ES6-coding-output-practice.js`
 - `ES6-coding-questions.md`
 - `ES6-revision.md`
 

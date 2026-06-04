@@ -1,31 +1,40 @@
 # Object Interview Questions
 
-Path: `02-data-types/object/interview-questions.md`
+Path: `1 SIMPLE JS\02_data-types\08_object\03_interview-questions.md`
 
-## Beginner
+## Basic
 
 1. What is Object?
-Answer: Object stores key-value pairs.
+Answer: Object belongs to data types and should be understood by tracing inputs, operations, and output.
 
 2. Why do we use Object?
-Answer: To write predictable JavaScript and avoid runtime confusion.
+Answer: We use it to make code behavior clear and predictable for this specific case.
 
-3. Where is this used in backend code?
-Answer: In handlers, services, helpers, validation, and data transformation.
+3. Give a small example.
+
+```js
+function run(value) {
+  return value;
+}
+console.log(run("Object"));
+```
 
 ## Intermediate
 
-1. What is one common mistake with Object?
-Answer: Reading the code without tracing scope, value, or execution order.
+1. What is the common mistake?
+Answer: The common mistake is memorizing the definition but not tracing the value line by line.
 
-2. How do you debug Object issues?
-Answer: Create a small snippet, log values step by step, and explain why each line runs.
+2. How do you debug Object?
+Answer: Make a tiny example, log the input and output, then change one value and check what changed.
+
+3. What should you mention in interview?
+Answer: Mention behavior, mutation or non-mutation, return value, and one edge case.
 
 ## Advanced
 
-1. Explain Object in terms of memory and execution.
-Answer: First identify what exists before execution, then trace runtime changes line by line.
+1. Explain Object in runtime terms.
+Answer: First identify what is created, then trace how JavaScript executes each line and what value is returned.
 
 ## One Line Revision
 
-Object stores key-value pairs.
+Object: Object belongs to data types and should be understood by tracing inputs, operations, and output.

@@ -1,20 +1,31 @@
 # Callback Revision
 
-Path: `04-functions/callback/revision.md`
+Path: `1 SIMPLE JS\04_functions\04_callback\06_revision.md`
 
-## Remember
+## Must Remember
 
-- A callback is a function passed to another function.
-- Run `snippets.js`.
-- Predict output before terminal.
-- Explain in simple words.
+- this depends on how a function is called; call/apply/bind manually control it.
+- Always predict output before running code.
+- Check whether the original value changes or a new value is returned.
+- Practice one simple case and one edge case.
 
-## Quick Command
+## Quick Example
 
-```bash
-node 04-functions/callback/snippets.js
+```js
+const user = { name: "Amit" };
+function getName() {
+  return this.name;
+}
+console.log(getName.call(user));
 ```
+
+## Study Order
+
+1. Read `01_theory.md`.
+2. Run `02_snippets.js`.
+3. Predict answers in `04_coding-output-practice.js`.
+4. Revise this file before interview.
 
 ## Interview Sentence
 
-Callback means: A callback is a function passed to another function.
+Callback means: this depends on how a function is called; call/apply/bind manually control it.

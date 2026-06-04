@@ -1,20 +1,30 @@
 # Global Execution Context Revision
 
-Path: `10-execution-context/global-execution-context/revision.md`
+Path: `2 ADVANCE JS\01_execution-context\01_global-execution-context\06_revision.md`
 
-## Remember
+## Must Remember
 
-- Global Execution Context is created for top-level code.
-- Run `snippets.js`.
-- Predict output before terminal.
-- Explain in simple words.
+- Global Execution Context belongs to execution context and should be understood by tracing inputs, operations, and output.
+- Always predict output before running code.
+- Check whether the original value changes or a new value is returned.
+- Practice one simple case and one edge case.
 
-## Quick Command
+## Quick Example
 
-```bash
-node 10-execution-context/global-execution-context/snippets.js
+```js
+function run(value) {
+  return value;
+}
+console.log(run("Global Execution Context"));
 ```
+
+## Study Order
+
+1. Read `01_theory.md`.
+2. Run `02_snippets.js`.
+3. Predict answers in `04_coding-output-practice.js`.
+4. Revise this file before interview.
 
 ## Interview Sentence
 
-Global Execution Context means: Global Execution Context is created for top-level code.
+Global Execution Context means: Global Execution Context belongs to execution context and should be understood by tracing inputs, operations, and output.

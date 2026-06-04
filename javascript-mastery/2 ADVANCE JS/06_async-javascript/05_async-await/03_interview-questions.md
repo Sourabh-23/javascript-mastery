@@ -1,31 +1,40 @@
 # Async Await Interview Questions
 
-Path: `15-async-javascript/async-await/interview-questions.md`
+Path: `2 ADVANCE JS\06_async-javascript\05_async-await\03_interview-questions.md`
 
-## Beginner
+## Basic
 
 1. What is Async Await?
-Answer: async-await makes promise code easier to read.
+Answer: async JavaScript handles work that finishes later using callbacks, promises, timers, and the event loop.
 
 2. Why do we use Async Await?
-Answer: To write predictable JavaScript and avoid runtime confusion.
+Answer: We use it to make code behavior clear and predictable for this specific case.
 
-3. Where is this used in backend code?
-Answer: In handlers, services, helpers, validation, and data transformation.
+3. Give a small example.
+
+```js
+async function getValue() {
+  return "done";
+}
+getValue().then((value) => console.log(value));
+```
 
 ## Intermediate
 
-1. What is one common mistake with Async Await?
-Answer: Reading the code without tracing scope, value, or execution order.
+1. What is the common mistake?
+Answer: The common mistake is memorizing the definition but not tracing the value line by line.
 
-2. How do you debug Async Await issues?
-Answer: Create a small snippet, log values step by step, and explain why each line runs.
+2. How do you debug Async Await?
+Answer: Make a tiny example, log the input and output, then change one value and check what changed.
+
+3. What should you mention in interview?
+Answer: Mention behavior, mutation or non-mutation, return value, and one edge case.
 
 ## Advanced
 
-1. Explain Async Await in terms of memory and execution.
-Answer: First identify what exists before execution, then trace runtime changes line by line.
+1. Explain Async Await in runtime terms.
+Answer: First identify what is created, then trace how JavaScript executes each line and what value is returned.
 
 ## One Line Revision
 
-async-await makes promise code easier to read.
+Async Await: async JavaScript handles work that finishes later using callbacks, promises, timers, and the event loop.

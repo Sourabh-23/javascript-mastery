@@ -1,20 +1,30 @@
 # Number Revision
 
-Path: `02-data-types/number/revision.md`
+Path: `1 SIMPLE JS\02_data-types\02_number\06_revision.md`
 
-## Remember
+## Must Remember
 
-- Number stores numeric values.
-- Run `snippets.js`.
-- Predict output before terminal.
-- Explain in simple words.
+- number handles normal numeric calculations, decimals, NaN, and Infinity.
+- Always predict output before running code.
+- Check whether the original value changes or a new value is returned.
+- Practice one simple case and one edge case.
 
-## Quick Command
+## Quick Example
 
-```bash
-node 02-data-types/number/snippets.js
+```js
+function run(value) {
+  return value;
+}
+console.log(run("Number"));
 ```
+
+## Study Order
+
+1. Read `01_theory.md`.
+2. Run `02_snippets.js`.
+3. Predict answers in `04_coding-output-practice.js`.
+4. Revise this file before interview.
 
 ## Interview Sentence
 
-Number means: Number stores numeric values.
+Number means: number handles normal numeric calculations, decimals, NaN, and Infinity.

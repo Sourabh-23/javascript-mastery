@@ -1,31 +1,40 @@
 # Truthy Falsy Interview Questions
 
-Path: `02-data-types/truthy-falsy/interview-questions.md`
+Path: `1 SIMPLE JS\02_data-types\14_truthy-falsy\03_interview-questions.md`
 
-## Beginner
+## Basic
 
 1. What is Truthy Falsy?
-Answer: Truthy and falsy decide how values behave in conditions.
+Answer: boolean and truthy/falsy values decide how conditions behave.
 
 2. Why do we use Truthy Falsy?
-Answer: To write predictable JavaScript and avoid runtime confusion.
+Answer: We use it to make code behavior clear and predictable for this specific case.
 
-3. Where is this used in backend code?
-Answer: In handlers, services, helpers, validation, and data transformation.
+3. Give a small example.
+
+```js
+function run(value) {
+  return value;
+}
+console.log(run("Truthy Falsy"));
+```
 
 ## Intermediate
 
-1. What is one common mistake with Truthy Falsy?
-Answer: Reading the code without tracing scope, value, or execution order.
+1. What is the common mistake?
+Answer: The common mistake is memorizing the definition but not tracing the value line by line.
 
-2. How do you debug Truthy Falsy issues?
-Answer: Create a small snippet, log values step by step, and explain why each line runs.
+2. How do you debug Truthy Falsy?
+Answer: Make a tiny example, log the input and output, then change one value and check what changed.
+
+3. What should you mention in interview?
+Answer: Mention behavior, mutation or non-mutation, return value, and one edge case.
 
 ## Advanced
 
-1. Explain Truthy Falsy in terms of memory and execution.
-Answer: First identify what exists before execution, then trace runtime changes line by line.
+1. Explain Truthy Falsy in runtime terms.
+Answer: First identify what is created, then trace how JavaScript executes each line and what value is returned.
 
 ## One Line Revision
 
-Truthy and falsy decide how values behave in conditions.
+Truthy Falsy: boolean and truthy/falsy values decide how conditions behave.

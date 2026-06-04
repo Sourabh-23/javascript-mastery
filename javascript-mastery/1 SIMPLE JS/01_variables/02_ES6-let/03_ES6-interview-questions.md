@@ -1,31 +1,40 @@
 # Let Interview Questions
 
-Path: `01-variables/let/interview-questions.md`
+Path: `1 SIMPLE JS\01_variables\02_ES6-let\03_ES6-interview-questions.md`
 
-## Beginner
+## Basic
 
 1. What is Let?
-Answer: let is a modern variable declaration. It is block scoped and can be reassigned.
+Answer: let is block scoped and can be reassigned, but cannot be used before declaration because of TDZ.
 
 2. Why do we use Let?
-Answer: To write predictable JavaScript and avoid runtime confusion.
+Answer: We use it to make code behavior clear and predictable for this specific case.
 
-3. Where is this used in backend code?
-Answer: In handlers, services, helpers, validation, and data transformation.
+3. Give a small example.
+
+```js
+function run(value) {
+  return value;
+}
+console.log(run("Let"));
+```
 
 ## Intermediate
 
-1. What is one common mistake with Let?
-Answer: Reading the code without tracing scope, value, or execution order.
+1. What is the common mistake?
+Answer: The common mistake is memorizing the definition but not tracing the value line by line.
 
-2. How do you debug Let issues?
-Answer: Create a small snippet, log values step by step, and explain why each line runs.
+2. How do you debug Let?
+Answer: Make a tiny example, log the input and output, then change one value and check what changed.
+
+3. What should you mention in interview?
+Answer: Mention behavior, mutation or non-mutation, return value, and one edge case.
 
 ## Advanced
 
-1. Explain Let in terms of memory and execution.
-Answer: First identify what exists before execution, then trace runtime changes line by line.
+1. Explain Let in runtime terms.
+Answer: First identify what is created, then trace how JavaScript executes each line and what value is returned.
 
 ## One Line Revision
 
-let is a modern variable declaration. It is block scoped and can be reassigned.
+Let: let is block scoped and can be reassigned, but cannot be used before declaration because of TDZ.

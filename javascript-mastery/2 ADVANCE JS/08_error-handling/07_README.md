@@ -5,7 +5,7 @@ This module follows the same pattern in every topic folder:
 - `theory.md`
 - `snippets.js`
 - `interview-questions.md`
-- `output-questions.js`
+- `coding-output-practice.js`
 - `coding-questions.md`
 - `revision.md`
 

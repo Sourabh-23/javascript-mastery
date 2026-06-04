@@ -1,20 +1,35 @@
 # Prototype Revision
 
-Path: `18-oop/prototype/revision.md`
+Path: `2 ADVANCE JS\09_oop\03_prototype\06_revision.md`
 
-## Remember
+## Must Remember
 
-- Prototype is a JavaScript topic. Learn the basic idea first, then run the snippet and practice questions.
-- Run `snippets.js`.
-- Predict output before terminal.
-- Explain in simple words.
+- OOP organizes code using objects, prototypes, classes, and reusable behavior.
+- Always predict output before running code.
+- Check whether the original value changes or a new value is returned.
+- Practice one simple case and one edge case.
 
-## Quick Command
+## Quick Example
 
-```bash
-node 18-oop/prototype/snippets.js
+```js
+class User {
+  constructor(name) {
+    this.name = name;
+  }
+  greet() {
+    return "Hi " + this.name;
+  }
+}
+console.log(new User("Amit").greet());
 ```
+
+## Study Order
+
+1. Read `01_theory.md`.
+2. Run `02_snippets.js`.
+3. Predict answers in `04_coding-output-practice.js`.
+4. Revise this file before interview.
 
 ## Interview Sentence
 
-Prototype means: Prototype is a JavaScript topic. Learn the basic idea first, then run the snippet and practice questions.
+Prototype means: OOP organizes code using objects, prototypes, classes, and reusable behavior.

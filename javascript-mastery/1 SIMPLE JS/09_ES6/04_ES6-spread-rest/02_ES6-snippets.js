@@ -1,48 +1,49 @@
 "use strict";
 
 /*
-Path: 09-es6/spread-rest/snippets.js
-Topic: Spread Rest
+Path: 1 SIMPLE JS\09_ES6\04_ES6-spread-rest\02_ES6-snippets.js
+Topic: Spread Rest snippets
 
 How to study:
-1. Read one example.
+1. Read one snippet.
 2. Predict output.
 3. Run this file.
-4. Change one line and run again.
+4. Change one value and run again.
 
 Run:
-node 09-es6/spread-rest/snippets.js
+node "1 SIMPLE JS/09_ES6/04_ES6-spread-rest/02_ES6-snippets.js"
 */
 
 function section(label) {
   console.log("\n--- " + label + " ---");
 }
 
-section("Topic");
-console.log("Spread copies/expands and rest collects remaining values.");
-
-section("Example 1: Basic idea");
+section("1. spread array");
 {
-  const topic = "Spread Rest";
-  console.log("Learning:", topic);
-}
-
-/////////////////////////////
-
-section("Example 2: Practical use");
-{
-  function show(value) {
-    return "Value: " + value;
+  function run(arr) {
+    return [...arr, 3];
   }
-  console.log(show("Spread Rest"));
+  console.log(run([1, 2]));
 }
 
 /////////////////////////////
 
-section("Example 3: Mini check");
+section("2. spread object");
 {
-  const steps = ["read", "run", "revise"];
-  console.log(steps.join(" -> "));
+  function run(user) {
+    return { ...user, active: true };
+  }
+  console.log(run({ name: "Amit" }));
+}
+
+/////////////////////////////
+
+section("3. rest params");
+{
+  function count(...items) {
+    return items.length;
+  }
+  console.log(count(1, 2, 3));
 }
 
 /////////////////////////////

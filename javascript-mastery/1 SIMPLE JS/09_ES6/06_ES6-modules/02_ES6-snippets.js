@@ -1,48 +1,41 @@
 "use strict";
 
 /*
-Path: 09-es6/modules/snippets.js
-Topic: Modules
+Path: 1 SIMPLE JS\09_ES6\06_ES6-modules\02_ES6-snippets.js
+Topic: Modules snippets
 
 How to study:
-1. Read one example.
+1. Read one snippet.
 2. Predict output.
 3. Run this file.
-4. Change one line and run again.
+4. Change one value and run again.
 
 Run:
-node 09-es6/modules/snippets.js
+node "1 SIMPLE JS/09_ES6/06_ES6-modules/02_ES6-snippets.js"
 */
 
 function section(label) {
   console.log("\n--- " + label + " ---");
 }
 
-section("Topic");
-console.log("Modules split code across files using import/export.");
-
-section("Example 1: Basic idea");
+section("1. named export idea");
 {
-  const topic = "Modules";
-  console.log("Learning:", topic);
+  const mathModule = {
+    add(a, b) {
+      return a + b;
+    }
+  };
+  console.log(mathModule.add(2, 3));
 }
 
 /////////////////////////////
 
-section("Example 2: Practical use");
+section("2. default import idea");
 {
-  function show(value) {
-    return "Value: " + value;
-  }
-  console.log(show("Modules"));
-}
-
-/////////////////////////////
-
-section("Example 3: Mini check");
-{
-  const steps = ["read", "run", "revise"];
-  console.log(steps.join(" -> "));
+  const userModule = {
+    default: "Amit"
+  };
+  console.log(userModule.default);
 }
 
 /////////////////////////////

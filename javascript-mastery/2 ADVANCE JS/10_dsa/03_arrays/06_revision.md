@@ -1,20 +1,33 @@
 # Arrays Revision
 
-Path: `19-dsa/arrays/revision.md`
+Path: `2 ADVANCE JS\10_dsa\03_arrays\06_revision.md`
 
-## Remember
+## Must Remember
 
-- Arrays is a JavaScript topic. Learn the basic idea first, then run the snippet and practice questions.
-- Run `snippets.js`.
-- Predict output before terminal.
-- Explain in simple words.
+- Arrays belongs to DSA and should be understood by tracing inputs, operations, and output.
+- Always predict output before running code.
+- Check whether the original value changes or a new value is returned.
+- Practice one simple case and one edge case.
 
-## Quick Command
+## Quick Example
 
-```bash
-node 19-dsa/arrays/snippets.js
+```js
+function search(nums, target) {
+  for (let i = 0; i < nums.length; i++) {
+    if (nums[i] === target) return i;
+  }
+  return -1;
+}
+console.log(search([1, 2, 3], 2));
 ```
+
+## Study Order
+
+1. Read `01_theory.md`.
+2. Run `02_snippets.js`.
+3. Predict answers in `04_coding-output-practice.js`.
+4. Revise this file before interview.
 
 ## Interview Sentence
 
-Arrays means: Arrays is a JavaScript topic. Learn the basic idea first, then run the snippet and practice questions.
+Arrays means: Arrays belongs to DSA and should be understood by tracing inputs, operations, and output.

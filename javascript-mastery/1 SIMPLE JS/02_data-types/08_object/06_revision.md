@@ -1,20 +1,30 @@
 # Object Revision
 
-Path: `02-data-types/object/revision.md`
+Path: `1 SIMPLE JS\02_data-types\08_object\06_revision.md`
 
-## Remember
+## Must Remember
 
-- Object stores key-value pairs.
-- Run `snippets.js`.
-- Predict output before terminal.
-- Explain in simple words.
+- Object belongs to data types and should be understood by tracing inputs, operations, and output.
+- Always predict output before running code.
+- Check whether the original value changes or a new value is returned.
+- Practice one simple case and one edge case.
 
-## Quick Command
+## Quick Example
 
-```bash
-node 02-data-types/object/snippets.js
+```js
+function run(value) {
+  return value;
+}
+console.log(run("Object"));
 ```
+
+## Study Order
+
+1. Read `01_theory.md`.
+2. Run `02_snippets.js`.
+3. Predict answers in `04_coding-output-practice.js`.
+4. Revise this file before interview.
 
 ## Interview Sentence
 
-Object means: Object stores key-value pairs.
+Object means: Object belongs to data types and should be understood by tracing inputs, operations, and output.

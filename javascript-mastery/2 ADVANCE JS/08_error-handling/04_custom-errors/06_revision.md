@@ -1,20 +1,30 @@
 # Custom Errors Revision
 
-Path: `17-error-handling/custom-errors/revision.md`
+Path: `2 ADVANCE JS\08_error-handling\04_custom-errors\06_revision.md`
 
-## Remember
+## Must Remember
 
-- Custom Errors is a JavaScript topic. Learn the basic idea first, then run the snippet and practice questions.
-- Run `snippets.js`.
-- Predict output before terminal.
-- Explain in simple words.
+- error handling catches failures, throws meaningful errors, and runs cleanup code.
+- Always predict output before running code.
+- Check whether the original value changes or a new value is returned.
+- Practice one simple case and one edge case.
 
-## Quick Command
+## Quick Example
 
-```bash
-node 17-error-handling/custom-errors/snippets.js
+```js
+function run(value) {
+  return value;
+}
+console.log(run("Custom Errors"));
 ```
+
+## Study Order
+
+1. Read `01_theory.md`.
+2. Run `02_snippets.js`.
+3. Predict answers in `04_coding-output-practice.js`.
+4. Revise this file before interview.
 
 ## Interview Sentence
 
-Custom Errors means: Custom Errors is a JavaScript topic. Learn the basic idea first, then run the snippet and practice questions.
+Custom Errors means: error handling catches failures, throws meaningful errors, and runs cleanup code.

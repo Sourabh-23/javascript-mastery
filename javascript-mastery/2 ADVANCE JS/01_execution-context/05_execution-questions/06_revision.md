@@ -1,20 +1,30 @@
 # Execution Questions Revision
 
-Path: `10-execution-context/execution-questions/revision.md`
+Path: `2 ADVANCE JS\01_execution-context\05_execution-questions\06_revision.md`
 
-## Remember
+## Must Remember
 
-- Execution Questions is a JavaScript topic. Learn the basic idea first, then run the snippet and practice questions.
-- Run `snippets.js`.
-- Predict output before terminal.
-- Explain in simple words.
+- Execution Questions belongs to execution context and should be understood by tracing inputs, operations, and output.
+- Always predict output before running code.
+- Check whether the original value changes or a new value is returned.
+- Practice one simple case and one edge case.
 
-## Quick Command
+## Quick Example
 
-```bash
-node 10-execution-context/execution-questions/snippets.js
+```js
+function run(value) {
+  return value;
+}
+console.log(run("Execution Questions"));
 ```
+
+## Study Order
+
+1. Read `01_theory.md`.
+2. Run `02_snippets.js`.
+3. Predict answers in `04_coding-output-practice.js`.
+4. Revise this file before interview.
 
 ## Interview Sentence
 
-Execution Questions means: Execution Questions is a JavaScript topic. Learn the basic idea first, then run the snippet and practice questions.
+Execution Questions means: Execution Questions belongs to execution context and should be understood by tracing inputs, operations, and output.

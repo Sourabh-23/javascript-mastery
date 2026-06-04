@@ -1,22 +1,30 @@
 # Nullish Coalescing Coding Questions
 
-Path: `03-operators/nullish-coalescing/coding-questions.md`
+Path: `1 SIMPLE JS\03_operators\07_nullish-coalescing\05_coding-questions.md`
 
 ## Easy
 
-1. Create one small example for Nullish Coalescing.
-2. Print the output.
-3. Change one input and run again.
+1. Write a small function that demonstrates Nullish Coalescing.
+2. Return the result instead of only using console.log.
+3. Add one test input and expected output.
+
+```js
+function run(value) {
+  return value;
+}
+console.log(run("Nullish Coalescing"));
+```
 
 ## Medium
 
-1. Use Nullish Coalescing inside a function.
-2. Return a result instead of only printing.
-3. Handle one edge case.
+1. Wrap the same logic inside a reusable function.
+2. Handle an empty, null, or invalid input where it makes sense.
+3. Write two different test cases.
 
-## Interview Discussion
+## Interview Practice
 
-- What is the input?
-- What is the output?
-- What can go wrong?
-- What is the time complexity if this is a DSA problem?
+1. Explain input.
+2. Explain output.
+3. Explain whether original data changes.
+4. Explain one edge case.
+5. Explain time complexity only if loop, array, or DSA logic is involved.

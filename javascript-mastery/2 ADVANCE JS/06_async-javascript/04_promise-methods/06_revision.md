@@ -1,20 +1,30 @@
 # Promise Methods Revision
 
-Path: `15-async-javascript/promise-methods/revision.md`
+Path: `2 ADVANCE JS\06_async-javascript\04_promise-methods\06_revision.md`
 
-## Remember
+## Must Remember
 
-- Promise Methods is a JavaScript topic. Learn the basic idea first, then run the snippet and practice questions.
-- Run `snippets.js`.
-- Predict output before terminal.
-- Explain in simple words.
+- async JavaScript handles work that finishes later using callbacks, promises, timers, and the event loop.
+- Always predict output before running code.
+- Check whether the original value changes or a new value is returned.
+- Practice one simple case and one edge case.
 
-## Quick Command
+## Quick Example
 
-```bash
-node 15-async-javascript/promise-methods/snippets.js
+```js
+async function getValue() {
+  return "done";
+}
+getValue().then((value) => console.log(value));
 ```
+
+## Study Order
+
+1. Read `01_theory.md`.
+2. Run `02_snippets.js`.
+3. Predict answers in `04_coding-output-practice.js`.
+4. Revise this file before interview.
 
 ## Interview Sentence
 
-Promise Methods means: Promise Methods is a JavaScript topic. Learn the basic idea first, then run the snippet and practice questions.
+Promise Methods means: async JavaScript handles work that finishes later using callbacks, promises, timers, and the event loop.

@@ -1,20 +1,28 @@
 # Includes Revision
 
-Path: `05-arrays/includes/revision.md`
+Path: `1 SIMPLE JS\05_arrays\11_includes\06_revision.md`
 
-## Remember
+## Must Remember
 
-- Includes is a JavaScript topic. Learn the basic idea first, then run the snippet and practice questions.
-- Run `snippets.js`.
-- Predict output before terminal.
-- Explain in simple words.
+- includes checks whether a value exists.
+- Always predict output before running code.
+- Check whether the original value changes or a new value is returned.
+- Practice one simple case and one edge case.
 
-## Quick Command
+## Quick Example
 
-```bash
-node 05-arrays/includes/snippets.js
+```js
+const nums = [1, 2, 3];
+console.log(nums.length);
 ```
+
+## Study Order
+
+1. Read `01_theory.md`.
+2. Run `02_snippets.js`.
+3. Predict answers in `04_coding-output-practice.js`.
+4. Revise this file before interview.
 
 ## Interview Sentence
 
-Includes means: Includes is a JavaScript topic. Learn the basic idea first, then run the snippet and practice questions.
+Includes means: includes checks whether a value exists.

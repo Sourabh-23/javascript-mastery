@@ -1,48 +1,43 @@
 "use strict";
 
 /*
-Path: 09-es6/generators/snippets.js
-Topic: Generators
+Path: 1 SIMPLE JS\09_ES6\09_ES6-generators\02_ES6-snippets.js
+Topic: Generators snippets
 
 How to study:
-1. Read one example.
+1. Read one snippet.
 2. Predict output.
 3. Run this file.
-4. Change one line and run again.
+4. Change one value and run again.
 
 Run:
-node 09-es6/generators/snippets.js
+node "1 SIMPLE JS/09_ES6/09_ES6-generators/02_ES6-snippets.js"
 */
 
 function section(label) {
   console.log("\n--- " + label + " ---");
 }
 
-section("Topic");
-console.log("Generators can pause and resume using yield.");
-
-section("Example 1: Basic idea");
+section("1. generator first value");
 {
-  const topic = "Generators";
-  console.log("Learning:", topic);
-}
-
-/////////////////////////////
-
-section("Example 2: Practical use");
-{
-  function show(value) {
-    return "Value: " + value;
+  function* numbers() {
+    yield 1;
+    yield 2;
   }
-  console.log(show("Generators"));
+  const gen = numbers();
+  console.log(gen.next().value);
 }
 
 /////////////////////////////
 
-section("Example 3: Mini check");
+section("2. generator done");
 {
-  const steps = ["read", "run", "revise"];
-  console.log(steps.join(" -> "));
+  function* numbers() {
+    yield 1;
+  }
+  const gen = numbers();
+  gen.next();
+  console.log(gen.next().done);
 }
 
 /////////////////////////////

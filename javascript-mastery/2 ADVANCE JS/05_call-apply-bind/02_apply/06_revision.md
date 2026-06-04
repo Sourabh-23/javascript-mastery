@@ -1,20 +1,31 @@
 # Apply Revision
 
-Path: `14-call-apply-bind/apply/revision.md`
+Path: `2 ADVANCE JS\05_call-apply-bind\02_apply\06_revision.md`
 
-## Remember
+## Must Remember
 
-- apply invokes a function with a custom this and array arguments.
-- Run `snippets.js`.
-- Predict output before terminal.
-- Explain in simple words.
+- this depends on how a function is called; call/apply/bind manually control it.
+- Always predict output before running code.
+- Check whether the original value changes or a new value is returned.
+- Practice one simple case and one edge case.
 
-## Quick Command
+## Quick Example
 
-```bash
-node 14-call-apply-bind/apply/snippets.js
+```js
+const user = { name: "Amit" };
+function getName() {
+  return this.name;
+}
+console.log(getName.call(user));
 ```
+
+## Study Order
+
+1. Read `01_theory.md`.
+2. Run `02_snippets.js`.
+3. Predict answers in `04_coding-output-practice.js`.
+4. Revise this file before interview.
 
 ## Interview Sentence
 
-Apply means: apply invokes a function with a custom this and array arguments.
+Apply means: this depends on how a function is called; call/apply/bind manually control it.

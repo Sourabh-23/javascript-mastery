@@ -1,20 +1,28 @@
 # Slice Revision
 
-Path: `05-arrays/slice/revision.md`
+Path: `1 SIMPLE JS\05_arrays\12_slice\06_revision.md`
 
-## Remember
+## Must Remember
 
-- slice copies part of an array without mutation.
-- Run `snippets.js`.
-- Predict output before terminal.
-- Explain in simple words.
+- slice copies part of an array/string without mutation.
+- Always predict output before running code.
+- Check whether the original value changes or a new value is returned.
+- Practice one simple case and one edge case.
 
-## Quick Command
+## Quick Example
 
-```bash
-node 05-arrays/slice/snippets.js
+```js
+const nums = [1, 2, 3];
+console.log(nums.length);
 ```
+
+## Study Order
+
+1. Read `01_theory.md`.
+2. Run `02_snippets.js`.
+3. Predict answers in `04_coding-output-practice.js`.
+4. Revise this file before interview.
 
 ## Interview Sentence
 
-Slice means: slice copies part of an array without mutation.
+Slice means: slice copies part of an array/string without mutation.

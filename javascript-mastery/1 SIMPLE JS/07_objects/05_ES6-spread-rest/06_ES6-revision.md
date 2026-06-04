@@ -1,20 +1,28 @@
 # Spread Rest Revision
 
-Path: `07-objects/spread-rest/revision.md`
+Path: `1 SIMPLE JS\07_objects\05_ES6-spread-rest\06_ES6-revision.md`
 
-## Remember
+## Must Remember
 
-- Spread Rest is a JavaScript topic. Learn the basic idea first, then run the snippet and practice questions.
-- Run `snippets.js`.
-- Predict output before terminal.
-- Explain in simple words.
+- objects store key-value data and this topic explains one way to read, update, copy, or protect that data.
+- Always predict output before running code.
+- Check whether the original value changes or a new value is returned.
+- Practice one simple case and one edge case.
 
-## Quick Command
+## Quick Example
 
-```bash
-node 07-objects/spread-rest/snippets.js
+```js
+const user = { name: "Amit" };
+console.log({ ...user, active: true });
 ```
+
+## Study Order
+
+1. Read `01_theory.md`.
+2. Run `02_ES6-snippets.js`.
+3. Predict answers in `04_ES6-coding-output-practice.js`.
+4. Revise this file before interview.
 
 ## Interview Sentence
 
-Spread Rest means: Spread Rest is a JavaScript topic. Learn the basic idea first, then run the snippet and practice questions.
+Spread Rest means: objects store key-value data and this topic explains one way to read, update, copy, or protect that data.

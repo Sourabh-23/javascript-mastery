@@ -1,20 +1,28 @@
 # Reverse Revision
 
-Path: `05-arrays/reverse/revision.md`
+Path: `1 SIMPLE JS\05_arrays\17_reverse\06_revision.md`
 
-## Remember
+## Must Remember
 
-- Reverse is a JavaScript topic. Learn the basic idea first, then run the snippet and practice questions.
-- Run `snippets.js`.
-- Predict output before terminal.
-- Explain in simple words.
+- arrays store ordered data and this topic explains one way to read, change, search, or transform that data.
+- Always predict output before running code.
+- Check whether the original value changes or a new value is returned.
+- Practice one simple case and one edge case.
 
-## Quick Command
+## Quick Example
 
-```bash
-node 05-arrays/reverse/snippets.js
+```js
+const nums = [1, 2, 3];
+console.log(nums.length);
 ```
+
+## Study Order
+
+1. Read `01_theory.md`.
+2. Run `02_snippets.js`.
+3. Predict answers in `04_coding-output-practice.js`.
+4. Revise this file before interview.
 
 ## Interview Sentence
 
-Reverse means: Reverse is a JavaScript topic. Learn the basic idea first, then run the snippet and practice questions.
+Reverse means: arrays store ordered data and this topic explains one way to read, change, search, or transform that data.

@@ -1,31 +1,40 @@
 # Throttle Interview Questions
 
-Path: `04-functions/throttle/interview-questions.md`
+Path: `1 SIMPLE JS\04_functions\11_throttle\03_interview-questions.md`
 
-## Beginner
+## Basic
 
 1. What is Throttle?
-Answer: Throttle limits how often a function can run.
+Answer: functions package reusable logic and this topic explains one style of creating, calling, or controlling functions.
 
 2. Why do we use Throttle?
-Answer: To write predictable JavaScript and avoid runtime confusion.
+Answer: We use it to make code behavior clear and predictable for this specific case.
 
-3. Where is this used in backend code?
-Answer: In handlers, services, helpers, validation, and data transformation.
+3. Give a small example.
+
+```js
+function run(value) {
+  return value;
+}
+console.log(run("Throttle"));
+```
 
 ## Intermediate
 
-1. What is one common mistake with Throttle?
-Answer: Reading the code without tracing scope, value, or execution order.
+1. What is the common mistake?
+Answer: The common mistake is memorizing the definition but not tracing the value line by line.
 
-2. How do you debug Throttle issues?
-Answer: Create a small snippet, log values step by step, and explain why each line runs.
+2. How do you debug Throttle?
+Answer: Make a tiny example, log the input and output, then change one value and check what changed.
+
+3. What should you mention in interview?
+Answer: Mention behavior, mutation or non-mutation, return value, and one edge case.
 
 ## Advanced
 
-1. Explain Throttle in terms of memory and execution.
-Answer: First identify what exists before execution, then trace runtime changes line by line.
+1. Explain Throttle in runtime terms.
+Answer: First identify what is created, then trace how JavaScript executes each line and what value is returned.
 
 ## One Line Revision
 
-Throttle limits how often a function can run.
+Throttle: functions package reusable logic and this topic explains one style of creating, calling, or controlling functions.

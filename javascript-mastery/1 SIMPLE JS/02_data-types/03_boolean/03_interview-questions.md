@@ -1,31 +1,40 @@
 # Boolean Interview Questions
 
-Path: `02-data-types/boolean/interview-questions.md`
+Path: `1 SIMPLE JS\02_data-types\03_boolean\03_interview-questions.md`
 
-## Beginner
+## Basic
 
 1. What is Boolean?
-Answer: Boolean stores true or false.
+Answer: boolean and truthy/falsy values decide how conditions behave.
 
 2. Why do we use Boolean?
-Answer: To write predictable JavaScript and avoid runtime confusion.
+Answer: We use it to make code behavior clear and predictable for this specific case.
 
-3. Where is this used in backend code?
-Answer: In handlers, services, helpers, validation, and data transformation.
+3. Give a small example.
+
+```js
+function run(value) {
+  return value;
+}
+console.log(run("Boolean"));
+```
 
 ## Intermediate
 
-1. What is one common mistake with Boolean?
-Answer: Reading the code without tracing scope, value, or execution order.
+1. What is the common mistake?
+Answer: The common mistake is memorizing the definition but not tracing the value line by line.
 
-2. How do you debug Boolean issues?
-Answer: Create a small snippet, log values step by step, and explain why each line runs.
+2. How do you debug Boolean?
+Answer: Make a tiny example, log the input and output, then change one value and check what changed.
+
+3. What should you mention in interview?
+Answer: Mention behavior, mutation or non-mutation, return value, and one edge case.
 
 ## Advanced
 
-1. Explain Boolean in terms of memory and execution.
-Answer: First identify what exists before execution, then trace runtime changes line by line.
+1. Explain Boolean in runtime terms.
+Answer: First identify what is created, then trace how JavaScript executes each line and what value is returned.
 
 ## One Line Revision
 
-Boolean stores true or false.
+Boolean: boolean and truthy/falsy values decide how conditions behave.

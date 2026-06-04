@@ -1,20 +1,30 @@
 # Try Catch Revision
 
-Path: `17-error-handling/try-catch/revision.md`
+Path: `2 ADVANCE JS\08_error-handling\01_try-catch\06_revision.md`
 
-## Remember
+## Must Remember
 
-- Try Catch is a JavaScript topic. Learn the basic idea first, then run the snippet and practice questions.
-- Run `snippets.js`.
-- Predict output before terminal.
-- Explain in simple words.
+- error handling catches failures, throws meaningful errors, and runs cleanup code.
+- Always predict output before running code.
+- Check whether the original value changes or a new value is returned.
+- Practice one simple case and one edge case.
 
-## Quick Command
+## Quick Example
 
-```bash
-node 17-error-handling/try-catch/snippets.js
+```js
+function run(value) {
+  return value;
+}
+console.log(run("Try Catch"));
 ```
+
+## Study Order
+
+1. Read `01_theory.md`.
+2. Run `02_snippets.js`.
+3. Predict answers in `04_coding-output-practice.js`.
+4. Revise this file before interview.
 
 ## Interview Sentence
 
-Try Catch means: Try Catch is a JavaScript topic. Learn the basic idea first, then run the snippet and practice questions.
+Try Catch means: error handling catches failures, throws meaningful errors, and runs cleanup code.

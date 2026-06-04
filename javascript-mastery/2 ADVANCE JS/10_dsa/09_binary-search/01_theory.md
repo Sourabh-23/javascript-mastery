@@ -4,35 +4,49 @@ Path: `2 ADVANCE JS\10_dsa\09_binary-search\01_theory.md`
 
 ## Simple Meaning
 
-binary-search is a JavaScript concept you use to write clearer and more predictable code.
+DSA focuses on solving problems efficiently by choosing the right data structure and algorithm pattern.
 
-## Understand It Like This
+## Mental Model
 
-Think about what problem it solves, what input it works with, and what output or behavior it creates.
+When you read this topic, ask three things:
 
-## Why We Use It
+1. What value goes in?
+2. What operation happens?
+3. What value or side effect comes out?
 
-You use it while reading code, solving output questions, writing interview examples, and building real JavaScript features.
+## Real Use
+
+You will use Binary Search while reading output questions, writing small interview examples, and debugging real code. The main goal is not memorizing the name. The main goal is understanding exactly what JavaScript does line by line.
 
 ## Small Example
 
 ```js
-const value = "example";
-console.log(value);
+function binarySearch(nums, target) {
+  let left = 0;
+  let right = nums.length - 1;
+  while (left <= right) {
+    const mid = Math.floor((left + right) / 2);
+    if (nums[mid] === target) return mid;
+    if (nums[mid] < target) left = mid + 1;
+    else right = mid - 1;
+  }
+  return -1;
+}
+console.log(binarySearch([1, 3, 5], 5));
 ```
 
 ## Common Mistake
 
-Do not memorize only the definition. Try to explain what happens line by line.
+The common mistake is reading only the definition and skipping output prediction. Always run the snippet, then change one value and predict again.
 
 ## Interview Answer
 
-binary-search is important because it affects how JavaScript code behaves at runtime.
+Binary Search is useful because it controls how data is read, changed, compared, stored, or executed in JavaScript. In interviews, explain the behavior first, then give a tiny code example.
 
 ## How To Study
 
-1. Read this theory slowly.
-2. Open `02_snippets.js` and run each example.
-3. Predict output before checking the answer.
-4. Read `03_interview-questions.md` for spoken interview answers.
-5. Practice `04_output-questions.js` for confidence.
+1. Read this file once.
+2. Run `02_snippets.js`.
+3. Predict every answer in `04_coding-output-practice.js`.
+4. Speak answers from `03_interview-questions.md` out loud.
+5. Write two small examples without looking.

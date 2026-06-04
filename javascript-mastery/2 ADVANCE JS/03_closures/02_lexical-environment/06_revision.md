@@ -1,20 +1,30 @@
 # Lexical Environment Revision
 
-Path: `12-closures/lexical-environment/revision.md`
+Path: `2 ADVANCE JS\03_closures\02_lexical-environment\06_revision.md`
 
-## Remember
+## Must Remember
 
-- Lexical environment stores variables with outer scope reference.
-- Run `snippets.js`.
-- Predict output before terminal.
-- Explain in simple words.
+- closure lets an inner function remember variables from its outer scope.
+- Always predict output before running code.
+- Check whether the original value changes or a new value is returned.
+- Practice one simple case and one edge case.
 
-## Quick Command
+## Quick Example
 
-```bash
-node 12-closures/lexical-environment/snippets.js
+```js
+function run(value) {
+  return value;
+}
+console.log(run("Lexical Environment"));
 ```
+
+## Study Order
+
+1. Read `01_theory.md`.
+2. Run `02_snippets.js`.
+3. Predict answers in `04_coding-output-practice.js`.
+4. Revise this file before interview.
 
 ## Interview Sentence
 
-Lexical Environment means: Lexical environment stores variables with outer scope reference.
+Lexical Environment means: closure lets an inner function remember variables from its outer scope.

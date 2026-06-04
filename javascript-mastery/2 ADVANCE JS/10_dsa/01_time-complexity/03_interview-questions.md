@@ -1,31 +1,43 @@
 # Time Complexity Interview Questions
 
-Path: `19-dsa/time-complexity/interview-questions.md`
+Path: `2 ADVANCE JS\10_dsa\01_time-complexity\03_interview-questions.md`
 
-## Beginner
+## Basic
 
 1. What is Time Complexity?
-Answer: Time Complexity is a JavaScript topic. Learn the basic idea first, then run the snippet and practice questions.
+Answer: DSA is about solving problems efficiently using the right algorithm and data structure.
 
 2. Why do we use Time Complexity?
-Answer: To write predictable JavaScript and avoid runtime confusion.
+Answer: We use it to make code behavior clear and predictable for this specific case.
 
-3. Where is this used in backend code?
-Answer: In handlers, services, helpers, validation, and data transformation.
+3. Give a small example.
+
+```js
+function search(nums, target) {
+  for (let i = 0; i < nums.length; i++) {
+    if (nums[i] === target) return i;
+  }
+  return -1;
+}
+console.log(search([1, 2, 3], 2));
+```
 
 ## Intermediate
 
-1. What is one common mistake with Time Complexity?
-Answer: Reading the code without tracing scope, value, or execution order.
+1. What is the common mistake?
+Answer: The common mistake is memorizing the definition but not tracing the value line by line.
 
-2. How do you debug Time Complexity issues?
-Answer: Create a small snippet, log values step by step, and explain why each line runs.
+2. How do you debug Time Complexity?
+Answer: Make a tiny example, log the input and output, then change one value and check what changed.
+
+3. What should you mention in interview?
+Answer: Mention behavior, mutation or non-mutation, return value, and one edge case.
 
 ## Advanced
 
-1. Explain Time Complexity in terms of memory and execution.
-Answer: First identify what exists before execution, then trace runtime changes line by line.
+1. Explain Time Complexity in runtime terms.
+Answer: First identify what is created, then trace how JavaScript executes each line and what value is returned.
 
 ## One Line Revision
 
-Time Complexity is a JavaScript topic. Learn the basic idea first, then run the snippet and practice questions.
+Time Complexity: DSA is about solving problems efficiently using the right algorithm and data structure.

@@ -1,20 +1,28 @@
 # Some Revision
 
-Path: `05-arrays/some/revision.md`
+Path: `1 SIMPLE JS\05_arrays\09_some\06_revision.md`
 
-## Remember
+## Must Remember
 
-- Some is a JavaScript topic. Learn the basic idea first, then run the snippet and practice questions.
-- Run `snippets.js`.
-- Predict output before terminal.
-- Explain in simple words.
+- some checks if at least one item passes a condition.
+- Always predict output before running code.
+- Check whether the original value changes or a new value is returned.
+- Practice one simple case and one edge case.
 
-## Quick Command
+## Quick Example
 
-```bash
-node 05-arrays/some/snippets.js
+```js
+const nums = [1, 2, 3];
+console.log(nums.length);
 ```
+
+## Study Order
+
+1. Read `01_theory.md`.
+2. Run `02_snippets.js`.
+3. Predict answers in `04_coding-output-practice.js`.
+4. Revise this file before interview.
 
 ## Interview Sentence
 
-Some means: Some is a JavaScript topic. Learn the basic idea first, then run the snippet and practice questions.
+Some means: some checks if at least one item passes a condition.

@@ -1,31 +1,40 @@
 # Lexical Environment Interview Questions
 
-Path: `12-closures/lexical-environment/interview-questions.md`
+Path: `2 ADVANCE JS\03_closures\02_lexical-environment\03_interview-questions.md`
 
-## Beginner
+## Basic
 
 1. What is Lexical Environment?
-Answer: Lexical environment stores variables with outer scope reference.
+Answer: closure lets an inner function remember variables from its outer scope.
 
 2. Why do we use Lexical Environment?
-Answer: To write predictable JavaScript and avoid runtime confusion.
+Answer: We use it to make code behavior clear and predictable for this specific case.
 
-3. Where is this used in backend code?
-Answer: In handlers, services, helpers, validation, and data transformation.
+3. Give a small example.
+
+```js
+function run(value) {
+  return value;
+}
+console.log(run("Lexical Environment"));
+```
 
 ## Intermediate
 
-1. What is one common mistake with Lexical Environment?
-Answer: Reading the code without tracing scope, value, or execution order.
+1. What is the common mistake?
+Answer: The common mistake is memorizing the definition but not tracing the value line by line.
 
-2. How do you debug Lexical Environment issues?
-Answer: Create a small snippet, log values step by step, and explain why each line runs.
+2. How do you debug Lexical Environment?
+Answer: Make a tiny example, log the input and output, then change one value and check what changed.
+
+3. What should you mention in interview?
+Answer: Mention behavior, mutation or non-mutation, return value, and one edge case.
 
 ## Advanced
 
-1. Explain Lexical Environment in terms of memory and execution.
-Answer: First identify what exists before execution, then trace runtime changes line by line.
+1. Explain Lexical Environment in runtime terms.
+Answer: First identify what is created, then trace how JavaScript executes each line and what value is returned.
 
 ## One Line Revision
 
-Lexical environment stores variables with outer scope reference.
+Lexical Environment: closure lets an inner function remember variables from its outer scope.

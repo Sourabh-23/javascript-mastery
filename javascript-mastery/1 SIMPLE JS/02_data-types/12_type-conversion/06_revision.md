@@ -1,20 +1,30 @@
 # Type Conversion Revision
 
-Path: `02-data-types/type-conversion/revision.md`
+Path: `1 SIMPLE JS\02_data-types\12_type-conversion\06_revision.md`
 
-## Remember
+## Must Remember
 
-- Type conversion means manually changing one type to another.
-- Run `snippets.js`.
-- Predict output before terminal.
-- Explain in simple words.
+- type conversion is manually changing one type to another.
+- Always predict output before running code.
+- Check whether the original value changes or a new value is returned.
+- Practice one simple case and one edge case.
 
-## Quick Command
+## Quick Example
 
-```bash
-node 02-data-types/type-conversion/snippets.js
+```js
+function run(value) {
+  return value;
+}
+console.log(run("Type Conversion"));
 ```
+
+## Study Order
+
+1. Read `01_theory.md`.
+2. Run `02_snippets.js`.
+3. Predict answers in `04_coding-output-practice.js`.
+4. Revise this file before interview.
 
 ## Interview Sentence
 
-Type Conversion means: Type conversion means manually changing one type to another.
+Type Conversion means: type conversion is manually changing one type to another.

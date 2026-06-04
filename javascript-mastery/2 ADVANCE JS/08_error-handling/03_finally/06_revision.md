@@ -1,20 +1,30 @@
 # Finally Revision
 
-Path: `17-error-handling/finally/revision.md`
+Path: `2 ADVANCE JS\08_error-handling\03_finally\06_revision.md`
 
-## Remember
+## Must Remember
 
-- Finally is a JavaScript topic. Learn the basic idea first, then run the snippet and practice questions.
-- Run `snippets.js`.
-- Predict output before terminal.
-- Explain in simple words.
+- error handling catches failures, throws meaningful errors, and runs cleanup code.
+- Always predict output before running code.
+- Check whether the original value changes or a new value is returned.
+- Practice one simple case and one edge case.
 
-## Quick Command
+## Quick Example
 
-```bash
-node 17-error-handling/finally/snippets.js
+```js
+function run(value) {
+  return value;
+}
+console.log(run("Finally"));
 ```
+
+## Study Order
+
+1. Read `01_theory.md`.
+2. Run `02_snippets.js`.
+3. Predict answers in `04_coding-output-practice.js`.
+4. Revise this file before interview.
 
 ## Interview Sentence
 
-Finally means: Finally is a JavaScript topic. Learn the basic idea first, then run the snippet and practice questions.
+Finally means: error handling catches failures, throws meaningful errors, and runs cleanup code.

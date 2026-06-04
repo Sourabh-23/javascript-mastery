@@ -1,20 +1,31 @@
 # Bind Revision
 
-Path: `14-call-apply-bind/bind/revision.md`
+Path: `2 ADVANCE JS\05_call-apply-bind\03_bind\06_revision.md`
 
-## Remember
+## Must Remember
 
-- bind returns a new function with fixed this.
-- Run `snippets.js`.
-- Predict output before terminal.
-- Explain in simple words.
+- this depends on how a function is called; call/apply/bind manually control it.
+- Always predict output before running code.
+- Check whether the original value changes or a new value is returned.
+- Practice one simple case and one edge case.
 
-## Quick Command
+## Quick Example
 
-```bash
-node 14-call-apply-bind/bind/snippets.js
+```js
+const user = { name: "Amit" };
+function getName() {
+  return this.name;
+}
+console.log(getName.call(user));
 ```
+
+## Study Order
+
+1. Read `01_theory.md`.
+2. Run `02_snippets.js`.
+3. Predict answers in `04_coding-output-practice.js`.
+4. Revise this file before interview.
 
 ## Interview Sentence
 
-Bind means: bind returns a new function with fixed this.
+Bind means: this depends on how a function is called; call/apply/bind manually control it.

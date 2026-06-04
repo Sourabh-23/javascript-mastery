@@ -1,31 +1,40 @@
 # Abstraction Interview Questions
 
-Path: `18-oop/abstraction/interview-questions.md`
+Path: `2 ADVANCE JS\09_oop\07_abstraction\03_interview-questions.md`
 
-## Beginner
+## Basic
 
 1. What is Abstraction?
-Answer: Abstraction is a JavaScript topic. Learn the basic idea first, then run the snippet and practice questions.
+Answer: OOP organizes code using objects, prototypes, classes, and reusable behavior.
 
 2. Why do we use Abstraction?
-Answer: To write predictable JavaScript and avoid runtime confusion.
+Answer: We use it to make code behavior clear and predictable for this specific case.
 
-3. Where is this used in backend code?
-Answer: In handlers, services, helpers, validation, and data transformation.
+3. Give a small example.
+
+```js
+function run(value) {
+  return value;
+}
+console.log(run("Abstraction"));
+```
 
 ## Intermediate
 
-1. What is one common mistake with Abstraction?
-Answer: Reading the code without tracing scope, value, or execution order.
+1. What is the common mistake?
+Answer: The common mistake is memorizing the definition but not tracing the value line by line.
 
-2. How do you debug Abstraction issues?
-Answer: Create a small snippet, log values step by step, and explain why each line runs.
+2. How do you debug Abstraction?
+Answer: Make a tiny example, log the input and output, then change one value and check what changed.
+
+3. What should you mention in interview?
+Answer: Mention behavior, mutation or non-mutation, return value, and one edge case.
 
 ## Advanced
 
-1. Explain Abstraction in terms of memory and execution.
-Answer: First identify what exists before execution, then trace runtime changes line by line.
+1. Explain Abstraction in runtime terms.
+Answer: First identify what is created, then trace how JavaScript executes each line and what value is returned.
 
 ## One Line Revision
 
-Abstraction is a JavaScript topic. Learn the basic idea first, then run the snippet and practice questions.
+Abstraction: OOP organizes code using objects, prototypes, classes, and reusable behavior.

@@ -1,31 +1,38 @@
 # Flat Interview Questions
 
-Path: `05-arrays/flat/interview-questions.md`
+Path: `1 SIMPLE JS\05_arrays\15_flat\03_interview-questions.md`
 
-## Beginner
+## Basic
 
 1. What is Flat?
-Answer: Flat is a JavaScript topic. Learn the basic idea first, then run the snippet and practice questions.
+Answer: arrays store ordered data and this topic explains one way to read, change, search, or transform that data.
 
 2. Why do we use Flat?
-Answer: To write predictable JavaScript and avoid runtime confusion.
+Answer: We use it to make code behavior clear and predictable for this specific case.
 
-3. Where is this used in backend code?
-Answer: In handlers, services, helpers, validation, and data transformation.
+3. Give a small example.
+
+```js
+const nums = [1, 2, 3];
+console.log(nums.length);
+```
 
 ## Intermediate
 
-1. What is one common mistake with Flat?
-Answer: Reading the code without tracing scope, value, or execution order.
+1. What is the common mistake?
+Answer: The common mistake is memorizing the definition but not tracing the value line by line.
 
-2. How do you debug Flat issues?
-Answer: Create a small snippet, log values step by step, and explain why each line runs.
+2. How do you debug Flat?
+Answer: Make a tiny example, log the input and output, then change one value and check what changed.
+
+3. What should you mention in interview?
+Answer: Mention behavior, mutation or non-mutation, return value, and one edge case.
 
 ## Advanced
 
-1. Explain Flat in terms of memory and execution.
-Answer: First identify what exists before execution, then trace runtime changes line by line.
+1. Explain Flat in runtime terms.
+Answer: First identify what is created, then trace how JavaScript executes each line and what value is returned.
 
 ## One Line Revision
 
-Flat is a JavaScript topic. Learn the basic idea first, then run the snippet and practice questions.
+Flat: arrays store ordered data and this topic explains one way to read, change, search, or transform that data.

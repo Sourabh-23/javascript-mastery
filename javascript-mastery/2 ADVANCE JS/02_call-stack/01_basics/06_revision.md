@@ -1,20 +1,30 @@
 # Basics Revision
 
-Path: `11-call-stack/basics/revision.md`
+Path: `2 ADVANCE JS\02_call-stack\01_basics\06_revision.md`
 
-## Remember
+## Must Remember
 
-- Basics is a JavaScript topic. Learn the basic idea first, then run the snippet and practice questions.
-- Run `snippets.js`.
-- Predict output before terminal.
-- Explain in simple words.
+- Basics belongs to call stack and should be understood by tracing inputs, operations, and output.
+- Always predict output before running code.
+- Check whether the original value changes or a new value is returned.
+- Practice one simple case and one edge case.
 
-## Quick Command
+## Quick Example
 
-```bash
-node 11-call-stack/basics/snippets.js
+```js
+function run(value) {
+  return value;
+}
+console.log(run("Basics"));
 ```
+
+## Study Order
+
+1. Read `01_theory.md`.
+2. Run `02_snippets.js`.
+3. Predict answers in `04_coding-output-practice.js`.
+4. Revise this file before interview.
 
 ## Interview Sentence
 
-Basics means: Basics is a JavaScript topic. Learn the basic idea first, then run the snippet and practice questions.
+Basics means: Basics belongs to call stack and should be understood by tracing inputs, operations, and output.

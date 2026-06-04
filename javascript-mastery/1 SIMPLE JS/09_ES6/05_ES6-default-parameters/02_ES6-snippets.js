@@ -1,48 +1,39 @@
 "use strict";
 
 /*
-Path: 09-es6/default-parameters/snippets.js
-Topic: Default Parameters
+Path: 1 SIMPLE JS\09_ES6\05_ES6-default-parameters\02_ES6-snippets.js
+Topic: Default Parameters snippets
 
 How to study:
-1. Read one example.
+1. Read one snippet.
 2. Predict output.
 3. Run this file.
-4. Change one line and run again.
+4. Change one value and run again.
 
 Run:
-node 09-es6/default-parameters/snippets.js
+node "1 SIMPLE JS/09_ES6/05_ES6-default-parameters/02_ES6-snippets.js"
 */
 
 function section(label) {
   console.log("\n--- " + label + " ---");
 }
 
-section("Topic");
-console.log("Default parameters provide fallback argument values.");
-
-section("Example 1: Basic idea");
+section("1. default used");
 {
-  const topic = "Default Parameters";
-  console.log("Learning:", topic);
-}
-
-/////////////////////////////
-
-section("Example 2: Practical use");
-{
-  function show(value) {
-    return "Value: " + value;
+  function greet(name = "User") {
+    return "Hi " + name;
   }
-  console.log(show("Default Parameters"));
+  console.log(greet());
 }
 
 /////////////////////////////
 
-section("Example 3: Mini check");
+section("2. default skipped");
 {
-  const steps = ["read", "run", "revise"];
-  console.log(steps.join(" -> "));
+  function greet(name = "User") {
+    return "Hi " + name;
+  }
+  console.log(greet("Amit"));
 }
 
 /////////////////////////////

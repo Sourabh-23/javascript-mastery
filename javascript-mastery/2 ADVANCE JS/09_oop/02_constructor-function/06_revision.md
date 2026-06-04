@@ -1,20 +1,30 @@
 # Constructor Function Revision
 
-Path: `18-oop/constructor-function/revision.md`
+Path: `2 ADVANCE JS\09_oop\02_constructor-function\06_revision.md`
 
-## Remember
+## Must Remember
 
-- Constructor Function is a JavaScript topic. Learn the basic idea first, then run the snippet and practice questions.
-- Run `snippets.js`.
-- Predict output before terminal.
-- Explain in simple words.
+- const is block scoped and cannot be reassigned, but object and array contents can still change.
+- Always predict output before running code.
+- Check whether the original value changes or a new value is returned.
+- Practice one simple case and one edge case.
 
-## Quick Command
+## Quick Example
 
-```bash
-node 18-oop/constructor-function/snippets.js
+```js
+function run(value) {
+  return value;
+}
+console.log(run("Constructor Function"));
 ```
+
+## Study Order
+
+1. Read `01_theory.md`.
+2. Run `02_snippets.js`.
+3. Predict answers in `04_coding-output-practice.js`.
+4. Revise this file before interview.
 
 ## Interview Sentence
 
-Constructor Function means: Constructor Function is a JavaScript topic. Learn the basic idea first, then run the snippet and practice questions.
+Constructor Function means: const is block scoped and cannot be reassigned, but object and array contents can still change.

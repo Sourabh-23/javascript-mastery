@@ -1,20 +1,30 @@
 # Optional Chaining Revision
 
-Path: `03-operators/optional-chaining/revision.md`
+Path: `1 SIMPLE JS\03_operators\08_optional-chaining\06_revision.md`
 
-## Remember
+## Must Remember
 
-- Optional chaining safely reads nested properties.
-- Run `snippets.js`.
-- Predict output before terminal.
-- Explain in simple words.
+- Optional Chaining belongs to operators and should be understood by tracing inputs, operations, and output.
+- Always predict output before running code.
+- Check whether the original value changes or a new value is returned.
+- Practice one simple case and one edge case.
 
-## Quick Command
+## Quick Example
 
-```bash
-node 03-operators/optional-chaining/snippets.js
+```js
+function run(value) {
+  return value;
+}
+console.log(run("Optional Chaining"));
 ```
+
+## Study Order
+
+1. Read `01_theory.md`.
+2. Run `02_snippets.js`.
+3. Predict answers in `04_coding-output-practice.js`.
+4. Revise this file before interview.
 
 ## Interview Sentence
 
-Optional Chaining means: Optional chaining safely reads nested properties.
+Optional Chaining means: Optional Chaining belongs to operators and should be understood by tracing inputs, operations, and output.

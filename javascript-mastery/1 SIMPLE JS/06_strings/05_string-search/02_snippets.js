@@ -1,48 +1,79 @@
 "use strict";
 
 /*
-Path: 06-strings/string-search/snippets.js
-Topic: String Search
+Path: 1 SIMPLE JS\06_strings\05_string-search\02_snippets.js
+Topic: String Search snippets
 
 How to study:
-1. Read one example.
+1. Read one snippet.
 2. Predict output.
 3. Run this file.
-4. Change one line and run again.
+4. Change one value and run again.
 
 Run:
-node 06-strings/string-search/snippets.js
+node "1 SIMPLE JS/06_strings/05_string-search/02_snippets.js"
 */
 
 function section(label) {
   console.log("\n--- " + label + " ---");
 }
 
-section("Topic");
-console.log("String search methods find text.");
-
-section("Example 1: Basic idea");
+section("1. string length");
 {
-  const topic = "String Search";
-  console.log("Learning:", topic);
-}
-
-/////////////////////////////
-
-section("Example 2: Practical use");
-{
-  function show(value) {
-    return "Value: " + value;
+  function run(str) {
+    return str.length;
   }
-  console.log(show("String Search"));
+  console.log(run("hello"));
 }
 
 /////////////////////////////
 
-section("Example 3: Mini check");
+section("2. uppercase");
 {
-  const steps = ["read", "run", "revise"];
-  console.log(steps.join(" -> "));
+  function run(str) {
+    return str.toUpperCase();
+  }
+  console.log(run("js"));
+}
+
+/////////////////////////////
+
+section("3. includes text");
+{
+  function run(str) {
+    return str.includes("script");
+  }
+  console.log(run("javascript"));
+}
+
+/////////////////////////////
+
+section("4. slice text");
+{
+  function run(str) {
+    return str.slice(0, 4);
+  }
+  console.log(run("javascript"));
+}
+
+/////////////////////////////
+
+section("5. replace text");
+{
+  function run(str) {
+    return str.replace("old", "new");
+  }
+  console.log(run("old value"));
+}
+
+/////////////////////////////
+
+section("6. split words");
+{
+  function run(str) {
+    return str.split(" ");
+  }
+  console.log(run("hello js"));
 }
 
 /////////////////////////////

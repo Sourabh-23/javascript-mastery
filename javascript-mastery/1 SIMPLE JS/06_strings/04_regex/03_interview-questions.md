@@ -1,31 +1,38 @@
 # Regex Interview Questions
 
-Path: `06-strings/regex/interview-questions.md`
+Path: `1 SIMPLE JS\06_strings\04_regex\03_interview-questions.md`
 
-## Beginner
+## Basic
 
 1. What is Regex?
-Answer: Regex is a pattern used to match strings.
+Answer: Regex belongs to strings and should be understood by tracing inputs, operations, and output.
 
 2. Why do we use Regex?
-Answer: To write predictable JavaScript and avoid runtime confusion.
+Answer: We use it to make code behavior clear and predictable for this specific case.
 
-3. Where is this used in backend code?
-Answer: In handlers, services, helpers, validation, and data transformation.
+3. Give a small example.
+
+```js
+const text = "javascript";
+console.log(text.slice(0, 4).toUpperCase());
+```
 
 ## Intermediate
 
-1. What is one common mistake with Regex?
-Answer: Reading the code without tracing scope, value, or execution order.
+1. What is the common mistake?
+Answer: The common mistake is memorizing the definition but not tracing the value line by line.
 
-2. How do you debug Regex issues?
-Answer: Create a small snippet, log values step by step, and explain why each line runs.
+2. How do you debug Regex?
+Answer: Make a tiny example, log the input and output, then change one value and check what changed.
+
+3. What should you mention in interview?
+Answer: Mention behavior, mutation or non-mutation, return value, and one edge case.
 
 ## Advanced
 
-1. Explain Regex in terms of memory and execution.
-Answer: First identify what exists before execution, then trace runtime changes line by line.
+1. Explain Regex in runtime terms.
+Answer: First identify what is created, then trace how JavaScript executes each line and what value is returned.
 
 ## One Line Revision
 
-Regex is a pattern used to match strings.
+Regex: Regex belongs to strings and should be understood by tracing inputs, operations, and output.

@@ -1,20 +1,30 @@
 # Data Hiding Revision
 
-Path: `12-closures/data-hiding/revision.md`
+Path: `2 ADVANCE JS\03_closures\03_data-hiding\06_revision.md`
 
-## Remember
+## Must Remember
 
-- Data hiding keeps data private using closures.
-- Run `snippets.js`.
-- Predict output before terminal.
-- Explain in simple words.
+- Data Hiding belongs to closures and should be understood by tracing inputs, operations, and output.
+- Always predict output before running code.
+- Check whether the original value changes or a new value is returned.
+- Practice one simple case and one edge case.
 
-## Quick Command
+## Quick Example
 
-```bash
-node 12-closures/data-hiding/snippets.js
+```js
+function run(value) {
+  return value;
+}
+console.log(run("Data Hiding"));
 ```
+
+## Study Order
+
+1. Read `01_theory.md`.
+2. Run `02_snippets.js`.
+3. Predict answers in `04_coding-output-practice.js`.
+4. Revise this file before interview.
 
 ## Interview Sentence
 
-Data Hiding means: Data hiding keeps data private using closures.
+Data Hiding means: Data Hiding belongs to closures and should be understood by tracing inputs, operations, and output.

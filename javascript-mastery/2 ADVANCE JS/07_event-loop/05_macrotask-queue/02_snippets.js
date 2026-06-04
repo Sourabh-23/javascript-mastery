@@ -1,48 +1,66 @@
 "use strict";
 
 /*
-Path: 16-event-loop/macrotask-queue/snippets.js
-Topic: Macrotask Queue
+Path: 2 ADVANCE JS\07_event-loop\05_macrotask-queue\02_snippets.js
+Topic: Macrotask Queue snippets
 
 How to study:
-1. Read one example.
+1. Read one snippet.
 2. Predict output.
 3. Run this file.
-4. Change one line and run again.
+4. Change one value and run again.
 
 Run:
-node 16-event-loop/macrotask-queue/snippets.js
+node "2 ADVANCE JS/07_event-loop/05_macrotask-queue/02_snippets.js"
 */
 
 function section(label) {
   console.log("\n--- " + label + " ---");
 }
 
-section("Topic");
-console.log("Macrotask queue stores timers and similar tasks.");
-
-section("Example 1: Basic idea");
+section("1. promise resolves");
 {
-  const topic = "Macrotask Queue";
-  console.log("Learning:", topic);
-}
-
-/////////////////////////////
-
-section("Example 2: Practical use");
-{
-  function show(value) {
-    return "Value: " + value;
+  function getValue() {
+    return Promise.resolve("done");
   }
-  console.log(show("Macrotask Queue"));
+  console.log(getValue() instanceof Promise);
 }
 
 /////////////////////////////
 
-section("Example 3: Mini check");
+section("2. async returns promise");
 {
-  const steps = ["read", "run", "revise"];
-  console.log(steps.join(" -> "));
+  async function getValue() {
+    return 10;
+  }
+  console.log(getValue() instanceof Promise);
+}
+
+/////////////////////////////
+
+section("3. then callback type");
+{
+  const promise = Promise.resolve(10);
+  console.log(typeof promise.then);
+}
+
+/////////////////////////////
+
+section("4. setTimeout id type");
+{
+  const id = setTimeout(() => {}, 1);
+  clearTimeout(id);
+  console.log(typeof id);
+}
+
+/////////////////////////////
+
+section("5. promise all");
+{
+  function run() {
+    return Promise.all([Promise.resolve(1), Promise.resolve(2)]);
+  }
+  console.log(run() instanceof Promise);
 }
 
 /////////////////////////////

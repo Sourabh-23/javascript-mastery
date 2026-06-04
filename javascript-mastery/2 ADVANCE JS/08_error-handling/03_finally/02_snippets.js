@@ -1,48 +1,58 @@
 "use strict";
 
 /*
-Path: 17-error-handling/finally/snippets.js
-Topic: Finally
+Path: 2 ADVANCE JS\08_error-handling\03_finally\02_snippets.js
+Topic: Finally snippets
 
 How to study:
-1. Read one example.
+1. Read one snippet.
 2. Predict output.
 3. Run this file.
-4. Change one line and run again.
+4. Change one value and run again.
 
 Run:
-node 17-error-handling/finally/snippets.js
+node "2 ADVANCE JS/08_error-handling/03_finally/02_snippets.js"
 */
 
 function section(label) {
   console.log("\n--- " + label + " ---");
 }
 
-section("Topic");
-console.log("finally runs cleanup code.");
-
-section("Example 1: Basic idea");
+section("1. try catch catches error");
 {
-  const topic = "Finally";
-  console.log("Learning:", topic);
-}
-
-/////////////////////////////
-
-section("Example 2: Practical use");
-{
-  function show(value) {
-    return "Value: " + value;
+  function run() {
+    try {
+      throw new Error("fail");
+    } catch (error) {
+      return error.message;
+    }
   }
-  console.log(show("Finally"));
+  console.log(run());
 }
 
 /////////////////////////////
 
-section("Example 3: Mini check");
+section("2. finally runs");
 {
-  const steps = ["read", "run", "revise"];
-  console.log(steps.join(" -> "));
+  function run() {
+    const logs = [];
+    try {
+      logs.push("try");
+    } finally {
+      logs.push("finally");
+    }
+    return logs;
+  }
+  console.log(run());
+}
+
+/////////////////////////////
+
+section("3. custom error");
+{
+  class AppError extends Error {}
+  const error = new AppError("bad");
+  console.log(error instanceof Error);
 }
 
 /////////////////////////////

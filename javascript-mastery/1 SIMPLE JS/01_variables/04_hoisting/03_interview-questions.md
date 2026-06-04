@@ -1,31 +1,40 @@
 # Hoisting Interview Questions
 
-Path: `01-variables/hoisting/interview-questions.md`
+Path: `1 SIMPLE JS\01_variables\04_hoisting\03_interview-questions.md`
 
-## Beginner
+## Basic
 
 1. What is Hoisting?
-Answer: Hoisting means JavaScript prepares declarations before line-by-line execution.
+Answer: hoisting is JavaScript preparing declarations before code executes. var, function, let, and const behave differently.
 
 2. Why do we use Hoisting?
-Answer: To write predictable JavaScript and avoid runtime confusion.
+Answer: We use it to make code behavior clear and predictable for this specific case.
 
-3. Where is this used in backend code?
-Answer: In handlers, services, helpers, validation, and data transformation.
+3. Give a small example.
+
+```js
+function run(value) {
+  return value;
+}
+console.log(run("Hoisting"));
+```
 
 ## Intermediate
 
-1. What is one common mistake with Hoisting?
-Answer: Reading the code without tracing scope, value, or execution order.
+1. What is the common mistake?
+Answer: The common mistake is memorizing the definition but not tracing the value line by line.
 
-2. How do you debug Hoisting issues?
-Answer: Create a small snippet, log values step by step, and explain why each line runs.
+2. How do you debug Hoisting?
+Answer: Make a tiny example, log the input and output, then change one value and check what changed.
+
+3. What should you mention in interview?
+Answer: Mention behavior, mutation or non-mutation, return value, and one edge case.
 
 ## Advanced
 
-1. Explain Hoisting in terms of memory and execution.
-Answer: First identify what exists before execution, then trace runtime changes line by line.
+1. Explain Hoisting in runtime terms.
+Answer: First identify what is created, then trace how JavaScript executes each line and what value is returned.
 
 ## One Line Revision
 
-Hoisting means JavaScript prepares declarations before line-by-line execution.
+Hoisting: hoisting is JavaScript preparing declarations before code executes. var, function, let, and const behave differently.

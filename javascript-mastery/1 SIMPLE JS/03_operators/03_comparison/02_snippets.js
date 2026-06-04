@@ -1,48 +1,69 @@
 "use strict";
 
 /*
-Path: 03-operators/comparison/snippets.js
-Topic: Comparison
+Path: 1 SIMPLE JS\03_operators\03_comparison\02_snippets.js
+Topic: Comparison snippets
 
 How to study:
-1. Read one example.
+1. Read one snippet.
 2. Predict output.
 3. Run this file.
-4. Change one line and run again.
+4. Change one value and run again.
 
 Run:
-node 03-operators/comparison/snippets.js
+node "1 SIMPLE JS/03_operators/03_comparison/02_snippets.js"
 */
 
 function section(label) {
   console.log("\n--- " + label + " ---");
 }
 
-section("Topic");
-console.log("Comparison operators compare values and return booleans.");
-
-section("Example 1: Basic idea");
+section("1. arithmetic");
 {
-  const topic = "Comparison";
-  console.log("Learning:", topic);
-}
-
-/////////////////////////////
-
-section("Example 2: Practical use");
-{
-  function show(value) {
-    return "Value: " + value;
+  function run(a, b) {
+    return a + b * 2;
   }
-  console.log(show("Comparison"));
+  console.log(run(3, 4));
 }
 
 /////////////////////////////
 
-section("Example 3: Mini check");
+section("2. comparison");
 {
-  const steps = ["read", "run", "revise"];
-  console.log(steps.join(" -> "));
+  function run(age) {
+    return age >= 18;
+  }
+  console.log(run(20));
+}
+
+/////////////////////////////
+
+section("3. equality");
+{
+  function run(a, b) {
+    return a === b;
+  }
+  console.log(run(5, "5"));
+}
+
+/////////////////////////////
+
+section("4. logical");
+{
+  function run(user) {
+    return user && user.active;
+  }
+  console.log(run({ active: true }));
+}
+
+/////////////////////////////
+
+section("5. nullish");
+{
+  function run(value) {
+    return value ?? "default";
+  }
+  console.log(run(null));
 }
 
 /////////////////////////////

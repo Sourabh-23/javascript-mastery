@@ -1,20 +1,30 @@
 # Interview Traps Revision
 
-Path: `13-this-keyword/interview-traps/revision.md`
+Path: `2 ADVANCE JS\04_this-keyword\06_interview-traps\06_revision.md`
 
-## Remember
+## Must Remember
 
-- Interview Traps is a JavaScript topic. Learn the basic idea first, then run the snippet and practice questions.
-- Run `snippets.js`.
-- Predict output before terminal.
-- Explain in simple words.
+- Interview Traps belongs to this keyword and should be understood by tracing inputs, operations, and output.
+- Always predict output before running code.
+- Check whether the original value changes or a new value is returned.
+- Practice one simple case and one edge case.
 
-## Quick Command
+## Quick Example
 
-```bash
-node 13-this-keyword/interview-traps/snippets.js
+```js
+function run(value) {
+  return value;
+}
+console.log(run("Interview Traps"));
 ```
+
+## Study Order
+
+1. Read `01_theory.md`.
+2. Run `02_snippets.js`.
+3. Predict answers in `04_coding-output-practice.js`.
+4. Revise this file before interview.
 
 ## Interview Sentence
 
-Interview Traps means: Interview Traps is a JavaScript topic. Learn the basic idea first, then run the snippet and practice questions.
+Interview Traps means: Interview Traps belongs to this keyword and should be understood by tracing inputs, operations, and output.

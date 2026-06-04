@@ -1,48 +1,109 @@
 "use strict";
 
 /*
-Path: 08-loops/for-in/snippets.js
-Topic: For In
+Path: 1 SIMPLE JS\08_loops\04_for-in\02_snippets.js
+Topic: for-in loop snippets
 
 How to study:
-1. Read one example.
+1. Read one snippet.
 2. Predict output.
 3. Run this file.
-4. Change one line and run again.
+4. Change one value and run again.
 
 Run:
-node 08-loops/for-in/snippets.js
+node "1 SIMPLE JS/08_loops/04_for-in/02_snippets.js"
 */
 
 function section(label) {
   console.log("\n--- " + label + " ---");
 }
 
-section("Topic");
-console.log("for-in loops over object keys.");
-
-section("Example 1: Basic idea");
+section("1. Loop object keys");
 {
-  const topic = "For In";
-  console.log("Learning:", topic);
-}
-
-/////////////////////////////
-
-section("Example 2: Practical use");
-{
-  function show(value) {
-    return "Value: " + value;
+  const user = { name: "Amit", age: 22 };
+  for (const key in user) {
+    console.log(key);
   }
-  console.log(show("For In"));
 }
 
 /////////////////////////////
 
-section("Example 3: Mini check");
+section("2. Access object values");
 {
-  const steps = ["read", "run", "revise"];
-  console.log(steps.join(" -> "));
+  const marks = { math: 80, english: 75 };
+  for (const subject in marks) {
+    console.log(subject, marks[subject]);
+  }
+}
+
+/////////////////////////////
+
+section("3. Sum object values");
+{
+  const marks = { math: 80, english: 75, science: 90 };
+  let total = 0;
+  for (const subject in marks) {
+    total += marks[subject];
+  }
+  console.log(total);
+}
+
+/////////////////////////////
+
+section("4. Copy object manually");
+{
+  const user = { name: "Amit", role: "dev" };
+  const copy = {};
+  for (const key in user) {
+    copy[key] = user[key];
+  }
+  console.log(copy);
+}
+
+/////////////////////////////
+
+section("5. Filter object values");
+{
+  const data = { a: 1, b: "hello", c: 3 };
+  const numbers = {};
+  for (const key in data) {
+    if (typeof data[key] === "number") numbers[key] = data[key];
+  }
+  console.log(numbers);
+}
+
+/////////////////////////////
+
+section("6. for-in on array gives indexes");
+{
+  const colors = ["red", "blue"];
+  for (const index in colors) {
+    console.log(index, colors[index]);
+  }
+}
+
+/////////////////////////////
+
+section("7. Check own property");
+{
+  const user = { name: "Amit" };
+  for (const key in user) {
+    if (Object.hasOwn(user, key)) {
+      console.log(key);
+    }
+  }
+}
+
+/////////////////////////////
+
+section("8. Create labels from object");
+{
+  const product = { name: "Phone", price: 12000 };
+  const labels = [];
+  for (const key in product) {
+    labels.push(key + ": " + product[key]);
+  }
+  console.log(labels);
 }
 
 /////////////////////////////

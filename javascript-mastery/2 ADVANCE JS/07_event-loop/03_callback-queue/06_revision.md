@@ -1,20 +1,31 @@
 # Callback Queue Revision
 
-Path: `16-event-loop/callback-queue/revision.md`
+Path: `2 ADVANCE JS\07_event-loop\03_callback-queue\06_revision.md`
 
-## Remember
+## Must Remember
 
-- Callback Queue is a JavaScript topic. Learn the basic idea first, then run the snippet and practice questions.
-- Run `snippets.js`.
-- Predict output before terminal.
-- Explain in simple words.
+- this depends on how a function is called; call/apply/bind manually control it.
+- Always predict output before running code.
+- Check whether the original value changes or a new value is returned.
+- Practice one simple case and one edge case.
 
-## Quick Command
+## Quick Example
 
-```bash
-node 16-event-loop/callback-queue/snippets.js
+```js
+const user = { name: "Amit" };
+function getName() {
+  return this.name;
+}
+console.log(getName.call(user));
 ```
+
+## Study Order
+
+1. Read `01_theory.md`.
+2. Run `02_snippets.js`.
+3. Predict answers in `04_coding-output-practice.js`.
+4. Revise this file before interview.
 
 ## Interview Sentence
 
-Callback Queue means: Callback Queue is a JavaScript topic. Learn the basic idea first, then run the snippet and practice questions.
+Callback Queue means: this depends on how a function is called; call/apply/bind manually control it.

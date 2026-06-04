@@ -1,20 +1,30 @@
 # Function Revision
 
-Path: `02-data-types/function/revision.md`
+Path: `1 SIMPLE JS\02_data-types\10_function\06_revision.md`
 
-## Remember
+## Must Remember
 
-- Function is reusable code and also a value in JavaScript.
-- Run `snippets.js`.
-- Predict output before terminal.
-- Explain in simple words.
+- Function belongs to data types and should be understood by tracing inputs, operations, and output.
+- Always predict output before running code.
+- Check whether the original value changes or a new value is returned.
+- Practice one simple case and one edge case.
 
-## Quick Command
+## Quick Example
 
-```bash
-node 02-data-types/function/snippets.js
+```js
+function run(value) {
+  return value;
+}
+console.log(run("Function"));
 ```
+
+## Study Order
+
+1. Read `01_theory.md`.
+2. Run `02_snippets.js`.
+3. Predict answers in `04_coding-output-practice.js`.
+4. Revise this file before interview.
 
 ## Interview Sentence
 
-Function means: Function is reusable code and also a value in JavaScript.
+Function means: Function belongs to data types and should be understood by tracing inputs, operations, and output.

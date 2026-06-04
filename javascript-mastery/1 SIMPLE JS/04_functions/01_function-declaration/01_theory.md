@@ -37,4 +37,4 @@ A function is a reusable block of code that can accept parameters and return a v
 2. Open `02_snippets.js` and run each example.
 3. Predict output before checking the answer.
 4. Read `03_interview-questions.md` for spoken interview answers.
-5. Practice `04_output-questions.js` for confidence.
+5. Practice `04_coding-output-practice.js` for confidence.

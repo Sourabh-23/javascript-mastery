@@ -1,31 +1,39 @@
 # Filter Interview Questions
 
-Path: `05-arrays/filter/interview-questions.md`
+Path: `1 SIMPLE JS\05_arrays\05_filter\03_interview-questions.md`
 
-## Beginner
+## Basic
 
 1. What is Filter?
-Answer: filter keeps matching items and returns a new array.
+Answer: filter keeps only items that pass a condition and returns a new array.
 
 2. Why do we use Filter?
-Answer: To write predictable JavaScript and avoid runtime confusion.
+Answer: We use it to make code behavior clear and predictable for this specific case.
 
-3. Where is this used in backend code?
-Answer: In handlers, services, helpers, validation, and data transformation.
+3. Give a small example.
+
+```js
+const nums = [-1, 2, 3];
+const result = nums.filter((num) => num > 0);
+console.log(result);
+```
 
 ## Intermediate
 
-1. What is one common mistake with Filter?
-Answer: Reading the code without tracing scope, value, or execution order.
+1. What is the common mistake?
+Answer: The common mistake is memorizing the definition but not tracing the value line by line.
 
-2. How do you debug Filter issues?
-Answer: Create a small snippet, log values step by step, and explain why each line runs.
+2. How do you debug Filter?
+Answer: Make a tiny example, log the input and output, then change one value and check what changed.
+
+3. What should you mention in interview?
+Answer: Mention behavior, mutation or non-mutation, return value, and one edge case.
 
 ## Advanced
 
-1. Explain Filter in terms of memory and execution.
-Answer: First identify what exists before execution, then trace runtime changes line by line.
+1. Explain Filter in runtime terms.
+Answer: First identify what is created, then trace how JavaScript executes each line and what value is returned.
 
 ## One Line Revision
 
-filter keeps matching items and returns a new array.
+Filter: filter keeps only items that pass a condition and returns a new array.
