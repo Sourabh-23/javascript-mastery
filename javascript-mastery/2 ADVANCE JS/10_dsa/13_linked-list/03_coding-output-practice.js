@@ -517,3 +517,111 @@ How to study:
 }
 
 /////////////////////////////
+
+// ================= PDF BASED PRACTICE =================
+
+// PDF Q603. Write clean code for linked list and explain time complexity in comments.
+{
+  function linkedListIn(head) {
+    let count = 0;
+    let current = head;
+    while (current) {
+      count++;
+      current = current.next;
+    }
+    return count;
+  }
+
+  // Input:
+  linkedListIn({ value: 1, next: { value: 2, next: null } });
+
+  // Answer:
+  // 2
+}
+
+/////////////////////////////
+
+// PDF Q613. Write clean code for linked list and explain time complexity in comments.
+{
+  function linkedListIn(head) {
+    let count = 0;
+    let current = head;
+    while (current) {
+      count++;
+      current = current.next;
+    }
+    return count;
+  }
+
+  // Input:
+  linkedListIn({ value: 1, next: { value: 2, next: null } });
+
+  // Answer:
+  // 2
+}
+
+/////////////////////////////
+
+// PDF Q623. Write clean code for linked list and explain time complexity in comments.
+{
+  function linkedListIn(head) {
+    let count = 0;
+    let current = head;
+    while (current) {
+      count++;
+      current = current.next;
+    }
+    return count;
+  }
+
+  // Input:
+  linkedListIn({ value: 1, next: { value: 2, next: null } });
+
+  // Answer:
+  // 2
+}
+
+/////////////////////////////
+
+// PDF Q633. Write clean code for linked list and explain time complexity in comments.
+{
+  function linkedListIn(head) {
+    let count = 0;
+    let current = head;
+    while (current) {
+      count++;
+      current = current.next;
+    }
+    return count;
+  }
+
+  // Input:
+  linkedListIn({ value: 1, next: { value: 2, next: null } });
+
+  // Answer:
+  // 2
+}
+
+/////////////////////////////
+
+// PDF Q643. Write clean code for linked list and explain time complexity in comments.
+{
+  function linkedListIn(head) {
+    let count = 0;
+    let current = head;
+    while (current) {
+      count++;
+      current = current.next;
+    }
+    return count;
+  }
+
+  // Input:
+  linkedListIn({ value: 1, next: { value: 2, next: null } });
+
+  // Answer:
+  // 2
+}
+
+/////////////////////////////
+

@@ -517,3 +517,146 @@ How to study:
 }
 
 /////////////////////////////
+
+// ================= PDF BASED PRACTICE =================
+
+// PDF Q608. Write clean code for graph adjacency list and explain time complexity in comments.
+{
+  function graphAdjacencyListIn(graph, start) {
+    const queue = [start];
+    const visited = new Set([start]);
+    const order = [];
+    while (queue.length) {
+      const node = queue.shift();
+      order.push(node);
+      for (const next of graph[node] || []) {
+        if (!visited.has(next)) {
+          visited.add(next);
+          queue.push(next);
+        }
+      }
+    }
+    return order;
+  }
+
+  // Input:
+  graphAdjacencyListIn({ A: ['B', 'C'], B: [], C: [] }, 'A');
+
+  // Answer:
+  // ["A", "B", "C"]
+}
+
+/////////////////////////////
+
+// PDF Q618. Write clean code for graph adjacency list and explain time complexity in comments.
+{
+  function graphAdjacencyListIn(graph, start) {
+    const queue = [start];
+    const visited = new Set([start]);
+    const order = [];
+    while (queue.length) {
+      const node = queue.shift();
+      order.push(node);
+      for (const next of graph[node] || []) {
+        if (!visited.has(next)) {
+          visited.add(next);
+          queue.push(next);
+        }
+      }
+    }
+    return order;
+  }
+
+  // Input:
+  graphAdjacencyListIn({ A: ['B', 'C'], B: [], C: [] }, 'A');
+
+  // Answer:
+  // ["A", "B", "C"]
+}
+
+/////////////////////////////
+
+// PDF Q628. Write clean code for graph adjacency list and explain time complexity in comments.
+{
+  function graphAdjacencyListIn(graph, start) {
+    const queue = [start];
+    const visited = new Set([start]);
+    const order = [];
+    while (queue.length) {
+      const node = queue.shift();
+      order.push(node);
+      for (const next of graph[node] || []) {
+        if (!visited.has(next)) {
+          visited.add(next);
+          queue.push(next);
+        }
+      }
+    }
+    return order;
+  }
+
+  // Input:
+  graphAdjacencyListIn({ A: ['B', 'C'], B: [], C: [] }, 'A');
+
+  // Answer:
+  // ["A", "B", "C"]
+}
+
+/////////////////////////////
+
+// PDF Q638. Write clean code for graph adjacency list and explain time complexity in comments.
+{
+  function graphAdjacencyListIn(graph, start) {
+    const queue = [start];
+    const visited = new Set([start]);
+    const order = [];
+    while (queue.length) {
+      const node = queue.shift();
+      order.push(node);
+      for (const next of graph[node] || []) {
+        if (!visited.has(next)) {
+          visited.add(next);
+          queue.push(next);
+        }
+      }
+    }
+    return order;
+  }
+
+  // Input:
+  graphAdjacencyListIn({ A: ['B', 'C'], B: [], C: [] }, 'A');
+
+  // Answer:
+  // ["A", "B", "C"]
+}
+
+/////////////////////////////
+
+// PDF Q648. Write clean code for graph adjacency list and explain time complexity in comments.
+{
+  function graphAdjacencyListIn(graph, start) {
+    const queue = [start];
+    const visited = new Set([start]);
+    const order = [];
+    while (queue.length) {
+      const node = queue.shift();
+      order.push(node);
+      for (const next of graph[node] || []) {
+        if (!visited.has(next)) {
+          visited.add(next);
+          queue.push(next);
+        }
+      }
+    }
+    return order;
+  }
+
+  // Input:
+  graphAdjacencyListIn({ A: ['B', 'C'], B: [], C: [] }, 'A');
+
+  // Answer:
+  // ["A", "B", "C"]
+}
+
+/////////////////////////////
+

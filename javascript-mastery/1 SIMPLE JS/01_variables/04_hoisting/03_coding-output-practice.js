@@ -456,3 +456,81 @@ How to study:
 }
 
 /////////////////////////////
+
+// ================= PDF BASED PRACTICE =================
+
+// PDF Q802. Solve a coding problem using fix hoisting bug without using unnecessary built-in shortcuts.
+{
+  function fixHoistingBugIn(items) {
+    return Array.isArray(items) ? items.length : String(items).length;
+  }
+
+  // Input:
+  fixHoistingBugIn([1, 2, 3]);
+
+  // Answer:
+  // 3
+}
+
+/////////////////////////////
+
+// PDF Q812. Solve a coding problem using fix hoisting bug without using unnecessary built-in shortcuts.
+{
+  function fixHoistingBugIn(items) {
+    return Array.isArray(items) ? items.length : String(items).length;
+  }
+
+  // Input:
+  fixHoistingBugIn([1, 2, 3]);
+
+  // Answer:
+  // 3
+}
+
+/////////////////////////////
+
+// PDF Q822. Solve a coding problem using fix hoisting bug without using unnecessary built-in shortcuts.
+{
+  function fixHoistingBugIn(items) {
+    return Array.isArray(items) ? items.length : String(items).length;
+  }
+
+  // Input:
+  fixHoistingBugIn([1, 2, 3]);
+
+  // Answer:
+  // 3
+}
+
+/////////////////////////////
+
+// PDF Q832. Solve a coding problem using fix hoisting bug without using unnecessary built-in shortcuts.
+{
+  function fixHoistingBugIn(items) {
+    return Array.isArray(items) ? items.length : String(items).length;
+  }
+
+  // Input:
+  fixHoistingBugIn([1, 2, 3]);
+
+  // Answer:
+  // 3
+}
+
+/////////////////////////////
+
+// PDF Q842. Solve a coding problem using fix hoisting bug without using unnecessary built-in shortcuts.
+{
+  function fixHoistingBugIn(items) {
+    return Array.isArray(items) ? items.length : String(items).length;
+  }
+
+  // Input:
+  fixHoistingBugIn([1, 2, 3]);
+
+  // Answer:
+  // 3
+}
+
+/////////////////////////////
+

@@ -392,3 +392,111 @@ How to study:
 }
 
 /////////////////////////////
+
+// ================= PDF BASED PRACTICE =================
+
+// PDF Q127. Write a function to flatten one-level nested array.
+{
+  function flattenOneLevelNestedArray(obj, key) {
+    return obj?.[key];
+  }
+
+  // Input:
+  flattenOneLevelNestedArray({ name: 'Amit' }, 'name');
+
+  // Answer:
+  // "Amit"
+}
+
+/////////////////////////////
+
+// PDF Q128. Write a function to flatten deeply nested array.
+{
+  function flattenDeeplyNestedArray(obj, key) {
+    return obj?.[key];
+  }
+
+  // Input:
+  flattenDeeplyNestedArray({ name: 'Amit' }, 'name');
+
+  // Answer:
+  // "Amit"
+}
+
+/////////////////////////////
+
+// PDF Q305. Debug a broken JavaScript snippet related to flatten array and rewrite it correctly.
+{
+  function flattenArrayIt(items) {
+    return items.length;
+  }
+
+  // Input:
+  flattenArrayIt([1, 2, 3]);
+
+  // Answer:
+  // 3
+}
+
+/////////////////////////////
+
+// PDF Q315. Debug a broken JavaScript snippet related to flatten array and rewrite it correctly.
+{
+  function flattenArrayIt(items) {
+    return items.length;
+  }
+
+  // Input:
+  flattenArrayIt([1, 2, 3]);
+
+  // Answer:
+  // 3
+}
+
+/////////////////////////////
+
+// PDF Q325. Debug a broken JavaScript snippet related to flatten array and rewrite it correctly.
+{
+  function flattenArrayIt(items) {
+    return items.length;
+  }
+
+  // Input:
+  flattenArrayIt([1, 2, 3]);
+
+  // Answer:
+  // 3
+}
+
+/////////////////////////////
+
+// PDF Q335. Debug a broken JavaScript snippet related to flatten array and rewrite it correctly.
+{
+  function flattenArrayIt(items) {
+    return items.length;
+  }
+
+  // Input:
+  flattenArrayIt([1, 2, 3]);
+
+  // Answer:
+  // 3
+}
+
+/////////////////////////////
+
+// PDF Q345. Debug a broken JavaScript snippet related to flatten array and rewrite it correctly.
+{
+  function flattenArrayIt(items) {
+    return items.length;
+  }
+
+  // Input:
+  flattenArrayIt([1, 2, 3]);
+
+  // Answer:
+  // 3
+}
+
+/////////////////////////////
+

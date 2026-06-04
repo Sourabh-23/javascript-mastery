@@ -386,3 +386,431 @@ How to study:
 }
 
 /////////////////////////////
+
+// ================= PDF BASED PRACTICE =================
+
+// PDF Q9. Write a program to calculate simple interest using JavaScript variables.
+{
+  function calculateSimpleInterestVariables(principal, rate, years) {
+    return principal * rate * years / 100;
+  }
+
+  // Input:
+  calculateSimpleInterestVariables(1000, 10, 2);
+
+  // Answer:
+  // 200
+}
+
+/////////////////////////////
+
+// PDF Q10. Write a function to calculate compound interest for given principal, rate and years.
+{
+  function calculateCompoundInterestForPrincipal(principal, rate, years) {
+    return principal * Math.pow(1 + rate / 100, years) - principal;
+  }
+
+  // Input:
+  calculateCompoundInterestForPrincipal(1000, 10, 2);
+
+  // Answer:
+  // 210.00000000000023
+}
+
+/////////////////////////////
+
+// PDF Q551. Write a JavaScript function for destructuring and handle empty input.
+{
+  function destructuring(items) {
+    const [first, ...rest] = [...items];
+    return { first, rest };
+  }
+
+  // Input:
+  destructuring([10, 20, 30]);
+
+  // Answer:
+  // { first: 10, rest: [20, 30] }
+}
+
+/////////////////////////////
+
+// PDF Q552. Solve a coding problem using spread operator without using unnecessary built-in shortcuts.
+{
+  function spreadOperatorIn(items) {
+    const [first, ...rest] = [...items];
+    return { first, rest };
+  }
+
+  // Input:
+  spreadOperatorIn([10, 20, 30]);
+
+  // Answer:
+  // { first: 10, rest: [20, 30] }
+}
+
+/////////////////////////////
+
+// PDF Q553. Write clean code for rest parameter and explain time complexity in comments.
+{
+  function restParameterIn(items) {
+    const [first, ...rest] = [...items];
+    return { first, rest };
+  }
+
+  // Input:
+  restParameterIn([10, 20, 30]);
+
+  // Answer:
+  // { first: 10, rest: [20, 30] }
+}
+
+/////////////////////////////
+
+// PDF Q556. Write a JavaScript function for Set and handle empty input.
+{
+  function set(items) {
+    const [first, ...rest] = [...items];
+    return { first, rest };
+  }
+
+  // Input:
+  set([10, 20, 30]);
+
+  // Answer:
+  // { first: 10, rest: [20, 30] }
+}
+
+/////////////////////////////
+
+// PDF Q558. Write clean code for WeakMap and explain time complexity in comments.
+{
+  function forWeakmapExplainTimeComplexity(items) {
+    return items.map((item) => item * 2);
+  }
+
+  // Input:
+  forWeakmapExplainTimeComplexity([1, 2, 3]);
+
+  // Answer:
+  // [2, 4, 6]
+}
+
+/////////////////////////////
+
+// PDF Q561. Write a JavaScript function for destructuring and handle empty input.
+{
+  function destructuring(items) {
+    const [first, ...rest] = [...items];
+    return { first, rest };
+  }
+
+  // Input:
+  destructuring([10, 20, 30]);
+
+  // Answer:
+  // { first: 10, rest: [20, 30] }
+}
+
+/////////////////////////////
+
+// PDF Q562. Solve a coding problem using spread operator without using unnecessary built-in shortcuts.
+{
+  function spreadOperatorIn(items) {
+    const [first, ...rest] = [...items];
+    return { first, rest };
+  }
+
+  // Input:
+  spreadOperatorIn([10, 20, 30]);
+
+  // Answer:
+  // { first: 10, rest: [20, 30] }
+}
+
+/////////////////////////////
+
+// PDF Q563. Write clean code for rest parameter and explain time complexity in comments.
+{
+  function restParameterIn(items) {
+    const [first, ...rest] = [...items];
+    return { first, rest };
+  }
+
+  // Input:
+  restParameterIn([10, 20, 30]);
+
+  // Answer:
+  // { first: 10, rest: [20, 30] }
+}
+
+/////////////////////////////
+
+// PDF Q566. Write a JavaScript function for Set and handle empty input.
+{
+  function set(items) {
+    const [first, ...rest] = [...items];
+    return { first, rest };
+  }
+
+  // Input:
+  set([10, 20, 30]);
+
+  // Answer:
+  // { first: 10, rest: [20, 30] }
+}
+
+/////////////////////////////
+
+// PDF Q568. Write clean code for WeakMap and explain time complexity in comments.
+{
+  function forWeakmapExplainTimeComplexity(items) {
+    return items.map((item) => item * 2);
+  }
+
+  // Input:
+  forWeakmapExplainTimeComplexity([1, 2, 3]);
+
+  // Answer:
+  // [2, 4, 6]
+}
+
+/////////////////////////////
+
+// PDF Q571. Write a JavaScript function for destructuring and handle empty input.
+{
+  function destructuring(items) {
+    const [first, ...rest] = [...items];
+    return { first, rest };
+  }
+
+  // Input:
+  destructuring([10, 20, 30]);
+
+  // Answer:
+  // { first: 10, rest: [20, 30] }
+}
+
+/////////////////////////////
+
+// PDF Q572. Solve a coding problem using spread operator without using unnecessary built-in shortcuts.
+{
+  function spreadOperatorIn(items) {
+    const [first, ...rest] = [...items];
+    return { first, rest };
+  }
+
+  // Input:
+  spreadOperatorIn([10, 20, 30]);
+
+  // Answer:
+  // { first: 10, rest: [20, 30] }
+}
+
+/////////////////////////////
+
+// PDF Q573. Write clean code for rest parameter and explain time complexity in comments.
+{
+  function restParameterIn(items) {
+    const [first, ...rest] = [...items];
+    return { first, rest };
+  }
+
+  // Input:
+  restParameterIn([10, 20, 30]);
+
+  // Answer:
+  // { first: 10, rest: [20, 30] }
+}
+
+/////////////////////////////
+
+// PDF Q576. Write a JavaScript function for Set and handle empty input.
+{
+  function set(items) {
+    const [first, ...rest] = [...items];
+    return { first, rest };
+  }
+
+  // Input:
+  set([10, 20, 30]);
+
+  // Answer:
+  // { first: 10, rest: [20, 30] }
+}
+
+/////////////////////////////
+
+// PDF Q578. Write clean code for WeakMap and explain time complexity in comments.
+{
+  function forWeakmapExplainTimeComplexity(items) {
+    return items.map((item) => item * 2);
+  }
+
+  // Input:
+  forWeakmapExplainTimeComplexity([1, 2, 3]);
+
+  // Answer:
+  // [2, 4, 6]
+}
+
+/////////////////////////////
+
+// PDF Q581. Write a JavaScript function for destructuring and handle empty input.
+{
+  function destructuring(items) {
+    const [first, ...rest] = [...items];
+    return { first, rest };
+  }
+
+  // Input:
+  destructuring([10, 20, 30]);
+
+  // Answer:
+  // { first: 10, rest: [20, 30] }
+}
+
+/////////////////////////////
+
+// PDF Q582. Solve a coding problem using spread operator without using unnecessary built-in shortcuts.
+{
+  function spreadOperatorIn(items) {
+    const [first, ...rest] = [...items];
+    return { first, rest };
+  }
+
+  // Input:
+  spreadOperatorIn([10, 20, 30]);
+
+  // Answer:
+  // { first: 10, rest: [20, 30] }
+}
+
+/////////////////////////////
+
+// PDF Q583. Write clean code for rest parameter and explain time complexity in comments.
+{
+  function restParameterIn(items) {
+    const [first, ...rest] = [...items];
+    return { first, rest };
+  }
+
+  // Input:
+  restParameterIn([10, 20, 30]);
+
+  // Answer:
+  // { first: 10, rest: [20, 30] }
+}
+
+/////////////////////////////
+
+// PDF Q586. Write a JavaScript function for Set and handle empty input.
+{
+  function set(items) {
+    const [first, ...rest] = [...items];
+    return { first, rest };
+  }
+
+  // Input:
+  set([10, 20, 30]);
+
+  // Answer:
+  // { first: 10, rest: [20, 30] }
+}
+
+/////////////////////////////
+
+// PDF Q588. Write clean code for WeakMap and explain time complexity in comments.
+{
+  function forWeakmapExplainTimeComplexity(items) {
+    return items.map((item) => item * 2);
+  }
+
+  // Input:
+  forWeakmapExplainTimeComplexity([1, 2, 3]);
+
+  // Answer:
+  // [2, 4, 6]
+}
+
+/////////////////////////////
+
+// PDF Q591. Write a JavaScript function for destructuring and handle empty input.
+{
+  function destructuring(items) {
+    const [first, ...rest] = [...items];
+    return { first, rest };
+  }
+
+  // Input:
+  destructuring([10, 20, 30]);
+
+  // Answer:
+  // { first: 10, rest: [20, 30] }
+}
+
+/////////////////////////////
+
+// PDF Q592. Solve a coding problem using spread operator without using unnecessary built-in shortcuts.
+{
+  function spreadOperatorIn(items) {
+    const [first, ...rest] = [...items];
+    return { first, rest };
+  }
+
+  // Input:
+  spreadOperatorIn([10, 20, 30]);
+
+  // Answer:
+  // { first: 10, rest: [20, 30] }
+}
+
+/////////////////////////////
+
+// PDF Q593. Write clean code for rest parameter and explain time complexity in comments.
+{
+  function restParameterIn(items) {
+    const [first, ...rest] = [...items];
+    return { first, rest };
+  }
+
+  // Input:
+  restParameterIn([10, 20, 30]);
+
+  // Answer:
+  // { first: 10, rest: [20, 30] }
+}
+
+/////////////////////////////
+
+// PDF Q596. Write a JavaScript function for Set and handle empty input.
+{
+  function set(items) {
+    const [first, ...rest] = [...items];
+    return { first, rest };
+  }
+
+  // Input:
+  set([10, 20, 30]);
+
+  // Answer:
+  // { first: 10, rest: [20, 30] }
+}
+
+/////////////////////////////
+
+// PDF Q598. Write clean code for WeakMap and explain time complexity in comments.
+{
+  function forWeakmapExplainTimeComplexity(items) {
+    return items.map((item) => item * 2);
+  }
+
+  // Input:
+  forWeakmapExplainTimeComplexity([1, 2, 3]);
+
+  // Answer:
+  // [2, 4, 6]
+}
+
+/////////////////////////////
+

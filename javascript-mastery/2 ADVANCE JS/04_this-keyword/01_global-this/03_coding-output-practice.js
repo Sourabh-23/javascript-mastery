@@ -437,3 +437,386 @@ How to study:
 }
 
 /////////////////////////////
+
+// ================= PDF BASED PRACTICE =================
+
+// PDF Q805. Debug a broken JavaScript snippet related to arrow function this and rewrite it correctly.
+{
+  function arrowThisIt(name) {
+    const user = {
+      name,
+      getName() { return this.name; }
+    };
+    return user.getName();
+  }
+
+  // Input:
+  arrowThisIt('Amit');
+
+  // Answer:
+  // "Amit"
+}
+
+/////////////////////////////
+
+// PDF Q815. Debug a broken JavaScript snippet related to arrow function this and rewrite it correctly.
+{
+  function arrowThisIt(name) {
+    const user = {
+      name,
+      getName() { return this.name; }
+    };
+    return user.getName();
+  }
+
+  // Input:
+  arrowThisIt('Amit');
+
+  // Answer:
+  // "Amit"
+}
+
+/////////////////////////////
+
+// PDF Q825. Debug a broken JavaScript snippet related to arrow function this and rewrite it correctly.
+{
+  function arrowThisIt(name) {
+    const user = {
+      name,
+      getName() { return this.name; }
+    };
+    return user.getName();
+  }
+
+  // Input:
+  arrowThisIt('Amit');
+
+  // Answer:
+  // "Amit"
+}
+
+/////////////////////////////
+
+// PDF Q835. Debug a broken JavaScript snippet related to arrow function this and rewrite it correctly.
+{
+  function arrowThisIt(name) {
+    const user = {
+      name,
+      getName() { return this.name; }
+    };
+    return user.getName();
+  }
+
+  // Input:
+  arrowThisIt('Amit');
+
+  // Answer:
+  // "Amit"
+}
+
+/////////////////////////////
+
+// PDF Q845. Debug a broken JavaScript snippet related to arrow function this and rewrite it correctly.
+{
+  function arrowThisIt(name) {
+    const user = {
+      name,
+      getName() { return this.name; }
+    };
+    return user.getName();
+  }
+
+  // Input:
+  arrowThisIt('Amit');
+
+  // Answer:
+  // "Amit"
+}
+
+/////////////////////////////
+
+// PDF Q855. Debug a broken JavaScript snippet related to bind and rewrite it correctly.
+{
+  function bindIt(name) {
+    const user = {
+      name,
+      getName() { return this.name; }
+    };
+    return user.getName();
+  }
+
+  // Input:
+  bindIt('Amit');
+
+  // Answer:
+  // "Amit"
+}
+
+/////////////////////////////
+
+// PDF Q856. Write a JavaScript function for call and handle empty input.
+{
+  function call(name) {
+    const user = {
+      name,
+      getName() { return this.name; }
+    };
+    return user.getName();
+  }
+
+  // Input:
+  call('Amit');
+
+  // Answer:
+  // "Amit"
+}
+
+/////////////////////////////
+
+// PDF Q857. Solve a coding problem using apply without using unnecessary built-in shortcuts.
+{
+  function applyIn(name) {
+    const user = {
+      name,
+      getName() { return this.name; }
+    };
+    return user.getName();
+  }
+
+  // Input:
+  applyIn('Amit');
+
+  // Answer:
+  // "Amit"
+}
+
+/////////////////////////////
+
+// PDF Q865. Debug a broken JavaScript snippet related to bind and rewrite it correctly.
+{
+  function bindIt(name) {
+    const user = {
+      name,
+      getName() { return this.name; }
+    };
+    return user.getName();
+  }
+
+  // Input:
+  bindIt('Amit');
+
+  // Answer:
+  // "Amit"
+}
+
+/////////////////////////////
+
+// PDF Q866. Write a JavaScript function for call and handle empty input.
+{
+  function call(name) {
+    const user = {
+      name,
+      getName() { return this.name; }
+    };
+    return user.getName();
+  }
+
+  // Input:
+  call('Amit');
+
+  // Answer:
+  // "Amit"
+}
+
+/////////////////////////////
+
+// PDF Q867. Solve a coding problem using apply without using unnecessary built-in shortcuts.
+{
+  function applyIn(name) {
+    const user = {
+      name,
+      getName() { return this.name; }
+    };
+    return user.getName();
+  }
+
+  // Input:
+  applyIn('Amit');
+
+  // Answer:
+  // "Amit"
+}
+
+/////////////////////////////
+
+// PDF Q875. Debug a broken JavaScript snippet related to bind and rewrite it correctly.
+{
+  function bindIt(name) {
+    const user = {
+      name,
+      getName() { return this.name; }
+    };
+    return user.getName();
+  }
+
+  // Input:
+  bindIt('Amit');
+
+  // Answer:
+  // "Amit"
+}
+
+/////////////////////////////
+
+// PDF Q876. Write a JavaScript function for call and handle empty input.
+{
+  function call(name) {
+    const user = {
+      name,
+      getName() { return this.name; }
+    };
+    return user.getName();
+  }
+
+  // Input:
+  call('Amit');
+
+  // Answer:
+  // "Amit"
+}
+
+/////////////////////////////
+
+// PDF Q877. Solve a coding problem using apply without using unnecessary built-in shortcuts.
+{
+  function applyIn(name) {
+    const user = {
+      name,
+      getName() { return this.name; }
+    };
+    return user.getName();
+  }
+
+  // Input:
+  applyIn('Amit');
+
+  // Answer:
+  // "Amit"
+}
+
+/////////////////////////////
+
+// PDF Q885. Debug a broken JavaScript snippet related to bind and rewrite it correctly.
+{
+  function bindIt(name) {
+    const user = {
+      name,
+      getName() { return this.name; }
+    };
+    return user.getName();
+  }
+
+  // Input:
+  bindIt('Amit');
+
+  // Answer:
+  // "Amit"
+}
+
+/////////////////////////////
+
+// PDF Q886. Write a JavaScript function for call and handle empty input.
+{
+  function call(name) {
+    const user = {
+      name,
+      getName() { return this.name; }
+    };
+    return user.getName();
+  }
+
+  // Input:
+  call('Amit');
+
+  // Answer:
+  // "Amit"
+}
+
+/////////////////////////////
+
+// PDF Q887. Solve a coding problem using apply without using unnecessary built-in shortcuts.
+{
+  function applyIn(name) {
+    const user = {
+      name,
+      getName() { return this.name; }
+    };
+    return user.getName();
+  }
+
+  // Input:
+  applyIn('Amit');
+
+  // Answer:
+  // "Amit"
+}
+
+/////////////////////////////
+
+// PDF Q895. Debug a broken JavaScript snippet related to bind and rewrite it correctly.
+{
+  function bindIt(name) {
+    const user = {
+      name,
+      getName() { return this.name; }
+    };
+    return user.getName();
+  }
+
+  // Input:
+  bindIt('Amit');
+
+  // Answer:
+  // "Amit"
+}
+
+/////////////////////////////
+
+// PDF Q896. Write a JavaScript function for call and handle empty input.
+{
+  function call(name) {
+    const user = {
+      name,
+      getName() { return this.name; }
+    };
+    return user.getName();
+  }
+
+  // Input:
+  call('Amit');
+
+  // Answer:
+  // "Amit"
+}
+
+/////////////////////////////
+
+// PDF Q897. Solve a coding problem using apply without using unnecessary built-in shortcuts.
+{
+  function applyIn(name) {
+    const user = {
+      name,
+      getName() { return this.name; }
+    };
+    return user.getName();
+  }
+
+  // Input:
+  applyIn('Amit');
+
+  // Answer:
+  // "Amit"
+}
+
+/////////////////////////////
+

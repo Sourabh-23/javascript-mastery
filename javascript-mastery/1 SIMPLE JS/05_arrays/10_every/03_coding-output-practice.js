@@ -392,3 +392,111 @@ How to study:
 }
 
 /////////////////////////////
+
+// ================= PDF BASED PRACTICE =================
+
+// PDF Q124. Write a function to move all zeros to the end.
+{
+  function moveAllZerosEnd(items) {
+    return items.filter(Boolean).map((item) => item);
+  }
+
+  // Input:
+  moveAllZerosEnd([0, 'a', false, 'b']);
+
+  // Answer:
+  // ["a", "b"]
+}
+
+/////////////////////////////
+
+// PDF Q125. Write a function to move all zeros to the start.
+{
+  function moveAllZerosStart(items) {
+    return items.filter(Boolean).map((item) => item);
+  }
+
+  // Input:
+  moveAllZerosStart([0, 'a', false, 'b']);
+
+  // Answer:
+  // ["a", "b"]
+}
+
+/////////////////////////////
+
+// PDF Q158. Write clean code for every and explain time complexity in comments.
+{
+  function everyIn(items) {
+    return items.filter(Boolean).map((item) => item);
+  }
+
+  // Input:
+  everyIn([0, 'a', false, 'b']);
+
+  // Answer:
+  // ["a", "b"]
+}
+
+/////////////////////////////
+
+// PDF Q168. Write clean code for every and explain time complexity in comments.
+{
+  function everyIn(items) {
+    return items.filter(Boolean).map((item) => item);
+  }
+
+  // Input:
+  everyIn([0, 'a', false, 'b']);
+
+  // Answer:
+  // ["a", "b"]
+}
+
+/////////////////////////////
+
+// PDF Q178. Write clean code for every and explain time complexity in comments.
+{
+  function everyIn(items) {
+    return items.filter(Boolean).map((item) => item);
+  }
+
+  // Input:
+  everyIn([0, 'a', false, 'b']);
+
+  // Answer:
+  // ["a", "b"]
+}
+
+/////////////////////////////
+
+// PDF Q188. Write clean code for every and explain time complexity in comments.
+{
+  function everyIn(items) {
+    return items.filter(Boolean).map((item) => item);
+  }
+
+  // Input:
+  everyIn([0, 'a', false, 'b']);
+
+  // Answer:
+  // ["a", "b"]
+}
+
+/////////////////////////////
+
+// PDF Q198. Write clean code for every and explain time complexity in comments.
+{
+  function everyIn(items) {
+    return items.filter(Boolean).map((item) => item);
+  }
+
+  // Input:
+  everyIn([0, 'a', false, 'b']);
+
+  // Answer:
+  // ["a", "b"]
+}
+
+/////////////////////////////
+

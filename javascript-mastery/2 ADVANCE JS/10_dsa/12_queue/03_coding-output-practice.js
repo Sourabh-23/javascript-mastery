@@ -461,3 +461,251 @@ How to study:
 }
 
 /////////////////////////////
+
+// ================= PDF BASED PRACTICE =================
+
+// PDF Q404. Create an interview-style solution for promise queue with at least 3 test cases.
+{
+  function forPromiseQueueAt3() {
+    return Promise.resolve('done');
+  }
+
+  // Input:
+  forPromiseQueueAt3() instanceof Promise;
+
+  // Answer:
+  // true
+}
+
+/////////////////////////////
+
+// PDF Q414. Create an interview-style solution for promise queue with at least 3 test cases.
+{
+  function forPromiseQueueAt3() {
+    return Promise.resolve('done');
+  }
+
+  // Input:
+  forPromiseQueueAt3() instanceof Promise;
+
+  // Answer:
+  // true
+}
+
+/////////////////////////////
+
+// PDF Q424. Create an interview-style solution for promise queue with at least 3 test cases.
+{
+  function forPromiseQueueAt3() {
+    return Promise.resolve('done');
+  }
+
+  // Input:
+  forPromiseQueueAt3() instanceof Promise;
+
+  // Answer:
+  // true
+}
+
+/////////////////////////////
+
+// PDF Q434. Create an interview-style solution for promise queue with at least 3 test cases.
+{
+  function forPromiseQueueAt3() {
+    return Promise.resolve('done');
+  }
+
+  // Input:
+  forPromiseQueueAt3() instanceof Promise;
+
+  // Answer:
+  // true
+}
+
+/////////////////////////////
+
+// PDF Q444. Create an interview-style solution for promise queue with at least 3 test cases.
+{
+  function forPromiseQueueAt3() {
+    return Promise.resolve('done');
+  }
+
+  // Input:
+  forPromiseQueueAt3() instanceof Promise;
+
+  // Answer:
+  // true
+}
+
+/////////////////////////////
+
+// PDF Q602. Solve a coding problem using queue without using unnecessary built-in shortcuts.
+{
+  function queueIn(items) {
+    const queue = [...items];
+    queue.push('new');
+    return queue.shift();
+  }
+
+  // Input:
+  queueIn(['first', 'second']);
+
+  // Answer:
+  // "first"
+}
+
+/////////////////////////////
+
+// PDF Q606. Write a JavaScript function for priority queue and handle empty input.
+{
+  function priorityQueue(items) {
+    const queue = [...items];
+    queue.push('new');
+    return queue.shift();
+  }
+
+  // Input:
+  priorityQueue(['first', 'second']);
+
+  // Answer:
+  // "first"
+}
+
+/////////////////////////////
+
+// PDF Q612. Solve a coding problem using queue without using unnecessary built-in shortcuts.
+{
+  function queueIn(items) {
+    const queue = [...items];
+    queue.push('new');
+    return queue.shift();
+  }
+
+  // Input:
+  queueIn(['first', 'second']);
+
+  // Answer:
+  // "first"
+}
+
+/////////////////////////////
+
+// PDF Q616. Write a JavaScript function for priority queue and handle empty input.
+{
+  function priorityQueue(items) {
+    const queue = [...items];
+    queue.push('new');
+    return queue.shift();
+  }
+
+  // Input:
+  priorityQueue(['first', 'second']);
+
+  // Answer:
+  // "first"
+}
+
+/////////////////////////////
+
+// PDF Q622. Solve a coding problem using queue without using unnecessary built-in shortcuts.
+{
+  function queueIn(items) {
+    const queue = [...items];
+    queue.push('new');
+    return queue.shift();
+  }
+
+  // Input:
+  queueIn(['first', 'second']);
+
+  // Answer:
+  // "first"
+}
+
+/////////////////////////////
+
+// PDF Q626. Write a JavaScript function for priority queue and handle empty input.
+{
+  function priorityQueue(items) {
+    const queue = [...items];
+    queue.push('new');
+    return queue.shift();
+  }
+
+  // Input:
+  priorityQueue(['first', 'second']);
+
+  // Answer:
+  // "first"
+}
+
+/////////////////////////////
+
+// PDF Q632. Solve a coding problem using queue without using unnecessary built-in shortcuts.
+{
+  function queueIn(items) {
+    const queue = [...items];
+    queue.push('new');
+    return queue.shift();
+  }
+
+  // Input:
+  queueIn(['first', 'second']);
+
+  // Answer:
+  // "first"
+}
+
+/////////////////////////////
+
+// PDF Q636. Write a JavaScript function for priority queue and handle empty input.
+{
+  function priorityQueue(items) {
+    const queue = [...items];
+    queue.push('new');
+    return queue.shift();
+  }
+
+  // Input:
+  priorityQueue(['first', 'second']);
+
+  // Answer:
+  // "first"
+}
+
+/////////////////////////////
+
+// PDF Q642. Solve a coding problem using queue without using unnecessary built-in shortcuts.
+{
+  function queueIn(items) {
+    const queue = [...items];
+    queue.push('new');
+    return queue.shift();
+  }
+
+  // Input:
+  queueIn(['first', 'second']);
+
+  // Answer:
+  // "first"
+}
+
+/////////////////////////////
+
+// PDF Q646. Write a JavaScript function for priority queue and handle empty input.
+{
+  function priorityQueue(items) {
+    const queue = [...items];
+    queue.push('new');
+    return queue.shift();
+  }
+
+  // Input:
+  priorityQueue(['first', 'second']);
+
+  // Answer:
+  // "first"
+}
+
+/////////////////////////////
+

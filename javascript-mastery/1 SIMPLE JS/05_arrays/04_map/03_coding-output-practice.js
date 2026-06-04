@@ -392,3 +392,231 @@ How to study:
 }
 
 /////////////////////////////
+
+// ================= PDF BASED PRACTICE =================
+
+// PDF Q151. Write a JavaScript function for map and handle empty input.
+{
+  function forMapHandleEmpty(items) {
+    return items.map((item) => item * 2);
+  }
+
+  // Input:
+  forMapHandleEmpty([1, 2, 3]);
+
+  // Answer:
+  // [2, 4, 6]
+}
+
+/////////////////////////////
+
+// PDF Q161. Write a JavaScript function for map and handle empty input.
+{
+  function forMapHandleEmpty(items) {
+    return items.map((item) => item * 2);
+  }
+
+  // Input:
+  forMapHandleEmpty([1, 2, 3]);
+
+  // Answer:
+  // [2, 4, 6]
+}
+
+/////////////////////////////
+
+// PDF Q171. Write a JavaScript function for map and handle empty input.
+{
+  function forMapHandleEmpty(items) {
+    return items.map((item) => item * 2);
+  }
+
+  // Input:
+  forMapHandleEmpty([1, 2, 3]);
+
+  // Answer:
+  // [2, 4, 6]
+}
+
+/////////////////////////////
+
+// PDF Q181. Write a JavaScript function for map and handle empty input.
+{
+  function forMapHandleEmpty(items) {
+    return items.map((item) => item * 2);
+  }
+
+  // Input:
+  forMapHandleEmpty([1, 2, 3]);
+
+  // Answer:
+  // [2, 4, 6]
+}
+
+/////////////////////////////
+
+// PDF Q191. Write a JavaScript function for map and handle empty input.
+{
+  function forMapHandleEmpty(items) {
+    return items.map((item) => item * 2);
+  }
+
+  // Input:
+  forMapHandleEmpty([1, 2, 3]);
+
+  // Answer:
+  // [2, 4, 6]
+}
+
+/////////////////////////////
+
+// PDF Q557. Solve a coding problem using Map without using unnecessary built-in shortcuts.
+{
+  function mapWithoutUnnecessaryBuiltIn(items) {
+    return items.map((item) => item * 2);
+  }
+
+  // Input:
+  mapWithoutUnnecessaryBuiltIn([1, 2, 3]);
+
+  // Answer:
+  // [2, 4, 6]
+}
+
+/////////////////////////////
+
+// PDF Q567. Solve a coding problem using Map without using unnecessary built-in shortcuts.
+{
+  function mapWithoutUnnecessaryBuiltIn(items) {
+    return items.map((item) => item * 2);
+  }
+
+  // Input:
+  mapWithoutUnnecessaryBuiltIn([1, 2, 3]);
+
+  // Answer:
+  // [2, 4, 6]
+}
+
+/////////////////////////////
+
+// PDF Q577. Solve a coding problem using Map without using unnecessary built-in shortcuts.
+{
+  function mapWithoutUnnecessaryBuiltIn(items) {
+    return items.map((item) => item * 2);
+  }
+
+  // Input:
+  mapWithoutUnnecessaryBuiltIn([1, 2, 3]);
+
+  // Answer:
+  // [2, 4, 6]
+}
+
+/////////////////////////////
+
+// PDF Q587. Solve a coding problem using Map without using unnecessary built-in shortcuts.
+{
+  function mapWithoutUnnecessaryBuiltIn(items) {
+    return items.map((item) => item * 2);
+  }
+
+  // Input:
+  mapWithoutUnnecessaryBuiltIn([1, 2, 3]);
+
+  // Answer:
+  // [2, 4, 6]
+}
+
+/////////////////////////////
+
+// PDF Q597. Solve a coding problem using Map without using unnecessary built-in shortcuts.
+{
+  function mapWithoutUnnecessaryBuiltIn(items) {
+    return items.map((item) => item * 2);
+  }
+
+  // Input:
+  mapWithoutUnnecessaryBuiltIn([1, 2, 3]);
+
+  // Answer:
+  // [2, 4, 6]
+}
+
+/////////////////////////////
+
+// PDF Q851. Write a JavaScript function for map and handle empty input.
+{
+  function forMapHandleEmpty(items) {
+    return items.map((item) => item * 2);
+  }
+
+  // Input:
+  forMapHandleEmpty([1, 2, 3]);
+
+  // Answer:
+  // [2, 4, 6]
+}
+
+/////////////////////////////
+
+// PDF Q861. Write a JavaScript function for map and handle empty input.
+{
+  function forMapHandleEmpty(items) {
+    return items.map((item) => item * 2);
+  }
+
+  // Input:
+  forMapHandleEmpty([1, 2, 3]);
+
+  // Answer:
+  // [2, 4, 6]
+}
+
+/////////////////////////////
+
+// PDF Q871. Write a JavaScript function for map and handle empty input.
+{
+  function forMapHandleEmpty(items) {
+    return items.map((item) => item * 2);
+  }
+
+  // Input:
+  forMapHandleEmpty([1, 2, 3]);
+
+  // Answer:
+  // [2, 4, 6]
+}
+
+/////////////////////////////
+
+// PDF Q881. Write a JavaScript function for map and handle empty input.
+{
+  function forMapHandleEmpty(items) {
+    return items.map((item) => item * 2);
+  }
+
+  // Input:
+  forMapHandleEmpty([1, 2, 3]);
+
+  // Answer:
+  // [2, 4, 6]
+}
+
+/////////////////////////////
+
+// PDF Q891. Write a JavaScript function for map and handle empty input.
+{
+  function forMapHandleEmpty(items) {
+    return items.map((item) => item * 2);
+  }
+
+  // Input:
+  forMapHandleEmpty([1, 2, 3]);
+
+  // Answer:
+  // [2, 4, 6]
+}
+
+/////////////////////////////
+

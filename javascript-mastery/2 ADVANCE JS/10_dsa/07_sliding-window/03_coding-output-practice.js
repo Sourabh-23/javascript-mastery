@@ -517,3 +517,341 @@ How to study:
 }
 
 /////////////////////////////
+
+// ================= PDF BASED PRACTICE =================
+
+// PDF Q705. Debug a broken JavaScript snippet related to max profit and rewrite it correctly.
+{
+  function maxProfitIt(prices) {
+    let minPrice = Infinity;
+    let profit = 0;
+    for (const price of prices) {
+      minPrice = Math.min(minPrice, price);
+      profit = Math.max(profit, price - minPrice);
+    }
+    return profit;
+  }
+
+  // Input:
+  maxProfitIt([7, 1, 5, 3, 6, 4]);
+
+  // Answer:
+  // 5
+}
+
+/////////////////////////////
+
+// PDF Q715. Debug a broken JavaScript snippet related to max profit and rewrite it correctly.
+{
+  function maxProfitIt(prices) {
+    let minPrice = Infinity;
+    let profit = 0;
+    for (const price of prices) {
+      minPrice = Math.min(minPrice, price);
+      profit = Math.max(profit, price - minPrice);
+    }
+    return profit;
+  }
+
+  // Input:
+  maxProfitIt([7, 1, 5, 3, 6, 4]);
+
+  // Answer:
+  // 5
+}
+
+/////////////////////////////
+
+// PDF Q725. Debug a broken JavaScript snippet related to max profit and rewrite it correctly.
+{
+  function maxProfitIt(prices) {
+    let minPrice = Infinity;
+    let profit = 0;
+    for (const price of prices) {
+      minPrice = Math.min(minPrice, price);
+      profit = Math.max(profit, price - minPrice);
+    }
+    return profit;
+  }
+
+  // Input:
+  maxProfitIt([7, 1, 5, 3, 6, 4]);
+
+  // Answer:
+  // 5
+}
+
+/////////////////////////////
+
+// PDF Q735. Debug a broken JavaScript snippet related to max profit and rewrite it correctly.
+{
+  function maxProfitIt(prices) {
+    let minPrice = Infinity;
+    let profit = 0;
+    for (const price of prices) {
+      minPrice = Math.min(minPrice, price);
+      profit = Math.max(profit, price - minPrice);
+    }
+    return profit;
+  }
+
+  // Input:
+  maxProfitIt([7, 1, 5, 3, 6, 4]);
+
+  // Answer:
+  // 5
+}
+
+/////////////////////////////
+
+// PDF Q745. Debug a broken JavaScript snippet related to max profit and rewrite it correctly.
+{
+  function maxProfitIt(prices) {
+    let minPrice = Infinity;
+    let profit = 0;
+    for (const price of prices) {
+      minPrice = Math.min(minPrice, price);
+      profit = Math.max(profit, price - minPrice);
+    }
+    return profit;
+  }
+
+  // Input:
+  maxProfitIt([7, 1, 5, 3, 6, 4]);
+
+  // Answer:
+  // 5
+}
+
+/////////////////////////////
+
+// PDF Q753. Write clean code for longest substring and explain time complexity in comments.
+{
+  function forLongestSubstringExplainTime(str) {
+    const seen = new Map();
+    let left = 0, best = 0;
+    for (let right = 0; right < str.length; right++) {
+      if (seen.has(str[right]) && seen.get(str[right]) >= left) left = seen.get(str[right]) + 1;
+      seen.set(str[right], right);
+      best = Math.max(best, right - left + 1);
+    }
+    return best;
+  }
+
+  // Input:
+  forLongestSubstringExplainTime('abcabcbb');
+
+  // Answer:
+  // 3
+}
+
+/////////////////////////////
+
+// PDF Q760. Debug a broken JavaScript snippet related to longest consecutive sequence and rewrite it correctly.
+{
+  function longestConsecutiveSequenceIt(nums) {
+    const set = new Set(nums);
+    let best = 0;
+    for (const num of set) {
+      if (!set.has(num - 1)) {
+        let current = num;
+        while (set.has(current)) current++;
+        best = Math.max(best, current - num);
+      }
+    }
+    return best;
+  }
+
+  // Input:
+  longestConsecutiveSequenceIt([100, 4, 200, 1, 3, 2]);
+
+  // Answer:
+  // 4
+}
+
+/////////////////////////////
+
+// PDF Q763. Write clean code for longest substring and explain time complexity in comments.
+{
+  function forLongestSubstringExplainTime(str) {
+    const seen = new Map();
+    let left = 0, best = 0;
+    for (let right = 0; right < str.length; right++) {
+      if (seen.has(str[right]) && seen.get(str[right]) >= left) left = seen.get(str[right]) + 1;
+      seen.set(str[right], right);
+      best = Math.max(best, right - left + 1);
+    }
+    return best;
+  }
+
+  // Input:
+  forLongestSubstringExplainTime('abcabcbb');
+
+  // Answer:
+  // 3
+}
+
+/////////////////////////////
+
+// PDF Q770. Debug a broken JavaScript snippet related to longest consecutive sequence and rewrite it correctly.
+{
+  function longestConsecutiveSequenceIt(nums) {
+    const set = new Set(nums);
+    let best = 0;
+    for (const num of set) {
+      if (!set.has(num - 1)) {
+        let current = num;
+        while (set.has(current)) current++;
+        best = Math.max(best, current - num);
+      }
+    }
+    return best;
+  }
+
+  // Input:
+  longestConsecutiveSequenceIt([100, 4, 200, 1, 3, 2]);
+
+  // Answer:
+  // 4
+}
+
+/////////////////////////////
+
+// PDF Q773. Write clean code for longest substring and explain time complexity in comments.
+{
+  function forLongestSubstringExplainTime(str) {
+    const seen = new Map();
+    let left = 0, best = 0;
+    for (let right = 0; right < str.length; right++) {
+      if (seen.has(str[right]) && seen.get(str[right]) >= left) left = seen.get(str[right]) + 1;
+      seen.set(str[right], right);
+      best = Math.max(best, right - left + 1);
+    }
+    return best;
+  }
+
+  // Input:
+  forLongestSubstringExplainTime('abcabcbb');
+
+  // Answer:
+  // 3
+}
+
+/////////////////////////////
+
+// PDF Q780. Debug a broken JavaScript snippet related to longest consecutive sequence and rewrite it correctly.
+{
+  function longestConsecutiveSequenceIt(nums) {
+    const set = new Set(nums);
+    let best = 0;
+    for (const num of set) {
+      if (!set.has(num - 1)) {
+        let current = num;
+        while (set.has(current)) current++;
+        best = Math.max(best, current - num);
+      }
+    }
+    return best;
+  }
+
+  // Input:
+  longestConsecutiveSequenceIt([100, 4, 200, 1, 3, 2]);
+
+  // Answer:
+  // 4
+}
+
+/////////////////////////////
+
+// PDF Q783. Write clean code for longest substring and explain time complexity in comments.
+{
+  function forLongestSubstringExplainTime(str) {
+    const seen = new Map();
+    let left = 0, best = 0;
+    for (let right = 0; right < str.length; right++) {
+      if (seen.has(str[right]) && seen.get(str[right]) >= left) left = seen.get(str[right]) + 1;
+      seen.set(str[right], right);
+      best = Math.max(best, right - left + 1);
+    }
+    return best;
+  }
+
+  // Input:
+  forLongestSubstringExplainTime('abcabcbb');
+
+  // Answer:
+  // 3
+}
+
+/////////////////////////////
+
+// PDF Q790. Debug a broken JavaScript snippet related to longest consecutive sequence and rewrite it correctly.
+{
+  function longestConsecutiveSequenceIt(nums) {
+    const set = new Set(nums);
+    let best = 0;
+    for (const num of set) {
+      if (!set.has(num - 1)) {
+        let current = num;
+        while (set.has(current)) current++;
+        best = Math.max(best, current - num);
+      }
+    }
+    return best;
+  }
+
+  // Input:
+  longestConsecutiveSequenceIt([100, 4, 200, 1, 3, 2]);
+
+  // Answer:
+  // 4
+}
+
+/////////////////////////////
+
+// PDF Q793. Write clean code for longest substring and explain time complexity in comments.
+{
+  function forLongestSubstringExplainTime(str) {
+    const seen = new Map();
+    let left = 0, best = 0;
+    for (let right = 0; right < str.length; right++) {
+      if (seen.has(str[right]) && seen.get(str[right]) >= left) left = seen.get(str[right]) + 1;
+      seen.set(str[right], right);
+      best = Math.max(best, right - left + 1);
+    }
+    return best;
+  }
+
+  // Input:
+  forLongestSubstringExplainTime('abcabcbb');
+
+  // Answer:
+  // 3
+}
+
+/////////////////////////////
+
+// PDF Q800. Debug a broken JavaScript snippet related to longest consecutive sequence and rewrite it correctly.
+{
+  function longestConsecutiveSequenceIt(nums) {
+    const set = new Set(nums);
+    let best = 0;
+    for (const num of set) {
+      if (!set.has(num - 1)) {
+        let current = num;
+        while (set.has(current)) current++;
+        best = Math.max(best, current - num);
+      }
+    }
+    return best;
+  }
+
+  // Input:
+  longestConsecutiveSequenceIt([100, 4, 200, 1, 3, 2]);
+
+  // Answer:
+  // 4
+}
+
+/////////////////////////////
+

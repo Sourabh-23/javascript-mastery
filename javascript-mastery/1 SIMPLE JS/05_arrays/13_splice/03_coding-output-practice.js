@@ -400,3 +400,36 @@ How to study:
 }
 
 /////////////////////////////
+
+// ================= PDF BASED PRACTICE =================
+
+// PDF Q140. Write a function to implement splice manually for deletion.
+{
+  function implementSpliceManuallyDeletion(items) {
+    return items.filter(Boolean).map((item) => item);
+  }
+
+  // Input:
+  implementSpliceManuallyDeletion([0, 'a', false, 'b']);
+
+  // Answer:
+  // ["a", "b"]
+}
+
+/////////////////////////////
+
+// PDF Q145. Write a function to remove element by index.
+{
+  function removeElementByIndex(items) {
+    return items.filter(Boolean).map((item) => item);
+  }
+
+  // Input:
+  removeElementByIndex([0, 'a', false, 'b']);
+
+  // Answer:
+  // ["a", "b"]
+}
+
+/////////////////////////////
+

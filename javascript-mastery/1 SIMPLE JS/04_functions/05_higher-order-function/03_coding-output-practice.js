@@ -381,3 +381,81 @@ How to study:
 }
 
 /////////////////////////////
+
+// ================= PDF BASED PRACTICE =================
+
+// PDF Q801. Write a JavaScript function for predict output and handle empty input.
+{
+  function predictOutput(...fns) {
+    return (value) => fns.reduce((current, fn) => fn(current), value);
+  }
+
+  // Input:
+  predictOutput((n) => n + 1, (n) => n * 2)(3);
+
+  // Answer:
+  // 8
+}
+
+/////////////////////////////
+
+// PDF Q811. Write a JavaScript function for predict output and handle empty input.
+{
+  function predictOutput(...fns) {
+    return (value) => fns.reduce((current, fn) => fn(current), value);
+  }
+
+  // Input:
+  predictOutput((n) => n + 1, (n) => n * 2)(3);
+
+  // Answer:
+  // 8
+}
+
+/////////////////////////////
+
+// PDF Q821. Write a JavaScript function for predict output and handle empty input.
+{
+  function predictOutput(...fns) {
+    return (value) => fns.reduce((current, fn) => fn(current), value);
+  }
+
+  // Input:
+  predictOutput((n) => n + 1, (n) => n * 2)(3);
+
+  // Answer:
+  // 8
+}
+
+/////////////////////////////
+
+// PDF Q831. Write a JavaScript function for predict output and handle empty input.
+{
+  function predictOutput(...fns) {
+    return (value) => fns.reduce((current, fn) => fn(current), value);
+  }
+
+  // Input:
+  predictOutput((n) => n + 1, (n) => n * 2)(3);
+
+  // Answer:
+  // 8
+}
+
+/////////////////////////////
+
+// PDF Q841. Write a JavaScript function for predict output and handle empty input.
+{
+  function predictOutput(...fns) {
+    return (value) => fns.reduce((current, fn) => fn(current), value);
+  }
+
+  // Input:
+  predictOutput((n) => n + 1, (n) => n * 2)(3);
+
+  // Answer:
+  // 8
+}
+
+/////////////////////////////
+

@@ -392,3 +392,331 @@ How to study:
 }
 
 /////////////////////////////
+
+// ================= PDF BASED PRACTICE =================
+
+// PDF Q14. Write a function that accepts mixed values and returns only valid numbers.
+{
+  function acceptsMixedValuesReturnsOnly(items) {
+    return items.filter(Boolean).map((item) => item);
+  }
+
+  // Input:
+  acceptsMixedValuesReturnsOnly([0, 'a', false, 'b']);
+
+  // Answer:
+  // ["a", "b"]
+}
+
+/////////////////////////////
+
+// PDF Q152. Solve a coding problem using filter without using unnecessary built-in shortcuts.
+{
+  function filterWithoutUnnecessaryBuiltIn(items) {
+    return items.filter(Boolean);
+  }
+
+  // Input:
+  filterWithoutUnnecessaryBuiltIn([0, 'ok', false, 10]);
+
+  // Answer:
+  // ["ok", 10]
+}
+
+/////////////////////////////
+
+// PDF Q162. Solve a coding problem using filter without using unnecessary built-in shortcuts.
+{
+  function filterWithoutUnnecessaryBuiltIn(items) {
+    return items.filter(Boolean);
+  }
+
+  // Input:
+  filterWithoutUnnecessaryBuiltIn([0, 'ok', false, 10]);
+
+  // Answer:
+  // ["ok", 10]
+}
+
+/////////////////////////////
+
+// PDF Q172. Solve a coding problem using filter without using unnecessary built-in shortcuts.
+{
+  function filterWithoutUnnecessaryBuiltIn(items) {
+    return items.filter(Boolean);
+  }
+
+  // Input:
+  filterWithoutUnnecessaryBuiltIn([0, 'ok', false, 10]);
+
+  // Answer:
+  // ["ok", 10]
+}
+
+/////////////////////////////
+
+// PDF Q182. Solve a coding problem using filter without using unnecessary built-in shortcuts.
+{
+  function filterWithoutUnnecessaryBuiltIn(items) {
+    return items.filter(Boolean);
+  }
+
+  // Input:
+  filterWithoutUnnecessaryBuiltIn([0, 'ok', false, 10]);
+
+  // Answer:
+  // ["ok", 10]
+}
+
+/////////////////////////////
+
+// PDF Q192. Solve a coding problem using filter without using unnecessary built-in shortcuts.
+{
+  function filterWithoutUnnecessaryBuiltIn(items) {
+    return items.filter(Boolean);
+  }
+
+  // Input:
+  filterWithoutUnnecessaryBuiltIn([0, 'ok', false, 10]);
+
+  // Answer:
+  // ["ok", 10]
+}
+
+/////////////////////////////
+
+// PDF Q510. Debug a broken JavaScript snippet related to search filter and rewrite it correctly.
+{
+  function searchFilterIt(items, search) {
+    const query = search.toLowerCase();
+    return items.filter((item) => item.toLowerCase().includes(query));
+  }
+
+  // Input:
+  searchFilterIt(['React', 'Node', 'Next'], 'no');
+
+  // Answer:
+  // ["Node"]
+}
+
+/////////////////////////////
+
+// PDF Q520. Debug a broken JavaScript snippet related to search filter and rewrite it correctly.
+{
+  function searchFilterIt(items, search) {
+    const query = search.toLowerCase();
+    return items.filter((item) => item.toLowerCase().includes(query));
+  }
+
+  // Input:
+  searchFilterIt(['React', 'Node', 'Next'], 'no');
+
+  // Answer:
+  // ["Node"]
+}
+
+/////////////////////////////
+
+// PDF Q530. Debug a broken JavaScript snippet related to search filter and rewrite it correctly.
+{
+  function searchFilterIt(items, search) {
+    const query = search.toLowerCase();
+    return items.filter((item) => item.toLowerCase().includes(query));
+  }
+
+  // Input:
+  searchFilterIt(['React', 'Node', 'Next'], 'no');
+
+  // Answer:
+  // ["Node"]
+}
+
+/////////////////////////////
+
+// PDF Q540. Debug a broken JavaScript snippet related to search filter and rewrite it correctly.
+{
+  function searchFilterIt(items, search) {
+    const query = search.toLowerCase();
+    return items.filter((item) => item.toLowerCase().includes(query));
+  }
+
+  // Input:
+  searchFilterIt(['React', 'Node', 'Next'], 'no');
+
+  // Answer:
+  // ["Node"]
+}
+
+/////////////////////////////
+
+// PDF Q550. Debug a broken JavaScript snippet related to search filter and rewrite it correctly.
+{
+  function searchFilterIt(items, search) {
+    const query = search.toLowerCase();
+    return items.filter((item) => item.toLowerCase().includes(query));
+  }
+
+  // Input:
+  searchFilterIt(['React', 'Node', 'Next'], 'no');
+
+  // Answer:
+  // ["Node"]
+}
+
+/////////////////////////////
+
+// PDF Q852. Solve a coding problem using filter without using unnecessary built-in shortcuts.
+{
+  function filterWithoutUnnecessaryBuiltIn(items) {
+    return items.filter(Boolean);
+  }
+
+  // Input:
+  filterWithoutUnnecessaryBuiltIn([0, 'ok', false, 10]);
+
+  // Answer:
+  // ["ok", 10]
+}
+
+/////////////////////////////
+
+// PDF Q862. Solve a coding problem using filter without using unnecessary built-in shortcuts.
+{
+  function filterWithoutUnnecessaryBuiltIn(items) {
+    return items.filter(Boolean);
+  }
+
+  // Input:
+  filterWithoutUnnecessaryBuiltIn([0, 'ok', false, 10]);
+
+  // Answer:
+  // ["ok", 10]
+}
+
+/////////////////////////////
+
+// PDF Q872. Solve a coding problem using filter without using unnecessary built-in shortcuts.
+{
+  function filterWithoutUnnecessaryBuiltIn(items) {
+    return items.filter(Boolean);
+  }
+
+  // Input:
+  filterWithoutUnnecessaryBuiltIn([0, 'ok', false, 10]);
+
+  // Answer:
+  // ["ok", 10]
+}
+
+/////////////////////////////
+
+// PDF Q882. Solve a coding problem using filter without using unnecessary built-in shortcuts.
+{
+  function filterWithoutUnnecessaryBuiltIn(items) {
+    return items.filter(Boolean);
+  }
+
+  // Input:
+  filterWithoutUnnecessaryBuiltIn([0, 'ok', false, 10]);
+
+  // Answer:
+  // ["ok", 10]
+}
+
+/////////////////////////////
+
+// PDF Q892. Solve a coding problem using filter without using unnecessary built-in shortcuts.
+{
+  function filterWithoutUnnecessaryBuiltIn(items) {
+    return items.filter(Boolean);
+  }
+
+  // Input:
+  filterWithoutUnnecessaryBuiltIn([0, 'ok', false, 10]);
+
+  // Answer:
+  // ["ok", 10]
+}
+
+/////////////////////////////
+
+// PDF Q902. Solve a coding problem using search filter without using unnecessary built-in shortcuts.
+{
+  function searchFilterWithoutUnnecessaryBuilt(items, search) {
+    const query = search.toLowerCase();
+    return items.filter((item) => item.toLowerCase().includes(query));
+  }
+
+  // Input:
+  searchFilterWithoutUnnecessaryBuilt(['React', 'Node', 'Next'], 'no');
+
+  // Answer:
+  // ["Node"]
+}
+
+/////////////////////////////
+
+// PDF Q912. Solve a coding problem using search filter without using unnecessary built-in shortcuts.
+{
+  function searchFilterWithoutUnnecessaryBuilt(items, search) {
+    const query = search.toLowerCase();
+    return items.filter((item) => item.toLowerCase().includes(query));
+  }
+
+  // Input:
+  searchFilterWithoutUnnecessaryBuilt(['React', 'Node', 'Next'], 'no');
+
+  // Answer:
+  // ["Node"]
+}
+
+/////////////////////////////
+
+// PDF Q922. Solve a coding problem using search filter without using unnecessary built-in shortcuts.
+{
+  function searchFilterWithoutUnnecessaryBuilt(items, search) {
+    const query = search.toLowerCase();
+    return items.filter((item) => item.toLowerCase().includes(query));
+  }
+
+  // Input:
+  searchFilterWithoutUnnecessaryBuilt(['React', 'Node', 'Next'], 'no');
+
+  // Answer:
+  // ["Node"]
+}
+
+/////////////////////////////
+
+// PDF Q932. Solve a coding problem using search filter without using unnecessary built-in shortcuts.
+{
+  function searchFilterWithoutUnnecessaryBuilt(items, search) {
+    const query = search.toLowerCase();
+    return items.filter((item) => item.toLowerCase().includes(query));
+  }
+
+  // Input:
+  searchFilterWithoutUnnecessaryBuilt(['React', 'Node', 'Next'], 'no');
+
+  // Answer:
+  // ["Node"]
+}
+
+/////////////////////////////
+
+// PDF Q942. Solve a coding problem using search filter without using unnecessary built-in shortcuts.
+{
+  function searchFilterWithoutUnnecessaryBuilt(items, search) {
+    const query = search.toLowerCase();
+    return items.filter((item) => item.toLowerCase().includes(query));
+  }
+
+  // Input:
+  searchFilterWithoutUnnecessaryBuilt(['React', 'Node', 'Next'], 'no');
+
+  // Answer:
+  // ["Node"]
+}
+
+/////////////////////////////
+

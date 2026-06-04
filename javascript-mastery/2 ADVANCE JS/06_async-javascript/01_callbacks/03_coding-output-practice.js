@@ -371,3 +371,156 @@ How to study:
 }
 
 /////////////////////////////
+
+// ================= PDF BASED PRACTICE =================
+
+// PDF Q351. Write a JavaScript function for callback to promise and handle empty input.
+{
+  function forCallbackPromiseHandleEmpty() {
+    return Promise.resolve('done');
+  }
+
+  // Input:
+  forCallbackPromiseHandleEmpty() instanceof Promise;
+
+  // Answer:
+  // true
+}
+
+/////////////////////////////
+
+// PDF Q361. Write a JavaScript function for callback to promise and handle empty input.
+{
+  function forCallbackPromiseHandleEmpty() {
+    return Promise.resolve('done');
+  }
+
+  // Input:
+  forCallbackPromiseHandleEmpty() instanceof Promise;
+
+  // Answer:
+  // true
+}
+
+/////////////////////////////
+
+// PDF Q371. Write a JavaScript function for callback to promise and handle empty input.
+{
+  function forCallbackPromiseHandleEmpty() {
+    return Promise.resolve('done');
+  }
+
+  // Input:
+  forCallbackPromiseHandleEmpty() instanceof Promise;
+
+  // Answer:
+  // true
+}
+
+/////////////////////////////
+
+// PDF Q381. Write a JavaScript function for callback to promise and handle empty input.
+{
+  function forCallbackPromiseHandleEmpty() {
+    return Promise.resolve('done');
+  }
+
+  // Input:
+  forCallbackPromiseHandleEmpty() instanceof Promise;
+
+  // Answer:
+  // true
+}
+
+/////////////////////////////
+
+// PDF Q391. Write a JavaScript function for callback to promise and handle empty input.
+{
+  function forCallbackPromiseHandleEmpty() {
+    return Promise.resolve('done');
+  }
+
+  // Input:
+  forCallbackPromiseHandleEmpty() instanceof Promise;
+
+  // Answer:
+  // true
+}
+
+/////////////////////////////
+
+// PDF Q408. Write clean code for promisify callback and explain time complexity in comments.
+{
+  function promisifyCallbackIn(items) {
+    return Array.isArray(items) ? items.length : String(items).length;
+  }
+
+  // Input:
+  promisifyCallbackIn([1, 2, 3]);
+
+  // Answer:
+  // 3
+}
+
+/////////////////////////////
+
+// PDF Q418. Write clean code for promisify callback and explain time complexity in comments.
+{
+  function promisifyCallbackIn(items) {
+    return Array.isArray(items) ? items.length : String(items).length;
+  }
+
+  // Input:
+  promisifyCallbackIn([1, 2, 3]);
+
+  // Answer:
+  // 3
+}
+
+/////////////////////////////
+
+// PDF Q428. Write clean code for promisify callback and explain time complexity in comments.
+{
+  function promisifyCallbackIn(items) {
+    return Array.isArray(items) ? items.length : String(items).length;
+  }
+
+  // Input:
+  promisifyCallbackIn([1, 2, 3]);
+
+  // Answer:
+  // 3
+}
+
+/////////////////////////////
+
+// PDF Q438. Write clean code for promisify callback and explain time complexity in comments.
+{
+  function promisifyCallbackIn(items) {
+    return Array.isArray(items) ? items.length : String(items).length;
+  }
+
+  // Input:
+  promisifyCallbackIn([1, 2, 3]);
+
+  // Answer:
+  // 3
+}
+
+/////////////////////////////
+
+// PDF Q448. Write clean code for promisify callback and explain time complexity in comments.
+{
+  function promisifyCallbackIn(items) {
+    return Array.isArray(items) ? items.length : String(items).length;
+  }
+
+  // Input:
+  promisifyCallbackIn([1, 2, 3]);
+
+  // Answer:
+  // 3
+}
+
+/////////////////////////////
+

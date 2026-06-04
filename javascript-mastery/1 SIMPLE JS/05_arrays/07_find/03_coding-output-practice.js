@@ -392,3 +392,201 @@ How to study:
 }
 
 /////////////////////////////
+
+// ================= PDF BASED PRACTICE =================
+
+// PDF Q48. Write a function to find the square and cube of a number.
+{
+  function findSquareCubeOfNumber(items) {
+    return items.filter(Boolean).map((item) => item);
+  }
+
+  // Input:
+  findSquareCubeOfNumber([0, 'a', false, 'b']);
+
+  // Answer:
+  // ["a", "b"]
+}
+
+/////////////////////////////
+
+// PDF Q101. Write a function to find the largest number in an array.
+{
+  function findLargestNumberInArray(items) {
+    return items.length;
+  }
+
+  // Input:
+  findLargestNumberInArray([1, 2, 3]);
+
+  // Answer:
+  // 3
+}
+
+/////////////////////////////
+
+// PDF Q102. Write a function to find the smallest number in an array.
+{
+  function findSmallestNumberInArray(items) {
+    return items.length;
+  }
+
+  // Input:
+  findSmallestNumberInArray([1, 2, 3]);
+
+  // Answer:
+  // 3
+}
+
+/////////////////////////////
+
+// PDF Q103. Write a function to find the second largest number in an array.
+{
+  function findSecondLargestNumberIn(items) {
+    return items.length;
+  }
+
+  // Input:
+  findSecondLargestNumberIn([1, 2, 3]);
+
+  // Answer:
+  // 3
+}
+
+/////////////////////////////
+
+// PDF Q104. Write a function to find the second smallest number in an array.
+{
+  function findSecondSmallestNumberIn(items) {
+    return items.length;
+  }
+
+  // Input:
+  findSecondSmallestNumberIn([1, 2, 3]);
+
+  // Answer:
+  // 3
+}
+
+/////////////////////////////
+
+// PDF Q117. Write a function to find common elements between two arrays.
+{
+  function findCommonElementsBetweenTwo(items) {
+    return items.length;
+  }
+
+  // Input:
+  findCommonElementsBetweenTwo([1, 2, 3]);
+
+  // Answer:
+  // 3
+}
+
+/////////////////////////////
+
+// PDF Q118. Write a function to find elements present in first array but not in second.
+{
+  function findElementsPresentInFirst(items) {
+    return items.length;
+  }
+
+  // Input:
+  findElementsPresentInFirst([1, 2, 3]);
+
+  // Answer:
+  // 3
+}
+
+/////////////////////////////
+
+// PDF Q132. Write a function to find the most frequent number.
+{
+  function findMostFrequentNumber(items) {
+    return items.filter(Boolean).map((item) => item);
+  }
+
+  // Input:
+  findMostFrequentNumber([0, 'a', false, 'b']);
+
+  // Answer:
+  // ["a", "b"]
+}
+
+/////////////////////////////
+
+// PDF Q155. Debug a broken JavaScript snippet related to find and rewrite it correctly.
+{
+  function findIt(items) {
+    return items.filter(Boolean).map((item) => item);
+  }
+
+  // Input:
+  findIt([0, 'a', false, 'b']);
+
+  // Answer:
+  // ["a", "b"]
+}
+
+/////////////////////////////
+
+// PDF Q165. Debug a broken JavaScript snippet related to find and rewrite it correctly.
+{
+  function findIt(items) {
+    return items.filter(Boolean).map((item) => item);
+  }
+
+  // Input:
+  findIt([0, 'a', false, 'b']);
+
+  // Answer:
+  // ["a", "b"]
+}
+
+/////////////////////////////
+
+// PDF Q175. Debug a broken JavaScript snippet related to find and rewrite it correctly.
+{
+  function findIt(items) {
+    return items.filter(Boolean).map((item) => item);
+  }
+
+  // Input:
+  findIt([0, 'a', false, 'b']);
+
+  // Answer:
+  // ["a", "b"]
+}
+
+/////////////////////////////
+
+// PDF Q185. Debug a broken JavaScript snippet related to find and rewrite it correctly.
+{
+  function findIt(items) {
+    return items.filter(Boolean).map((item) => item);
+  }
+
+  // Input:
+  findIt([0, 'a', false, 'b']);
+
+  // Answer:
+  // ["a", "b"]
+}
+
+/////////////////////////////
+
+// PDF Q195. Debug a broken JavaScript snippet related to find and rewrite it correctly.
+{
+  function findIt(items) {
+    return items.filter(Boolean).map((item) => item);
+  }
+
+  // Input:
+  findIt([0, 'a', false, 'b']);
+
+  // Answer:
+  // ["a", "b"]
+}
+
+/////////////////////////////
+

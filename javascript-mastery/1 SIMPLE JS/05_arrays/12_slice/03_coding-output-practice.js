@@ -396,3 +396,101 @@ How to study:
 }
 
 /////////////////////////////
+
+// ================= PDF BASED PRACTICE =================
+
+// PDF Q139. Write a function to implement slice manually.
+{
+  function implementSliceManually(items) {
+    return items.filter(Boolean).map((item) => item);
+  }
+
+  // Input:
+  implementSliceManually([0, 'a', false, 'b']);
+
+  // Answer:
+  // ["a", "b"]
+}
+
+/////////////////////////////
+
+// PDF Q901. Write a JavaScript function for pagination and handle empty input.
+{
+  function forPaginationHandleEmpty(items, page, limit) {
+    const start = (page - 1) * limit;
+    return items.slice(start, start + limit);
+  }
+
+  // Input:
+  forPaginationHandleEmpty([1,2,3,4,5], 2, 2);
+
+  // Answer:
+  // [3, 4]
+}
+
+/////////////////////////////
+
+// PDF Q911. Write a JavaScript function for pagination and handle empty input.
+{
+  function forPaginationHandleEmpty(items, page, limit) {
+    const start = (page - 1) * limit;
+    return items.slice(start, start + limit);
+  }
+
+  // Input:
+  forPaginationHandleEmpty([1,2,3,4,5], 2, 2);
+
+  // Answer:
+  // [3, 4]
+}
+
+/////////////////////////////
+
+// PDF Q921. Write a JavaScript function for pagination and handle empty input.
+{
+  function forPaginationHandleEmpty(items, page, limit) {
+    const start = (page - 1) * limit;
+    return items.slice(start, start + limit);
+  }
+
+  // Input:
+  forPaginationHandleEmpty([1,2,3,4,5], 2, 2);
+
+  // Answer:
+  // [3, 4]
+}
+
+/////////////////////////////
+
+// PDF Q931. Write a JavaScript function for pagination and handle empty input.
+{
+  function forPaginationHandleEmpty(items, page, limit) {
+    const start = (page - 1) * limit;
+    return items.slice(start, start + limit);
+  }
+
+  // Input:
+  forPaginationHandleEmpty([1,2,3,4,5], 2, 2);
+
+  // Answer:
+  // [3, 4]
+}
+
+/////////////////////////////
+
+// PDF Q941. Write a JavaScript function for pagination and handle empty input.
+{
+  function forPaginationHandleEmpty(items, page, limit) {
+    const start = (page - 1) * limit;
+    return items.slice(start, start + limit);
+  }
+
+  // Input:
+  forPaginationHandleEmpty([1,2,3,4,5], 2, 2);
+
+  // Answer:
+  // [3, 4]
+}
+
+/////////////////////////////
+

@@ -519,3 +519,906 @@ How to study:
 }
 
 /////////////////////////////
+
+// ================= PDF BASED PRACTICE =================
+
+// PDF Q251. Write a JavaScript function for closure counter and handle empty input.
+{
+  function forClosureCounterHandleEmpty() {
+    let count = 0;
+    return function () {
+      count++;
+      return count;
+    };
+  }
+  const counter = forClosureCounterHandleEmpty();
+
+  // Input:
+  counter();
+
+  // Answer:
+  // 1
+}
+
+/////////////////////////////
+
+// PDF Q252. Solve a coding problem using private variable without using unnecessary built-in shortcuts.
+{
+  function privateVariableIn() {
+    let value = 0;
+    return {
+      increment() { value++; return value; },
+      get() { return value; }
+    };
+  }
+  const store = privateVariableIn();
+
+  // Input:
+  store.increment();
+
+  // Answer:
+  // 1
+}
+
+/////////////////////////////
+
+// PDF Q253. Write clean code for currying and explain time complexity in comments.
+{
+  function curryingIn() {
+    let value = 0;
+    return {
+      increment() { value++; return value; },
+      get() { return value; }
+    };
+  }
+  const store = curryingIn();
+
+  // Input:
+  store.increment();
+
+  // Answer:
+  // 1
+}
+
+/////////////////////////////
+
+// PDF Q255. Debug a broken JavaScript snippet related to memoization and rewrite it correctly.
+{
+  function memoizationIt() {
+    let value = 0;
+    return {
+      increment() { value++; return value; },
+      get() { return value; }
+    };
+  }
+  const store = memoizationIt();
+
+  // Input:
+  store.increment();
+
+  // Answer:
+  // 1
+}
+
+/////////////////////////////
+
+// PDF Q256. Write a JavaScript function for once function and handle empty input.
+{
+  function once() {
+    let value = 0;
+    return {
+      increment() { value++; return value; },
+      get() { return value; }
+    };
+  }
+  const store = once();
+
+  // Input:
+  store.increment();
+
+  // Answer:
+  // 1
+}
+
+/////////////////////////////
+
+// PDF Q257. Solve a coding problem using compose without using unnecessary built-in shortcuts.
+{
+  function composeIn() {
+    let value = 0;
+    return {
+      increment() { value++; return value; },
+      get() { return value; }
+    };
+  }
+  const store = composeIn();
+
+  // Input:
+  store.increment();
+
+  // Answer:
+  // 1
+}
+
+/////////////////////////////
+
+// PDF Q258. Write clean code for pipe and explain time complexity in comments.
+{
+  function pipeIn() {
+    let value = 0;
+    return {
+      increment() { value++; return value; },
+      get() { return value; }
+    };
+  }
+  const store = pipeIn();
+
+  // Input:
+  store.increment();
+
+  // Answer:
+  // 1
+}
+
+/////////////////////////////
+
+// PDF Q260. Debug a broken JavaScript snippet related to higher order function and rewrite it correctly.
+{
+  function higherOrderIt() {
+    let value = 0;
+    return {
+      increment() { value++; return value; },
+      get() { return value; }
+    };
+  }
+  const store = higherOrderIt();
+
+  // Input:
+  store.increment();
+
+  // Answer:
+  // 1
+}
+
+/////////////////////////////
+
+// PDF Q261. Write a JavaScript function for closure counter and handle empty input.
+{
+  function forClosureCounterHandleEmpty() {
+    let count = 0;
+    return function () {
+      count++;
+      return count;
+    };
+  }
+  const counter = forClosureCounterHandleEmpty();
+
+  // Input:
+  counter();
+
+  // Answer:
+  // 1
+}
+
+/////////////////////////////
+
+// PDF Q262. Solve a coding problem using private variable without using unnecessary built-in shortcuts.
+{
+  function privateVariableIn() {
+    let value = 0;
+    return {
+      increment() { value++; return value; },
+      get() { return value; }
+    };
+  }
+  const store = privateVariableIn();
+
+  // Input:
+  store.increment();
+
+  // Answer:
+  // 1
+}
+
+/////////////////////////////
+
+// PDF Q263. Write clean code for currying and explain time complexity in comments.
+{
+  function curryingIn() {
+    let value = 0;
+    return {
+      increment() { value++; return value; },
+      get() { return value; }
+    };
+  }
+  const store = curryingIn();
+
+  // Input:
+  store.increment();
+
+  // Answer:
+  // 1
+}
+
+/////////////////////////////
+
+// PDF Q265. Debug a broken JavaScript snippet related to memoization and rewrite it correctly.
+{
+  function memoizationIt() {
+    let value = 0;
+    return {
+      increment() { value++; return value; },
+      get() { return value; }
+    };
+  }
+  const store = memoizationIt();
+
+  // Input:
+  store.increment();
+
+  // Answer:
+  // 1
+}
+
+/////////////////////////////
+
+// PDF Q266. Write a JavaScript function for once function and handle empty input.
+{
+  function once() {
+    let value = 0;
+    return {
+      increment() { value++; return value; },
+      get() { return value; }
+    };
+  }
+  const store = once();
+
+  // Input:
+  store.increment();
+
+  // Answer:
+  // 1
+}
+
+/////////////////////////////
+
+// PDF Q267. Solve a coding problem using compose without using unnecessary built-in shortcuts.
+{
+  function composeIn() {
+    let value = 0;
+    return {
+      increment() { value++; return value; },
+      get() { return value; }
+    };
+  }
+  const store = composeIn();
+
+  // Input:
+  store.increment();
+
+  // Answer:
+  // 1
+}
+
+/////////////////////////////
+
+// PDF Q268. Write clean code for pipe and explain time complexity in comments.
+{
+  function pipeIn() {
+    let value = 0;
+    return {
+      increment() { value++; return value; },
+      get() { return value; }
+    };
+  }
+  const store = pipeIn();
+
+  // Input:
+  store.increment();
+
+  // Answer:
+  // 1
+}
+
+/////////////////////////////
+
+// PDF Q270. Debug a broken JavaScript snippet related to higher order function and rewrite it correctly.
+{
+  function higherOrderIt() {
+    let value = 0;
+    return {
+      increment() { value++; return value; },
+      get() { return value; }
+    };
+  }
+  const store = higherOrderIt();
+
+  // Input:
+  store.increment();
+
+  // Answer:
+  // 1
+}
+
+/////////////////////////////
+
+// PDF Q271. Write a JavaScript function for closure counter and handle empty input.
+{
+  function forClosureCounterHandleEmpty() {
+    let count = 0;
+    return function () {
+      count++;
+      return count;
+    };
+  }
+  const counter = forClosureCounterHandleEmpty();
+
+  // Input:
+  counter();
+
+  // Answer:
+  // 1
+}
+
+/////////////////////////////
+
+// PDF Q272. Solve a coding problem using private variable without using unnecessary built-in shortcuts.
+{
+  function privateVariableIn() {
+    let value = 0;
+    return {
+      increment() { value++; return value; },
+      get() { return value; }
+    };
+  }
+  const store = privateVariableIn();
+
+  // Input:
+  store.increment();
+
+  // Answer:
+  // 1
+}
+
+/////////////////////////////
+
+// PDF Q273. Write clean code for currying and explain time complexity in comments.
+{
+  function curryingIn() {
+    let value = 0;
+    return {
+      increment() { value++; return value; },
+      get() { return value; }
+    };
+  }
+  const store = curryingIn();
+
+  // Input:
+  store.increment();
+
+  // Answer:
+  // 1
+}
+
+/////////////////////////////
+
+// PDF Q275. Debug a broken JavaScript snippet related to memoization and rewrite it correctly.
+{
+  function memoizationIt() {
+    let value = 0;
+    return {
+      increment() { value++; return value; },
+      get() { return value; }
+    };
+  }
+  const store = memoizationIt();
+
+  // Input:
+  store.increment();
+
+  // Answer:
+  // 1
+}
+
+/////////////////////////////
+
+// PDF Q276. Write a JavaScript function for once function and handle empty input.
+{
+  function once() {
+    let value = 0;
+    return {
+      increment() { value++; return value; },
+      get() { return value; }
+    };
+  }
+  const store = once();
+
+  // Input:
+  store.increment();
+
+  // Answer:
+  // 1
+}
+
+/////////////////////////////
+
+// PDF Q277. Solve a coding problem using compose without using unnecessary built-in shortcuts.
+{
+  function composeIn() {
+    let value = 0;
+    return {
+      increment() { value++; return value; },
+      get() { return value; }
+    };
+  }
+  const store = composeIn();
+
+  // Input:
+  store.increment();
+
+  // Answer:
+  // 1
+}
+
+/////////////////////////////
+
+// PDF Q278. Write clean code for pipe and explain time complexity in comments.
+{
+  function pipeIn() {
+    let value = 0;
+    return {
+      increment() { value++; return value; },
+      get() { return value; }
+    };
+  }
+  const store = pipeIn();
+
+  // Input:
+  store.increment();
+
+  // Answer:
+  // 1
+}
+
+/////////////////////////////
+
+// PDF Q280. Debug a broken JavaScript snippet related to higher order function and rewrite it correctly.
+{
+  function higherOrderIt() {
+    let value = 0;
+    return {
+      increment() { value++; return value; },
+      get() { return value; }
+    };
+  }
+  const store = higherOrderIt();
+
+  // Input:
+  store.increment();
+
+  // Answer:
+  // 1
+}
+
+/////////////////////////////
+
+// PDF Q281. Write a JavaScript function for closure counter and handle empty input.
+{
+  function forClosureCounterHandleEmpty() {
+    let count = 0;
+    return function () {
+      count++;
+      return count;
+    };
+  }
+  const counter = forClosureCounterHandleEmpty();
+
+  // Input:
+  counter();
+
+  // Answer:
+  // 1
+}
+
+/////////////////////////////
+
+// PDF Q282. Solve a coding problem using private variable without using unnecessary built-in shortcuts.
+{
+  function privateVariableIn() {
+    let value = 0;
+    return {
+      increment() { value++; return value; },
+      get() { return value; }
+    };
+  }
+  const store = privateVariableIn();
+
+  // Input:
+  store.increment();
+
+  // Answer:
+  // 1
+}
+
+/////////////////////////////
+
+// PDF Q283. Write clean code for currying and explain time complexity in comments.
+{
+  function curryingIn() {
+    let value = 0;
+    return {
+      increment() { value++; return value; },
+      get() { return value; }
+    };
+  }
+  const store = curryingIn();
+
+  // Input:
+  store.increment();
+
+  // Answer:
+  // 1
+}
+
+/////////////////////////////
+
+// PDF Q285. Debug a broken JavaScript snippet related to memoization and rewrite it correctly.
+{
+  function memoizationIt() {
+    let value = 0;
+    return {
+      increment() { value++; return value; },
+      get() { return value; }
+    };
+  }
+  const store = memoizationIt();
+
+  // Input:
+  store.increment();
+
+  // Answer:
+  // 1
+}
+
+/////////////////////////////
+
+// PDF Q286. Write a JavaScript function for once function and handle empty input.
+{
+  function once() {
+    let value = 0;
+    return {
+      increment() { value++; return value; },
+      get() { return value; }
+    };
+  }
+  const store = once();
+
+  // Input:
+  store.increment();
+
+  // Answer:
+  // 1
+}
+
+/////////////////////////////
+
+// PDF Q287. Solve a coding problem using compose without using unnecessary built-in shortcuts.
+{
+  function composeIn() {
+    let value = 0;
+    return {
+      increment() { value++; return value; },
+      get() { return value; }
+    };
+  }
+  const store = composeIn();
+
+  // Input:
+  store.increment();
+
+  // Answer:
+  // 1
+}
+
+/////////////////////////////
+
+// PDF Q288. Write clean code for pipe and explain time complexity in comments.
+{
+  function pipeIn() {
+    let value = 0;
+    return {
+      increment() { value++; return value; },
+      get() { return value; }
+    };
+  }
+  const store = pipeIn();
+
+  // Input:
+  store.increment();
+
+  // Answer:
+  // 1
+}
+
+/////////////////////////////
+
+// PDF Q290. Debug a broken JavaScript snippet related to higher order function and rewrite it correctly.
+{
+  function higherOrderIt() {
+    let value = 0;
+    return {
+      increment() { value++; return value; },
+      get() { return value; }
+    };
+  }
+  const store = higherOrderIt();
+
+  // Input:
+  store.increment();
+
+  // Answer:
+  // 1
+}
+
+/////////////////////////////
+
+// PDF Q291. Write a JavaScript function for closure counter and handle empty input.
+{
+  function forClosureCounterHandleEmpty() {
+    let count = 0;
+    return function () {
+      count++;
+      return count;
+    };
+  }
+  const counter = forClosureCounterHandleEmpty();
+
+  // Input:
+  counter();
+
+  // Answer:
+  // 1
+}
+
+/////////////////////////////
+
+// PDF Q292. Solve a coding problem using private variable without using unnecessary built-in shortcuts.
+{
+  function privateVariableIn() {
+    let value = 0;
+    return {
+      increment() { value++; return value; },
+      get() { return value; }
+    };
+  }
+  const store = privateVariableIn();
+
+  // Input:
+  store.increment();
+
+  // Answer:
+  // 1
+}
+
+/////////////////////////////
+
+// PDF Q293. Write clean code for currying and explain time complexity in comments.
+{
+  function curryingIn() {
+    let value = 0;
+    return {
+      increment() { value++; return value; },
+      get() { return value; }
+    };
+  }
+  const store = curryingIn();
+
+  // Input:
+  store.increment();
+
+  // Answer:
+  // 1
+}
+
+/////////////////////////////
+
+// PDF Q295. Debug a broken JavaScript snippet related to memoization and rewrite it correctly.
+{
+  function memoizationIt() {
+    let value = 0;
+    return {
+      increment() { value++; return value; },
+      get() { return value; }
+    };
+  }
+  const store = memoizationIt();
+
+  // Input:
+  store.increment();
+
+  // Answer:
+  // 1
+}
+
+/////////////////////////////
+
+// PDF Q296. Write a JavaScript function for once function and handle empty input.
+{
+  function once() {
+    let value = 0;
+    return {
+      increment() { value++; return value; },
+      get() { return value; }
+    };
+  }
+  const store = once();
+
+  // Input:
+  store.increment();
+
+  // Answer:
+  // 1
+}
+
+/////////////////////////////
+
+// PDF Q297. Solve a coding problem using compose without using unnecessary built-in shortcuts.
+{
+  function composeIn() {
+    let value = 0;
+    return {
+      increment() { value++; return value; },
+      get() { return value; }
+    };
+  }
+  const store = composeIn();
+
+  // Input:
+  store.increment();
+
+  // Answer:
+  // 1
+}
+
+/////////////////////////////
+
+// PDF Q298. Write clean code for pipe and explain time complexity in comments.
+{
+  function pipeIn() {
+    let value = 0;
+    return {
+      increment() { value++; return value; },
+      get() { return value; }
+    };
+  }
+  const store = pipeIn();
+
+  // Input:
+  store.increment();
+
+  // Answer:
+  // 1
+}
+
+/////////////////////////////
+
+// PDF Q300. Debug a broken JavaScript snippet related to higher order function and rewrite it correctly.
+{
+  function higherOrderIt() {
+    let value = 0;
+    return {
+      increment() { value++; return value; },
+      get() { return value; }
+    };
+  }
+  const store = higherOrderIt();
+
+  // Input:
+  store.increment();
+
+  // Answer:
+  // 1
+}
+
+/////////////////////////////
+
+// PDF Q803. Write clean code for fix closure loop bug and explain time complexity in comments.
+{
+  function forFixClosureLoopBug() {
+    let count = 0;
+    return function () {
+      count++;
+      return count;
+    };
+  }
+  const counter = forFixClosureLoopBug();
+
+  // Input:
+  counter();
+
+  // Answer:
+  // 1
+}
+
+/////////////////////////////
+
+// PDF Q813. Write clean code for fix closure loop bug and explain time complexity in comments.
+{
+  function forFixClosureLoopBug() {
+    let count = 0;
+    return function () {
+      count++;
+      return count;
+    };
+  }
+  const counter = forFixClosureLoopBug();
+
+  // Input:
+  counter();
+
+  // Answer:
+  // 1
+}
+
+/////////////////////////////
+
+// PDF Q823. Write clean code for fix closure loop bug and explain time complexity in comments.
+{
+  function forFixClosureLoopBug() {
+    let count = 0;
+    return function () {
+      count++;
+      return count;
+    };
+  }
+  const counter = forFixClosureLoopBug();
+
+  // Input:
+  counter();
+
+  // Answer:
+  // 1
+}
+
+/////////////////////////////
+
+// PDF Q833. Write clean code for fix closure loop bug and explain time complexity in comments.
+{
+  function forFixClosureLoopBug() {
+    let count = 0;
+    return function () {
+      count++;
+      return count;
+    };
+  }
+  const counter = forFixClosureLoopBug();
+
+  // Input:
+  counter();
+
+  // Answer:
+  // 1
+}
+
+/////////////////////////////
+
+// PDF Q843. Write clean code for fix closure loop bug and explain time complexity in comments.
+{
+  function forFixClosureLoopBug() {
+    let count = 0;
+    return function () {
+      count++;
+      return count;
+    };
+  }
+  const counter = forFixClosureLoopBug();
+
+  // Input:
+  counter();
+
+  // Answer:
+  // 1
+}
+
+/////////////////////////////
+

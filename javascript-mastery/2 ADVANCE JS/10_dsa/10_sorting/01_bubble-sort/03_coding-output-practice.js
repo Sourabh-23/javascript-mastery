@@ -517,3 +517,201 @@ How to study:
 }
 
 /////////////////////////////
+
+// ================= PDF BASED PRACTICE =================
+
+// PDF Q98. Write a function to sort characters in a string alphabetically.
+{
+  function sortCharactersInStringAlphabetically(items) {
+    return [...items].sort((a, b) => a - b);
+  }
+
+  // Input:
+  sortCharactersInStringAlphabetically([10, 2, 5]);
+
+  // Answer:
+  // [2, 5, 10]
+}
+
+/////////////////////////////
+
+// PDF Q108. Write a function to check whether an array is sorted ascending.
+{
+  function checkWhetherArrayIsSorted(items) {
+    return [...items].sort((a, b) => a - b);
+  }
+
+  // Input:
+  checkWhetherArrayIsSorted([10, 2, 5]);
+
+  // Answer:
+  // [2, 5, 10]
+}
+
+/////////////////////////////
+
+// PDF Q109. Write a function to check whether an array is sorted descending.
+{
+  function checkWhetherArrayIsSorted(items) {
+    return [...items].sort((a, b) => a - b);
+  }
+
+  // Input:
+  checkWhetherArrayIsSorted([10, 2, 5]);
+
+  // Answer:
+  // [2, 5, 10]
+}
+
+/////////////////////////////
+
+// PDF Q160. Debug a broken JavaScript snippet related to sort and rewrite it correctly.
+{
+  function sortIt(items) {
+    return [...items].sort((a, b) => a - b);
+  }
+
+  // Input:
+  sortIt([10, 2, 5]);
+
+  // Answer:
+  // [2, 5, 10]
+}
+
+/////////////////////////////
+
+// PDF Q170. Debug a broken JavaScript snippet related to sort and rewrite it correctly.
+{
+  function sortIt(items) {
+    return [...items].sort((a, b) => a - b);
+  }
+
+  // Input:
+  sortIt([10, 2, 5]);
+
+  // Answer:
+  // [2, 5, 10]
+}
+
+/////////////////////////////
+
+// PDF Q180. Debug a broken JavaScript snippet related to sort and rewrite it correctly.
+{
+  function sortIt(items) {
+    return [...items].sort((a, b) => a - b);
+  }
+
+  // Input:
+  sortIt([10, 2, 5]);
+
+  // Answer:
+  // [2, 5, 10]
+}
+
+/////////////////////////////
+
+// PDF Q190. Debug a broken JavaScript snippet related to sort and rewrite it correctly.
+{
+  function sortIt(items) {
+    return [...items].sort((a, b) => a - b);
+  }
+
+  // Input:
+  sortIt([10, 2, 5]);
+
+  // Answer:
+  // [2, 5, 10]
+}
+
+/////////////////////////////
+
+// PDF Q200. Debug a broken JavaScript snippet related to sort and rewrite it correctly.
+{
+  function sortIt(items) {
+    return [...items].sort((a, b) => a - b);
+  }
+
+  // Input:
+  sortIt([10, 2, 5]);
+
+  // Answer:
+  // [2, 5, 10]
+}
+
+/////////////////////////////
+
+// PDF Q903. Write clean code for sort table and explain time complexity in comments.
+{
+  function forSortTableExplainTime(rows, key) {
+    return [...rows].sort((a, b) => String(a[key]).localeCompare(String(b[key])));
+  }
+
+  // Input:
+  forSortTableExplainTime([{name:'Zoya'}, {name:'Amit'}], 'name');
+
+  // Answer:
+  // [{ name: "Amit" }, { name: "Zoya" }]
+}
+
+/////////////////////////////
+
+// PDF Q913. Write clean code for sort table and explain time complexity in comments.
+{
+  function forSortTableExplainTime(rows, key) {
+    return [...rows].sort((a, b) => String(a[key]).localeCompare(String(b[key])));
+  }
+
+  // Input:
+  forSortTableExplainTime([{name:'Zoya'}, {name:'Amit'}], 'name');
+
+  // Answer:
+  // [{ name: "Amit" }, { name: "Zoya" }]
+}
+
+/////////////////////////////
+
+// PDF Q923. Write clean code for sort table and explain time complexity in comments.
+{
+  function forSortTableExplainTime(rows, key) {
+    return [...rows].sort((a, b) => String(a[key]).localeCompare(String(b[key])));
+  }
+
+  // Input:
+  forSortTableExplainTime([{name:'Zoya'}, {name:'Amit'}], 'name');
+
+  // Answer:
+  // [{ name: "Amit" }, { name: "Zoya" }]
+}
+
+/////////////////////////////
+
+// PDF Q933. Write clean code for sort table and explain time complexity in comments.
+{
+  function forSortTableExplainTime(rows, key) {
+    return [...rows].sort((a, b) => String(a[key]).localeCompare(String(b[key])));
+  }
+
+  // Input:
+  forSortTableExplainTime([{name:'Zoya'}, {name:'Amit'}], 'name');
+
+  // Answer:
+  // [{ name: "Amit" }, { name: "Zoya" }]
+}
+
+/////////////////////////////
+
+// PDF Q943. Write clean code for sort table and explain time complexity in comments.
+{
+  function forSortTableExplainTime(rows, key) {
+    return [...rows].sort((a, b) => String(a[key]).localeCompare(String(b[key])));
+  }
+
+  // Input:
+  forSortTableExplainTime([{name:'Zoya'}, {name:'Amit'}], 'name');
+
+  // Answer:
+  // [{ name: "Amit" }, { name: "Zoya" }]
+}
+
+/////////////////////////////
+

@@ -411,3 +411,246 @@ How to study:
 }
 
 /////////////////////////////
+
+// ================= PDF BASED PRACTICE =================
+
+// PDF Q301. Write a JavaScript function for factorial and handle empty input.
+{
+  function forFactorialHandleEmpty(n) {
+    if (n <= 1) return 1;
+    return n * forFactorialHandleEmpty(n - 1);
+  }
+
+  // Input:
+  forFactorialHandleEmpty(5);
+
+  // Answer:
+  // 120
+}
+
+/////////////////////////////
+
+// PDF Q302. Solve a coding problem using fibonacci without using unnecessary built-in shortcuts.
+{
+  function fibonacciWithoutUnnecessaryBuiltIn(n) {
+    const result = [0, 1];
+    for (let i = 2; i < n; i++) result.push(result[i - 1] + result[i - 2]);
+    return result.slice(0, n);
+  }
+
+  // Input:
+  fibonacciWithoutUnnecessaryBuiltIn(6);
+
+  // Answer:
+  // [0, 1, 1, 2, 3, 5]
+}
+
+/////////////////////////////
+
+// PDF Q310. Debug a broken JavaScript snippet related to power function and rewrite it correctly.
+{
+  function powerIt(...fns) {
+    return (value) => fns.reduce((current, fn) => fn(current), value);
+  }
+
+  // Input:
+  powerIt((n) => n + 1, (n) => n * 2)(3);
+
+  // Answer:
+  // 8
+}
+
+/////////////////////////////
+
+// PDF Q311. Write a JavaScript function for factorial and handle empty input.
+{
+  function forFactorialHandleEmpty(n) {
+    if (n <= 1) return 1;
+    return n * forFactorialHandleEmpty(n - 1);
+  }
+
+  // Input:
+  forFactorialHandleEmpty(5);
+
+  // Answer:
+  // 120
+}
+
+/////////////////////////////
+
+// PDF Q312. Solve a coding problem using fibonacci without using unnecessary built-in shortcuts.
+{
+  function fibonacciWithoutUnnecessaryBuiltIn(n) {
+    const result = [0, 1];
+    for (let i = 2; i < n; i++) result.push(result[i - 1] + result[i - 2]);
+    return result.slice(0, n);
+  }
+
+  // Input:
+  fibonacciWithoutUnnecessaryBuiltIn(6);
+
+  // Answer:
+  // [0, 1, 1, 2, 3, 5]
+}
+
+/////////////////////////////
+
+// PDF Q320. Debug a broken JavaScript snippet related to power function and rewrite it correctly.
+{
+  function powerIt(...fns) {
+    return (value) => fns.reduce((current, fn) => fn(current), value);
+  }
+
+  // Input:
+  powerIt((n) => n + 1, (n) => n * 2)(3);
+
+  // Answer:
+  // 8
+}
+
+/////////////////////////////
+
+// PDF Q321. Write a JavaScript function for factorial and handle empty input.
+{
+  function forFactorialHandleEmpty(n) {
+    if (n <= 1) return 1;
+    return n * forFactorialHandleEmpty(n - 1);
+  }
+
+  // Input:
+  forFactorialHandleEmpty(5);
+
+  // Answer:
+  // 120
+}
+
+/////////////////////////////
+
+// PDF Q322. Solve a coding problem using fibonacci without using unnecessary built-in shortcuts.
+{
+  function fibonacciWithoutUnnecessaryBuiltIn(n) {
+    const result = [0, 1];
+    for (let i = 2; i < n; i++) result.push(result[i - 1] + result[i - 2]);
+    return result.slice(0, n);
+  }
+
+  // Input:
+  fibonacciWithoutUnnecessaryBuiltIn(6);
+
+  // Answer:
+  // [0, 1, 1, 2, 3, 5]
+}
+
+/////////////////////////////
+
+// PDF Q330. Debug a broken JavaScript snippet related to power function and rewrite it correctly.
+{
+  function powerIt(...fns) {
+    return (value) => fns.reduce((current, fn) => fn(current), value);
+  }
+
+  // Input:
+  powerIt((n) => n + 1, (n) => n * 2)(3);
+
+  // Answer:
+  // 8
+}
+
+/////////////////////////////
+
+// PDF Q331. Write a JavaScript function for factorial and handle empty input.
+{
+  function forFactorialHandleEmpty(n) {
+    if (n <= 1) return 1;
+    return n * forFactorialHandleEmpty(n - 1);
+  }
+
+  // Input:
+  forFactorialHandleEmpty(5);
+
+  // Answer:
+  // 120
+}
+
+/////////////////////////////
+
+// PDF Q332. Solve a coding problem using fibonacci without using unnecessary built-in shortcuts.
+{
+  function fibonacciWithoutUnnecessaryBuiltIn(n) {
+    const result = [0, 1];
+    for (let i = 2; i < n; i++) result.push(result[i - 1] + result[i - 2]);
+    return result.slice(0, n);
+  }
+
+  // Input:
+  fibonacciWithoutUnnecessaryBuiltIn(6);
+
+  // Answer:
+  // [0, 1, 1, 2, 3, 5]
+}
+
+/////////////////////////////
+
+// PDF Q340. Debug a broken JavaScript snippet related to power function and rewrite it correctly.
+{
+  function powerIt(...fns) {
+    return (value) => fns.reduce((current, fn) => fn(current), value);
+  }
+
+  // Input:
+  powerIt((n) => n + 1, (n) => n * 2)(3);
+
+  // Answer:
+  // 8
+}
+
+/////////////////////////////
+
+// PDF Q341. Write a JavaScript function for factorial and handle empty input.
+{
+  function forFactorialHandleEmpty(n) {
+    if (n <= 1) return 1;
+    return n * forFactorialHandleEmpty(n - 1);
+  }
+
+  // Input:
+  forFactorialHandleEmpty(5);
+
+  // Answer:
+  // 120
+}
+
+/////////////////////////////
+
+// PDF Q342. Solve a coding problem using fibonacci without using unnecessary built-in shortcuts.
+{
+  function fibonacciWithoutUnnecessaryBuiltIn(n) {
+    const result = [0, 1];
+    for (let i = 2; i < n; i++) result.push(result[i - 1] + result[i - 2]);
+    return result.slice(0, n);
+  }
+
+  // Input:
+  fibonacciWithoutUnnecessaryBuiltIn(6);
+
+  // Answer:
+  // [0, 1, 1, 2, 3, 5]
+}
+
+/////////////////////////////
+
+// PDF Q350. Debug a broken JavaScript snippet related to power function and rewrite it correctly.
+{
+  function powerIt(...fns) {
+    return (value) => fns.reduce((current, fn) => fn(current), value);
+  }
+
+  // Input:
+  powerIt((n) => n + 1, (n) => n * 2)(3);
+
+  // Answer:
+  // 8
+}
+
+/////////////////////////////
+

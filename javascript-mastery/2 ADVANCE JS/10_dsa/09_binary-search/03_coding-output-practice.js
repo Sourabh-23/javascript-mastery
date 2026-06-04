@@ -586,3 +586,1021 @@ How to study:
 }
 
 /////////////////////////////
+
+// ================= PDF BASED PRACTICE =================
+
+// PDF Q307. Solve a coding problem using binary search without using unnecessary built-in shortcuts.
+{
+  function binarySearchWithoutUnnecessaryBuilt(nums, target) {
+    let left = 0, right = nums.length - 1;
+    while (left <= right) {
+      const mid = Math.floor((left + right) / 2);
+      if (nums[mid] === target) return mid;
+      if (nums[mid] < target) left = mid + 1;
+      else right = mid - 1;
+    }
+    return -1;
+  }
+
+  // Input:
+  binarySearchWithoutUnnecessaryBuilt([1, 3, 5, 7], 5);
+
+  // Answer:
+  // 2
+}
+
+/////////////////////////////
+
+// PDF Q317. Solve a coding problem using binary search without using unnecessary built-in shortcuts.
+{
+  function binarySearchWithoutUnnecessaryBuilt(nums, target) {
+    let left = 0, right = nums.length - 1;
+    while (left <= right) {
+      const mid = Math.floor((left + right) / 2);
+      if (nums[mid] === target) return mid;
+      if (nums[mid] < target) left = mid + 1;
+      else right = mid - 1;
+    }
+    return -1;
+  }
+
+  // Input:
+  binarySearchWithoutUnnecessaryBuilt([1, 3, 5, 7], 5);
+
+  // Answer:
+  // 2
+}
+
+/////////////////////////////
+
+// PDF Q327. Solve a coding problem using binary search without using unnecessary built-in shortcuts.
+{
+  function binarySearchWithoutUnnecessaryBuilt(nums, target) {
+    let left = 0, right = nums.length - 1;
+    while (left <= right) {
+      const mid = Math.floor((left + right) / 2);
+      if (nums[mid] === target) return mid;
+      if (nums[mid] < target) left = mid + 1;
+      else right = mid - 1;
+    }
+    return -1;
+  }
+
+  // Input:
+  binarySearchWithoutUnnecessaryBuilt([1, 3, 5, 7], 5);
+
+  // Answer:
+  // 2
+}
+
+/////////////////////////////
+
+// PDF Q337. Solve a coding problem using binary search without using unnecessary built-in shortcuts.
+{
+  function binarySearchWithoutUnnecessaryBuilt(nums, target) {
+    let left = 0, right = nums.length - 1;
+    while (left <= right) {
+      const mid = Math.floor((left + right) / 2);
+      if (nums[mid] === target) return mid;
+      if (nums[mid] < target) left = mid + 1;
+      else right = mid - 1;
+    }
+    return -1;
+  }
+
+  // Input:
+  binarySearchWithoutUnnecessaryBuilt([1, 3, 5, 7], 5);
+
+  // Answer:
+  // 2
+}
+
+/////////////////////////////
+
+// PDF Q347. Solve a coding problem using binary search without using unnecessary built-in shortcuts.
+{
+  function binarySearchWithoutUnnecessaryBuilt(nums, target) {
+    let left = 0, right = nums.length - 1;
+    while (left <= right) {
+      const mid = Math.floor((left + right) / 2);
+      if (nums[mid] === target) return mid;
+      if (nums[mid] < target) left = mid + 1;
+      else right = mid - 1;
+    }
+    return -1;
+  }
+
+  // Input:
+  binarySearchWithoutUnnecessaryBuilt([1, 3, 5, 7], 5);
+
+  // Answer:
+  // 2
+}
+
+/////////////////////////////
+
+// PDF Q651. Write a JavaScript function for linear search and handle empty input.
+{
+  function linearSearch(items) {
+    const seen = new Set();
+    const result = [];
+    for (const item of items) {
+      if (!seen.has(item)) {
+        seen.add(item);
+        result.push(item);
+      }
+    }
+    return result;
+  }
+
+  // Input:
+  linearSearch([1, 1, 2, 3]);
+
+  // Answer:
+  // [1, 2, 3]
+}
+
+/////////////////////////////
+
+// PDF Q652. Solve a coding problem using binary search without using unnecessary built-in shortcuts.
+{
+  function binarySearchWithoutUnnecessaryBuilt(nums, target) {
+    let left = 0, right = nums.length - 1;
+    while (left <= right) {
+      const mid = Math.floor((left + right) / 2);
+      if (nums[mid] === target) return mid;
+      if (nums[mid] < target) left = mid + 1;
+      else right = mid - 1;
+    }
+    return -1;
+  }
+
+  // Input:
+  binarySearchWithoutUnnecessaryBuilt([1, 3, 5, 7], 5);
+
+  // Answer:
+  // 2
+}
+
+/////////////////////////////
+
+// PDF Q653. Write clean code for bubble sort and explain time complexity in comments.
+{
+  function forBubbleSortExplainTime(items) {
+    return [...items].sort((a, b) => a - b);
+  }
+
+  // Input:
+  forBubbleSortExplainTime([10, 2, 5]);
+
+  // Answer:
+  // [2, 5, 10]
+}
+
+/////////////////////////////
+
+// PDF Q654. Create an interview-style solution for selection sort with at least 3 test cases.
+{
+  function forSelectionSortAt3(items) {
+    return [...items].sort((a, b) => a - b);
+  }
+
+  // Input:
+  forSelectionSortAt3([10, 2, 5]);
+
+  // Answer:
+  // [2, 5, 10]
+}
+
+/////////////////////////////
+
+// PDF Q655. Debug a broken JavaScript snippet related to insertion sort and rewrite it correctly.
+{
+  function insertionSortIt(items) {
+    return [...items].sort((a, b) => a - b);
+  }
+
+  // Input:
+  insertionSortIt([10, 2, 5]);
+
+  // Answer:
+  // [2, 5, 10]
+}
+
+/////////////////////////////
+
+// PDF Q656. Write a JavaScript function for merge sort and handle empty input.
+{
+  function forMergeSortHandleEmpty(items) {
+    return [...items].sort((a, b) => a - b);
+  }
+
+  // Input:
+  forMergeSortHandleEmpty([10, 2, 5]);
+
+  // Answer:
+  // [2, 5, 10]
+}
+
+/////////////////////////////
+
+// PDF Q657. Solve a coding problem using quick sort without using unnecessary built-in shortcuts.
+{
+  function quickSortWithoutUnnecessaryBuilt(items) {
+    return [...items].sort((a, b) => a - b);
+  }
+
+  // Input:
+  quickSortWithoutUnnecessaryBuilt([10, 2, 5]);
+
+  // Answer:
+  // [2, 5, 10]
+}
+
+/////////////////////////////
+
+// PDF Q658. Write clean code for sort objects and explain time complexity in comments.
+{
+  function forSortObjectsExplainTime(items) {
+    return [...items].sort((a, b) => a - b);
+  }
+
+  // Input:
+  forSortObjectsExplainTime([10, 2, 5]);
+
+  // Answer:
+  // [2, 5, 10]
+}
+
+/////////////////////////////
+
+// PDF Q659. Create an interview-style solution for custom comparator with at least 3 test cases.
+{
+  function customComparatorAt3(items) {
+    const seen = new Set();
+    const result = [];
+    for (const item of items) {
+      if (!seen.has(item)) {
+        seen.add(item);
+        result.push(item);
+      }
+    }
+    return result;
+  }
+
+  // Input:
+  customComparatorAt3([1, 1, 2, 3]);
+
+  // Answer:
+  // [1, 2, 3]
+}
+
+/////////////////////////////
+
+// PDF Q660. Debug a broken JavaScript snippet related to top k elements and rewrite it correctly.
+{
+  function topKElementsIt(items) {
+    const seen = new Set();
+    const result = [];
+    for (const item of items) {
+      if (!seen.has(item)) {
+        seen.add(item);
+        result.push(item);
+      }
+    }
+    return result;
+  }
+
+  // Input:
+  topKElementsIt([1, 1, 2, 3]);
+
+  // Answer:
+  // [1, 2, 3]
+}
+
+/////////////////////////////
+
+// PDF Q661. Write a JavaScript function for linear search and handle empty input.
+{
+  function linearSearch(items) {
+    const seen = new Set();
+    const result = [];
+    for (const item of items) {
+      if (!seen.has(item)) {
+        seen.add(item);
+        result.push(item);
+      }
+    }
+    return result;
+  }
+
+  // Input:
+  linearSearch([1, 1, 2, 3]);
+
+  // Answer:
+  // [1, 2, 3]
+}
+
+/////////////////////////////
+
+// PDF Q662. Solve a coding problem using binary search without using unnecessary built-in shortcuts.
+{
+  function binarySearchWithoutUnnecessaryBuilt(nums, target) {
+    let left = 0, right = nums.length - 1;
+    while (left <= right) {
+      const mid = Math.floor((left + right) / 2);
+      if (nums[mid] === target) return mid;
+      if (nums[mid] < target) left = mid + 1;
+      else right = mid - 1;
+    }
+    return -1;
+  }
+
+  // Input:
+  binarySearchWithoutUnnecessaryBuilt([1, 3, 5, 7], 5);
+
+  // Answer:
+  // 2
+}
+
+/////////////////////////////
+
+// PDF Q663. Write clean code for bubble sort and explain time complexity in comments.
+{
+  function forBubbleSortExplainTime(items) {
+    return [...items].sort((a, b) => a - b);
+  }
+
+  // Input:
+  forBubbleSortExplainTime([10, 2, 5]);
+
+  // Answer:
+  // [2, 5, 10]
+}
+
+/////////////////////////////
+
+// PDF Q664. Create an interview-style solution for selection sort with at least 3 test cases.
+{
+  function forSelectionSortAt3(items) {
+    return [...items].sort((a, b) => a - b);
+  }
+
+  // Input:
+  forSelectionSortAt3([10, 2, 5]);
+
+  // Answer:
+  // [2, 5, 10]
+}
+
+/////////////////////////////
+
+// PDF Q665. Debug a broken JavaScript snippet related to insertion sort and rewrite it correctly.
+{
+  function insertionSortIt(items) {
+    return [...items].sort((a, b) => a - b);
+  }
+
+  // Input:
+  insertionSortIt([10, 2, 5]);
+
+  // Answer:
+  // [2, 5, 10]
+}
+
+/////////////////////////////
+
+// PDF Q666. Write a JavaScript function for merge sort and handle empty input.
+{
+  function forMergeSortHandleEmpty(items) {
+    return [...items].sort((a, b) => a - b);
+  }
+
+  // Input:
+  forMergeSortHandleEmpty([10, 2, 5]);
+
+  // Answer:
+  // [2, 5, 10]
+}
+
+/////////////////////////////
+
+// PDF Q667. Solve a coding problem using quick sort without using unnecessary built-in shortcuts.
+{
+  function quickSortWithoutUnnecessaryBuilt(items) {
+    return [...items].sort((a, b) => a - b);
+  }
+
+  // Input:
+  quickSortWithoutUnnecessaryBuilt([10, 2, 5]);
+
+  // Answer:
+  // [2, 5, 10]
+}
+
+/////////////////////////////
+
+// PDF Q668. Write clean code for sort objects and explain time complexity in comments.
+{
+  function forSortObjectsExplainTime(items) {
+    return [...items].sort((a, b) => a - b);
+  }
+
+  // Input:
+  forSortObjectsExplainTime([10, 2, 5]);
+
+  // Answer:
+  // [2, 5, 10]
+}
+
+/////////////////////////////
+
+// PDF Q669. Create an interview-style solution for custom comparator with at least 3 test cases.
+{
+  function customComparatorAt3(items) {
+    const seen = new Set();
+    const result = [];
+    for (const item of items) {
+      if (!seen.has(item)) {
+        seen.add(item);
+        result.push(item);
+      }
+    }
+    return result;
+  }
+
+  // Input:
+  customComparatorAt3([1, 1, 2, 3]);
+
+  // Answer:
+  // [1, 2, 3]
+}
+
+/////////////////////////////
+
+// PDF Q670. Debug a broken JavaScript snippet related to top k elements and rewrite it correctly.
+{
+  function topKElementsIt(items) {
+    const seen = new Set();
+    const result = [];
+    for (const item of items) {
+      if (!seen.has(item)) {
+        seen.add(item);
+        result.push(item);
+      }
+    }
+    return result;
+  }
+
+  // Input:
+  topKElementsIt([1, 1, 2, 3]);
+
+  // Answer:
+  // [1, 2, 3]
+}
+
+/////////////////////////////
+
+// PDF Q671. Write a JavaScript function for linear search and handle empty input.
+{
+  function linearSearch(items) {
+    const seen = new Set();
+    const result = [];
+    for (const item of items) {
+      if (!seen.has(item)) {
+        seen.add(item);
+        result.push(item);
+      }
+    }
+    return result;
+  }
+
+  // Input:
+  linearSearch([1, 1, 2, 3]);
+
+  // Answer:
+  // [1, 2, 3]
+}
+
+/////////////////////////////
+
+// PDF Q672. Solve a coding problem using binary search without using unnecessary built-in shortcuts.
+{
+  function binarySearchWithoutUnnecessaryBuilt(nums, target) {
+    let left = 0, right = nums.length - 1;
+    while (left <= right) {
+      const mid = Math.floor((left + right) / 2);
+      if (nums[mid] === target) return mid;
+      if (nums[mid] < target) left = mid + 1;
+      else right = mid - 1;
+    }
+    return -1;
+  }
+
+  // Input:
+  binarySearchWithoutUnnecessaryBuilt([1, 3, 5, 7], 5);
+
+  // Answer:
+  // 2
+}
+
+/////////////////////////////
+
+// PDF Q673. Write clean code for bubble sort and explain time complexity in comments.
+{
+  function forBubbleSortExplainTime(items) {
+    return [...items].sort((a, b) => a - b);
+  }
+
+  // Input:
+  forBubbleSortExplainTime([10, 2, 5]);
+
+  // Answer:
+  // [2, 5, 10]
+}
+
+/////////////////////////////
+
+// PDF Q674. Create an interview-style solution for selection sort with at least 3 test cases.
+{
+  function forSelectionSortAt3(items) {
+    return [...items].sort((a, b) => a - b);
+  }
+
+  // Input:
+  forSelectionSortAt3([10, 2, 5]);
+
+  // Answer:
+  // [2, 5, 10]
+}
+
+/////////////////////////////
+
+// PDF Q675. Debug a broken JavaScript snippet related to insertion sort and rewrite it correctly.
+{
+  function insertionSortIt(items) {
+    return [...items].sort((a, b) => a - b);
+  }
+
+  // Input:
+  insertionSortIt([10, 2, 5]);
+
+  // Answer:
+  // [2, 5, 10]
+}
+
+/////////////////////////////
+
+// PDF Q676. Write a JavaScript function for merge sort and handle empty input.
+{
+  function forMergeSortHandleEmpty(items) {
+    return [...items].sort((a, b) => a - b);
+  }
+
+  // Input:
+  forMergeSortHandleEmpty([10, 2, 5]);
+
+  // Answer:
+  // [2, 5, 10]
+}
+
+/////////////////////////////
+
+// PDF Q677. Solve a coding problem using quick sort without using unnecessary built-in shortcuts.
+{
+  function quickSortWithoutUnnecessaryBuilt(items) {
+    return [...items].sort((a, b) => a - b);
+  }
+
+  // Input:
+  quickSortWithoutUnnecessaryBuilt([10, 2, 5]);
+
+  // Answer:
+  // [2, 5, 10]
+}
+
+/////////////////////////////
+
+// PDF Q678. Write clean code for sort objects and explain time complexity in comments.
+{
+  function forSortObjectsExplainTime(items) {
+    return [...items].sort((a, b) => a - b);
+  }
+
+  // Input:
+  forSortObjectsExplainTime([10, 2, 5]);
+
+  // Answer:
+  // [2, 5, 10]
+}
+
+/////////////////////////////
+
+// PDF Q679. Create an interview-style solution for custom comparator with at least 3 test cases.
+{
+  function customComparatorAt3(items) {
+    const seen = new Set();
+    const result = [];
+    for (const item of items) {
+      if (!seen.has(item)) {
+        seen.add(item);
+        result.push(item);
+      }
+    }
+    return result;
+  }
+
+  // Input:
+  customComparatorAt3([1, 1, 2, 3]);
+
+  // Answer:
+  // [1, 2, 3]
+}
+
+/////////////////////////////
+
+// PDF Q680. Debug a broken JavaScript snippet related to top k elements and rewrite it correctly.
+{
+  function topKElementsIt(items) {
+    const seen = new Set();
+    const result = [];
+    for (const item of items) {
+      if (!seen.has(item)) {
+        seen.add(item);
+        result.push(item);
+      }
+    }
+    return result;
+  }
+
+  // Input:
+  topKElementsIt([1, 1, 2, 3]);
+
+  // Answer:
+  // [1, 2, 3]
+}
+
+/////////////////////////////
+
+// PDF Q681. Write a JavaScript function for linear search and handle empty input.
+{
+  function linearSearch(items) {
+    const seen = new Set();
+    const result = [];
+    for (const item of items) {
+      if (!seen.has(item)) {
+        seen.add(item);
+        result.push(item);
+      }
+    }
+    return result;
+  }
+
+  // Input:
+  linearSearch([1, 1, 2, 3]);
+
+  // Answer:
+  // [1, 2, 3]
+}
+
+/////////////////////////////
+
+// PDF Q682. Solve a coding problem using binary search without using unnecessary built-in shortcuts.
+{
+  function binarySearchWithoutUnnecessaryBuilt(nums, target) {
+    let left = 0, right = nums.length - 1;
+    while (left <= right) {
+      const mid = Math.floor((left + right) / 2);
+      if (nums[mid] === target) return mid;
+      if (nums[mid] < target) left = mid + 1;
+      else right = mid - 1;
+    }
+    return -1;
+  }
+
+  // Input:
+  binarySearchWithoutUnnecessaryBuilt([1, 3, 5, 7], 5);
+
+  // Answer:
+  // 2
+}
+
+/////////////////////////////
+
+// PDF Q683. Write clean code for bubble sort and explain time complexity in comments.
+{
+  function forBubbleSortExplainTime(items) {
+    return [...items].sort((a, b) => a - b);
+  }
+
+  // Input:
+  forBubbleSortExplainTime([10, 2, 5]);
+
+  // Answer:
+  // [2, 5, 10]
+}
+
+/////////////////////////////
+
+// PDF Q684. Create an interview-style solution for selection sort with at least 3 test cases.
+{
+  function forSelectionSortAt3(items) {
+    return [...items].sort((a, b) => a - b);
+  }
+
+  // Input:
+  forSelectionSortAt3([10, 2, 5]);
+
+  // Answer:
+  // [2, 5, 10]
+}
+
+/////////////////////////////
+
+// PDF Q685. Debug a broken JavaScript snippet related to insertion sort and rewrite it correctly.
+{
+  function insertionSortIt(items) {
+    return [...items].sort((a, b) => a - b);
+  }
+
+  // Input:
+  insertionSortIt([10, 2, 5]);
+
+  // Answer:
+  // [2, 5, 10]
+}
+
+/////////////////////////////
+
+// PDF Q686. Write a JavaScript function for merge sort and handle empty input.
+{
+  function forMergeSortHandleEmpty(items) {
+    return [...items].sort((a, b) => a - b);
+  }
+
+  // Input:
+  forMergeSortHandleEmpty([10, 2, 5]);
+
+  // Answer:
+  // [2, 5, 10]
+}
+
+/////////////////////////////
+
+// PDF Q687. Solve a coding problem using quick sort without using unnecessary built-in shortcuts.
+{
+  function quickSortWithoutUnnecessaryBuilt(items) {
+    return [...items].sort((a, b) => a - b);
+  }
+
+  // Input:
+  quickSortWithoutUnnecessaryBuilt([10, 2, 5]);
+
+  // Answer:
+  // [2, 5, 10]
+}
+
+/////////////////////////////
+
+// PDF Q688. Write clean code for sort objects and explain time complexity in comments.
+{
+  function forSortObjectsExplainTime(items) {
+    return [...items].sort((a, b) => a - b);
+  }
+
+  // Input:
+  forSortObjectsExplainTime([10, 2, 5]);
+
+  // Answer:
+  // [2, 5, 10]
+}
+
+/////////////////////////////
+
+// PDF Q689. Create an interview-style solution for custom comparator with at least 3 test cases.
+{
+  function customComparatorAt3(items) {
+    const seen = new Set();
+    const result = [];
+    for (const item of items) {
+      if (!seen.has(item)) {
+        seen.add(item);
+        result.push(item);
+      }
+    }
+    return result;
+  }
+
+  // Input:
+  customComparatorAt3([1, 1, 2, 3]);
+
+  // Answer:
+  // [1, 2, 3]
+}
+
+/////////////////////////////
+
+// PDF Q690. Debug a broken JavaScript snippet related to top k elements and rewrite it correctly.
+{
+  function topKElementsIt(items) {
+    const seen = new Set();
+    const result = [];
+    for (const item of items) {
+      if (!seen.has(item)) {
+        seen.add(item);
+        result.push(item);
+      }
+    }
+    return result;
+  }
+
+  // Input:
+  topKElementsIt([1, 1, 2, 3]);
+
+  // Answer:
+  // [1, 2, 3]
+}
+
+/////////////////////////////
+
+// PDF Q691. Write a JavaScript function for linear search and handle empty input.
+{
+  function linearSearch(items) {
+    const seen = new Set();
+    const result = [];
+    for (const item of items) {
+      if (!seen.has(item)) {
+        seen.add(item);
+        result.push(item);
+      }
+    }
+    return result;
+  }
+
+  // Input:
+  linearSearch([1, 1, 2, 3]);
+
+  // Answer:
+  // [1, 2, 3]
+}
+
+/////////////////////////////
+
+// PDF Q692. Solve a coding problem using binary search without using unnecessary built-in shortcuts.
+{
+  function binarySearchWithoutUnnecessaryBuilt(nums, target) {
+    let left = 0, right = nums.length - 1;
+    while (left <= right) {
+      const mid = Math.floor((left + right) / 2);
+      if (nums[mid] === target) return mid;
+      if (nums[mid] < target) left = mid + 1;
+      else right = mid - 1;
+    }
+    return -1;
+  }
+
+  // Input:
+  binarySearchWithoutUnnecessaryBuilt([1, 3, 5, 7], 5);
+
+  // Answer:
+  // 2
+}
+
+/////////////////////////////
+
+// PDF Q693. Write clean code for bubble sort and explain time complexity in comments.
+{
+  function forBubbleSortExplainTime(items) {
+    return [...items].sort((a, b) => a - b);
+  }
+
+  // Input:
+  forBubbleSortExplainTime([10, 2, 5]);
+
+  // Answer:
+  // [2, 5, 10]
+}
+
+/////////////////////////////
+
+// PDF Q694. Create an interview-style solution for selection sort with at least 3 test cases.
+{
+  function forSelectionSortAt3(items) {
+    return [...items].sort((a, b) => a - b);
+  }
+
+  // Input:
+  forSelectionSortAt3([10, 2, 5]);
+
+  // Answer:
+  // [2, 5, 10]
+}
+
+/////////////////////////////
+
+// PDF Q695. Debug a broken JavaScript snippet related to insertion sort and rewrite it correctly.
+{
+  function insertionSortIt(items) {
+    return [...items].sort((a, b) => a - b);
+  }
+
+  // Input:
+  insertionSortIt([10, 2, 5]);
+
+  // Answer:
+  // [2, 5, 10]
+}
+
+/////////////////////////////
+
+// PDF Q696. Write a JavaScript function for merge sort and handle empty input.
+{
+  function forMergeSortHandleEmpty(items) {
+    return [...items].sort((a, b) => a - b);
+  }
+
+  // Input:
+  forMergeSortHandleEmpty([10, 2, 5]);
+
+  // Answer:
+  // [2, 5, 10]
+}
+
+/////////////////////////////
+
+// PDF Q697. Solve a coding problem using quick sort without using unnecessary built-in shortcuts.
+{
+  function quickSortWithoutUnnecessaryBuilt(items) {
+    return [...items].sort((a, b) => a - b);
+  }
+
+  // Input:
+  quickSortWithoutUnnecessaryBuilt([10, 2, 5]);
+
+  // Answer:
+  // [2, 5, 10]
+}
+
+/////////////////////////////
+
+// PDF Q698. Write clean code for sort objects and explain time complexity in comments.
+{
+  function forSortObjectsExplainTime(items) {
+    return [...items].sort((a, b) => a - b);
+  }
+
+  // Input:
+  forSortObjectsExplainTime([10, 2, 5]);
+
+  // Answer:
+  // [2, 5, 10]
+}
+
+/////////////////////////////
+
+// PDF Q699. Create an interview-style solution for custom comparator with at least 3 test cases.
+{
+  function customComparatorAt3(items) {
+    const seen = new Set();
+    const result = [];
+    for (const item of items) {
+      if (!seen.has(item)) {
+        seen.add(item);
+        result.push(item);
+      }
+    }
+    return result;
+  }
+
+  // Input:
+  customComparatorAt3([1, 1, 2, 3]);
+
+  // Answer:
+  // [1, 2, 3]
+}
+
+/////////////////////////////
+
+// PDF Q700. Debug a broken JavaScript snippet related to top k elements and rewrite it correctly.
+{
+  function topKElementsIt(items) {
+    const seen = new Set();
+    const result = [];
+    for (const item of items) {
+      if (!seen.has(item)) {
+        seen.add(item);
+        result.push(item);
+      }
+    }
+    return result;
+  }
+
+  // Input:
+  topKElementsIt([1, 1, 2, 3]);
+
+  // Answer:
+  // [1, 2, 3]
+}
+
+/////////////////////////////
+

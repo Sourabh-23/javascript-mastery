@@ -461,3 +461,243 @@ How to study:
 }
 
 /////////////////////////////
+
+// ================= PDF BASED PRACTICE =================
+
+// PDF Q86. Write a function to check balanced parentheses in a string.
+{
+  function checkBalancedParenthesesInString(str) {
+    const stack = [];
+    const pairs = { ')': '(', '}': '{', ']': '[' };
+    for (const ch of str) {
+      if (ch === '(' || ch === '{' || ch === '[') stack.push(ch);
+      else if (pairs[ch] && stack.pop() !== pairs[ch]) return false;
+    }
+    return stack.length === 0;
+  }
+
+  // Input:
+  checkBalancedParenthesesInString('({[]})');
+
+  // Answer:
+  // true
+}
+
+/////////////////////////////
+
+// PDF Q87. Write a function to check balanced brackets including (), {}, [].
+{
+  function checkBalancedBracketsIncluding(str) {
+    const stack = [];
+    const pairs = { ')': '(', '}': '{', ']': '[' };
+    for (const ch of str) {
+      if (ch === '(' || ch === '{' || ch === '[') stack.push(ch);
+      else if (pairs[ch] && stack.pop() !== pairs[ch]) return false;
+    }
+    return stack.length === 0;
+  }
+
+  // Input:
+  checkBalancedBracketsIncluding('({[]})');
+
+  // Answer:
+  // true
+}
+
+/////////////////////////////
+
+// PDF Q601. Write a JavaScript function for stack and handle empty input.
+{
+  function stack(items) {
+    const stack = [...items];
+    const reversed = [];
+    while (stack.length) reversed.push(stack.pop());
+    return reversed;
+  }
+
+  // Input:
+  stack([1, 2, 3]);
+
+  // Answer:
+  // [3, 2, 1]
+}
+
+/////////////////////////////
+
+// PDF Q611. Write a JavaScript function for stack and handle empty input.
+{
+  function stack(items) {
+    const stack = [...items];
+    const reversed = [];
+    while (stack.length) reversed.push(stack.pop());
+    return reversed;
+  }
+
+  // Input:
+  stack([1, 2, 3]);
+
+  // Answer:
+  // [3, 2, 1]
+}
+
+/////////////////////////////
+
+// PDF Q621. Write a JavaScript function for stack and handle empty input.
+{
+  function stack(items) {
+    const stack = [...items];
+    const reversed = [];
+    while (stack.length) reversed.push(stack.pop());
+    return reversed;
+  }
+
+  // Input:
+  stack([1, 2, 3]);
+
+  // Answer:
+  // [3, 2, 1]
+}
+
+/////////////////////////////
+
+// PDF Q631. Write a JavaScript function for stack and handle empty input.
+{
+  function stack(items) {
+    const stack = [...items];
+    const reversed = [];
+    while (stack.length) reversed.push(stack.pop());
+    return reversed;
+  }
+
+  // Input:
+  stack([1, 2, 3]);
+
+  // Answer:
+  // [3, 2, 1]
+}
+
+/////////////////////////////
+
+// PDF Q641. Write a JavaScript function for stack and handle empty input.
+{
+  function stack(items) {
+    const stack = [...items];
+    const reversed = [];
+    while (stack.length) reversed.push(stack.pop());
+    return reversed;
+  }
+
+  // Input:
+  stack([1, 2, 3]);
+
+  // Answer:
+  // [3, 2, 1]
+}
+
+/////////////////////////////
+
+// PDF Q706. Write a JavaScript function for valid parentheses and handle empty input.
+{
+  function forValidParenthesesHandleEmpty(str) {
+    const stack = [];
+    const pairs = { ')': '(', '}': '{', ']': '[' };
+    for (const ch of str) {
+      if (ch === '(' || ch === '{' || ch === '[') stack.push(ch);
+      else if (pairs[ch] && stack.pop() !== pairs[ch]) return false;
+    }
+    return stack.length === 0;
+  }
+
+  // Input:
+  forValidParenthesesHandleEmpty('({[]})');
+
+  // Answer:
+  // true
+}
+
+/////////////////////////////
+
+// PDF Q716. Write a JavaScript function for valid parentheses and handle empty input.
+{
+  function forValidParenthesesHandleEmpty(str) {
+    const stack = [];
+    const pairs = { ')': '(', '}': '{', ']': '[' };
+    for (const ch of str) {
+      if (ch === '(' || ch === '{' || ch === '[') stack.push(ch);
+      else if (pairs[ch] && stack.pop() !== pairs[ch]) return false;
+    }
+    return stack.length === 0;
+  }
+
+  // Input:
+  forValidParenthesesHandleEmpty('({[]})');
+
+  // Answer:
+  // true
+}
+
+/////////////////////////////
+
+// PDF Q726. Write a JavaScript function for valid parentheses and handle empty input.
+{
+  function forValidParenthesesHandleEmpty(str) {
+    const stack = [];
+    const pairs = { ')': '(', '}': '{', ']': '[' };
+    for (const ch of str) {
+      if (ch === '(' || ch === '{' || ch === '[') stack.push(ch);
+      else if (pairs[ch] && stack.pop() !== pairs[ch]) return false;
+    }
+    return stack.length === 0;
+  }
+
+  // Input:
+  forValidParenthesesHandleEmpty('({[]})');
+
+  // Answer:
+  // true
+}
+
+/////////////////////////////
+
+// PDF Q736. Write a JavaScript function for valid parentheses and handle empty input.
+{
+  function forValidParenthesesHandleEmpty(str) {
+    const stack = [];
+    const pairs = { ')': '(', '}': '{', ']': '[' };
+    for (const ch of str) {
+      if (ch === '(' || ch === '{' || ch === '[') stack.push(ch);
+      else if (pairs[ch] && stack.pop() !== pairs[ch]) return false;
+    }
+    return stack.length === 0;
+  }
+
+  // Input:
+  forValidParenthesesHandleEmpty('({[]})');
+
+  // Answer:
+  // true
+}
+
+/////////////////////////////
+
+// PDF Q746. Write a JavaScript function for valid parentheses and handle empty input.
+{
+  function forValidParenthesesHandleEmpty(str) {
+    const stack = [];
+    const pairs = { ')': '(', '}': '{', ']': '[' };
+    for (const ch of str) {
+      if (ch === '(' || ch === '{' || ch === '[') stack.push(ch);
+      else if (pairs[ch] && stack.pop() !== pairs[ch]) return false;
+    }
+    return stack.length === 0;
+  }
+
+  // Input:
+  forValidParenthesesHandleEmpty('({[]})');
+
+  // Answer:
+  // true
+}
+
+/////////////////////////////
+

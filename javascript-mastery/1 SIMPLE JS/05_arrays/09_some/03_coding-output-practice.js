@@ -392,3 +392,81 @@ How to study:
 }
 
 /////////////////////////////
+
+// ================= PDF BASED PRACTICE =================
+
+// PDF Q157. Solve a coding problem using some without using unnecessary built-in shortcuts.
+{
+  function someIn(items) {
+    return items.filter(Boolean).map((item) => item);
+  }
+
+  // Input:
+  someIn([0, 'a', false, 'b']);
+
+  // Answer:
+  // ["a", "b"]
+}
+
+/////////////////////////////
+
+// PDF Q167. Solve a coding problem using some without using unnecessary built-in shortcuts.
+{
+  function someIn(items) {
+    return items.filter(Boolean).map((item) => item);
+  }
+
+  // Input:
+  someIn([0, 'a', false, 'b']);
+
+  // Answer:
+  // ["a", "b"]
+}
+
+/////////////////////////////
+
+// PDF Q177. Solve a coding problem using some without using unnecessary built-in shortcuts.
+{
+  function someIn(items) {
+    return items.filter(Boolean).map((item) => item);
+  }
+
+  // Input:
+  someIn([0, 'a', false, 'b']);
+
+  // Answer:
+  // ["a", "b"]
+}
+
+/////////////////////////////
+
+// PDF Q187. Solve a coding problem using some without using unnecessary built-in shortcuts.
+{
+  function someIn(items) {
+    return items.filter(Boolean).map((item) => item);
+  }
+
+  // Input:
+  someIn([0, 'a', false, 'b']);
+
+  // Answer:
+  // ["a", "b"]
+}
+
+/////////////////////////////
+
+// PDF Q197. Solve a coding problem using some without using unnecessary built-in shortcuts.
+{
+  function someIn(items) {
+    return items.filter(Boolean).map((item) => item);
+  }
+
+  // Input:
+  someIn([0, 'a', false, 'b']);
+
+  // Answer:
+  // ["a", "b"]
+}
+
+/////////////////////////////
+

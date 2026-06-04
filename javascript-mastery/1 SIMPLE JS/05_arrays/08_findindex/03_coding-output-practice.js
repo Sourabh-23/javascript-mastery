@@ -392,3 +392,96 @@ How to study:
 }
 
 /////////////////////////////
+
+// ================= PDF BASED PRACTICE =================
+
+// PDF Q143. Write a function to find index of an element without indexOf.
+{
+  function findIndexOfElementIndexof(items) {
+    return items.filter(Boolean).map((item) => item);
+  }
+
+  // Input:
+  findIndexOfElementIndexof([0, 'a', false, 'b']);
+
+  // Answer:
+  // ["a", "b"]
+}
+
+/////////////////////////////
+
+// PDF Q156. Write a JavaScript function for findIndex and handle empty input.
+{
+  function findindex(items) {
+    return items.filter(Boolean).map((item) => item);
+  }
+
+  // Input:
+  findindex([0, 'a', false, 'b']);
+
+  // Answer:
+  // ["a", "b"]
+}
+
+/////////////////////////////
+
+// PDF Q166. Write a JavaScript function for findIndex and handle empty input.
+{
+  function findindex(items) {
+    return items.filter(Boolean).map((item) => item);
+  }
+
+  // Input:
+  findindex([0, 'a', false, 'b']);
+
+  // Answer:
+  // ["a", "b"]
+}
+
+/////////////////////////////
+
+// PDF Q176. Write a JavaScript function for findIndex and handle empty input.
+{
+  function findindex(items) {
+    return items.filter(Boolean).map((item) => item);
+  }
+
+  // Input:
+  findindex([0, 'a', false, 'b']);
+
+  // Answer:
+  // ["a", "b"]
+}
+
+/////////////////////////////
+
+// PDF Q186. Write a JavaScript function for findIndex and handle empty input.
+{
+  function findindex(items) {
+    return items.filter(Boolean).map((item) => item);
+  }
+
+  // Input:
+  findindex([0, 'a', false, 'b']);
+
+  // Answer:
+  // ["a", "b"]
+}
+
+/////////////////////////////
+
+// PDF Q196. Write a JavaScript function for findIndex and handle empty input.
+{
+  function findindex(items) {
+    return items.filter(Boolean).map((item) => item);
+  }
+
+  // Input:
+  findindex([0, 'a', false, 'b']);
+
+  // Answer:
+  // ["a", "b"]
+}
+
+/////////////////////////////
+

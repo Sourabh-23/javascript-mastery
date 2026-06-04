@@ -517,3 +517,166 @@ How to study:
 }
 
 /////////////////////////////
+
+// ================= PDF BASED PRACTICE =================
+
+// PDF Q308. Write clean code for tree traversal and explain time complexity in comments.
+{
+  function treeTraversalIn(root) {
+    if (!root) return 0;
+    return 1 + treeTraversalIn(root.left) + treeTraversalIn(root.right);
+  }
+
+  // Input:
+  treeTraversalIn({ value: 1, left: { value: 2 }, right: { value: 3 } });
+
+  // Answer:
+  // 3
+}
+
+/////////////////////////////
+
+// PDF Q318. Write clean code for tree traversal and explain time complexity in comments.
+{
+  function treeTraversalIn(root) {
+    if (!root) return 0;
+    return 1 + treeTraversalIn(root.left) + treeTraversalIn(root.right);
+  }
+
+  // Input:
+  treeTraversalIn({ value: 1, left: { value: 2 }, right: { value: 3 } });
+
+  // Answer:
+  // 3
+}
+
+/////////////////////////////
+
+// PDF Q328. Write clean code for tree traversal and explain time complexity in comments.
+{
+  function treeTraversalIn(root) {
+    if (!root) return 0;
+    return 1 + treeTraversalIn(root.left) + treeTraversalIn(root.right);
+  }
+
+  // Input:
+  treeTraversalIn({ value: 1, left: { value: 2 }, right: { value: 3 } });
+
+  // Answer:
+  // 3
+}
+
+/////////////////////////////
+
+// PDF Q338. Write clean code for tree traversal and explain time complexity in comments.
+{
+  function treeTraversalIn(root) {
+    if (!root) return 0;
+    return 1 + treeTraversalIn(root.left) + treeTraversalIn(root.right);
+  }
+
+  // Input:
+  treeTraversalIn({ value: 1, left: { value: 2 }, right: { value: 3 } });
+
+  // Answer:
+  // 3
+}
+
+/////////////////////////////
+
+// PDF Q348. Write clean code for tree traversal and explain time complexity in comments.
+{
+  function treeTraversalIn(root) {
+    if (!root) return 0;
+    return 1 + treeTraversalIn(root.left) + treeTraversalIn(root.right);
+  }
+
+  // Input:
+  treeTraversalIn({ value: 1, left: { value: 2 }, right: { value: 3 } });
+
+  // Answer:
+  // 3
+}
+
+/////////////////////////////
+
+// PDF Q607. Solve a coding problem using binary tree without using unnecessary built-in shortcuts.
+{
+  function binaryTreeIn(root) {
+    if (!root) return 0;
+    return 1 + binaryTreeIn(root.left) + binaryTreeIn(root.right);
+  }
+
+  // Input:
+  binaryTreeIn({ value: 1, left: { value: 2 }, right: { value: 3 } });
+
+  // Answer:
+  // 3
+}
+
+/////////////////////////////
+
+// PDF Q617. Solve a coding problem using binary tree without using unnecessary built-in shortcuts.
+{
+  function binaryTreeIn(root) {
+    if (!root) return 0;
+    return 1 + binaryTreeIn(root.left) + binaryTreeIn(root.right);
+  }
+
+  // Input:
+  binaryTreeIn({ value: 1, left: { value: 2 }, right: { value: 3 } });
+
+  // Answer:
+  // 3
+}
+
+/////////////////////////////
+
+// PDF Q627. Solve a coding problem using binary tree without using unnecessary built-in shortcuts.
+{
+  function binaryTreeIn(root) {
+    if (!root) return 0;
+    return 1 + binaryTreeIn(root.left) + binaryTreeIn(root.right);
+  }
+
+  // Input:
+  binaryTreeIn({ value: 1, left: { value: 2 }, right: { value: 3 } });
+
+  // Answer:
+  // 3
+}
+
+/////////////////////////////
+
+// PDF Q637. Solve a coding problem using binary tree without using unnecessary built-in shortcuts.
+{
+  function binaryTreeIn(root) {
+    if (!root) return 0;
+    return 1 + binaryTreeIn(root.left) + binaryTreeIn(root.right);
+  }
+
+  // Input:
+  binaryTreeIn({ value: 1, left: { value: 2 }, right: { value: 3 } });
+
+  // Answer:
+  // 3
+}
+
+/////////////////////////////
+
+// PDF Q647. Solve a coding problem using binary tree without using unnecessary built-in shortcuts.
+{
+  function binaryTreeIn(root) {
+    if (!root) return 0;
+    return 1 + binaryTreeIn(root.left) + binaryTreeIn(root.right);
+  }
+
+  // Input:
+  binaryTreeIn({ value: 1, left: { value: 2 }, right: { value: 3 } });
+
+  // Answer:
+  // 3
+}
+
+/////////////////////////////
+

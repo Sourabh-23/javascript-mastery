@@ -392,3 +392,456 @@ How to study:
 }
 
 /////////////////////////////
+
+// ================= PDF BASED PRACTICE =================
+
+// PDF Q44. Write a function to calculate total price after discount.
+{
+  function calculateTotalPriceAfterDiscount(items) {
+    return items.reduce((total, item) => total + item, 0);
+  }
+
+  // Input:
+  calculateTotalPriceAfterDiscount([1, 2, 3]);
+
+  // Answer:
+  // 6
+}
+
+/////////////////////////////
+
+// PDF Q105. Write a function to calculate sum of all array elements.
+{
+  function calculateSumOfAllArray(items) {
+    return items.reduce((total, item) => total + item, 0);
+  }
+
+  // Input:
+  calculateSumOfAllArray([1, 2, 3]);
+
+  // Answer:
+  // 6
+}
+
+/////////////////////////////
+
+// PDF Q106. Write a function to calculate average of array elements.
+{
+  function calculateAverageOfArrayElements(items) {
+    return items.reduce((total, item) => total + item, 0);
+  }
+
+  // Input:
+  calculateAverageOfArrayElements([1, 2, 3]);
+
+  // Answer:
+  // 6
+}
+
+/////////////////////////////
+
+// PDF Q150. Write a function to find pair with given sum.
+{
+  function findPairSum(items) {
+    return items.reduce((total, item) => total + item, 0);
+  }
+
+  // Input:
+  findPairSum([1, 2, 3]);
+
+  // Answer:
+  // 6
+}
+
+/////////////////////////////
+
+// PDF Q153. Write clean code for reduce and explain time complexity in comments.
+{
+  function forReduceExplainTimeComplexity(items) {
+    return items.reduce((total, item) => total + item, 0);
+  }
+
+  // Input:
+  forReduceExplainTimeComplexity([1, 2, 3]);
+
+  // Answer:
+  // 6
+}
+
+/////////////////////////////
+
+// PDF Q163. Write clean code for reduce and explain time complexity in comments.
+{
+  function forReduceExplainTimeComplexity(items) {
+    return items.reduce((total, item) => total + item, 0);
+  }
+
+  // Input:
+  forReduceExplainTimeComplexity([1, 2, 3]);
+
+  // Answer:
+  // 6
+}
+
+/////////////////////////////
+
+// PDF Q173. Write clean code for reduce and explain time complexity in comments.
+{
+  function forReduceExplainTimeComplexity(items) {
+    return items.reduce((total, item) => total + item, 0);
+  }
+
+  // Input:
+  forReduceExplainTimeComplexity([1, 2, 3]);
+
+  // Answer:
+  // 6
+}
+
+/////////////////////////////
+
+// PDF Q183. Write clean code for reduce and explain time complexity in comments.
+{
+  function forReduceExplainTimeComplexity(items) {
+    return items.reduce((total, item) => total + item, 0);
+  }
+
+  // Input:
+  forReduceExplainTimeComplexity([1, 2, 3]);
+
+  // Answer:
+  // 6
+}
+
+/////////////////////////////
+
+// PDF Q193. Write clean code for reduce and explain time complexity in comments.
+{
+  function forReduceExplainTimeComplexity(items) {
+    return items.reduce((total, item) => total + item, 0);
+  }
+
+  // Input:
+  forReduceExplainTimeComplexity([1, 2, 3]);
+
+  // Answer:
+  // 6
+}
+
+/////////////////////////////
+
+// PDF Q303. Write clean code for sum digits and explain time complexity in comments.
+{
+  function forSumDigitsExplainTime(items) {
+    return items.reduce((total, item) => total + item, 0);
+  }
+
+  // Input:
+  forSumDigitsExplainTime([1, 2, 3]);
+
+  // Answer:
+  // 6
+}
+
+/////////////////////////////
+
+// PDF Q313. Write clean code for sum digits and explain time complexity in comments.
+{
+  function forSumDigitsExplainTime(items) {
+    return items.reduce((total, item) => total + item, 0);
+  }
+
+  // Input:
+  forSumDigitsExplainTime([1, 2, 3]);
+
+  // Answer:
+  // 6
+}
+
+/////////////////////////////
+
+// PDF Q323. Write clean code for sum digits and explain time complexity in comments.
+{
+  function forSumDigitsExplainTime(items) {
+    return items.reduce((total, item) => total + item, 0);
+  }
+
+  // Input:
+  forSumDigitsExplainTime([1, 2, 3]);
+
+  // Answer:
+  // 6
+}
+
+/////////////////////////////
+
+// PDF Q333. Write clean code for sum digits and explain time complexity in comments.
+{
+  function forSumDigitsExplainTime(items) {
+    return items.reduce((total, item) => total + item, 0);
+  }
+
+  // Input:
+  forSumDigitsExplainTime([1, 2, 3]);
+
+  // Answer:
+  // 6
+}
+
+/////////////////////////////
+
+// PDF Q343. Write clean code for sum digits and explain time complexity in comments.
+{
+  function forSumDigitsExplainTime(items) {
+    return items.reduce((total, item) => total + item, 0);
+  }
+
+  // Input:
+  forSumDigitsExplainTime([1, 2, 3]);
+
+  // Answer:
+  // 6
+}
+
+/////////////////////////////
+
+// PDF Q853. Write clean code for reduce and explain time complexity in comments.
+{
+  function forReduceExplainTimeComplexity(items) {
+    return items.reduce((total, item) => total + item, 0);
+  }
+
+  // Input:
+  forReduceExplainTimeComplexity([1, 2, 3]);
+
+  // Answer:
+  // 6
+}
+
+/////////////////////////////
+
+// PDF Q863. Write clean code for reduce and explain time complexity in comments.
+{
+  function forReduceExplainTimeComplexity(items) {
+    return items.reduce((total, item) => total + item, 0);
+  }
+
+  // Input:
+  forReduceExplainTimeComplexity([1, 2, 3]);
+
+  // Answer:
+  // 6
+}
+
+/////////////////////////////
+
+// PDF Q873. Write clean code for reduce and explain time complexity in comments.
+{
+  function forReduceExplainTimeComplexity(items) {
+    return items.reduce((total, item) => total + item, 0);
+  }
+
+  // Input:
+  forReduceExplainTimeComplexity([1, 2, 3]);
+
+  // Answer:
+  // 6
+}
+
+/////////////////////////////
+
+// PDF Q883. Write clean code for reduce and explain time complexity in comments.
+{
+  function forReduceExplainTimeComplexity(items) {
+    return items.reduce((total, item) => total + item, 0);
+  }
+
+  // Input:
+  forReduceExplainTimeComplexity([1, 2, 3]);
+
+  // Answer:
+  // 6
+}
+
+/////////////////////////////
+
+// PDF Q893. Write clean code for reduce and explain time complexity in comments.
+{
+  function forReduceExplainTimeComplexity(items) {
+    return items.reduce((total, item) => total + item, 0);
+  }
+
+  // Input:
+  forReduceExplainTimeComplexity([1, 2, 3]);
+
+  // Answer:
+  // 6
+}
+
+/////////////////////////////
+
+// PDF Q907. Solve a coding problem using group transactions without using unnecessary built-in shortcuts.
+{
+  function groupTransactionsWithoutUnnecessaryBuilt(transactions) {
+    return transactions.reduce((group, item) => {
+      group[item.type] = (group[item.type] || 0) + item.amount;
+      return group;
+    }, {});
+  }
+
+  // Input:
+  groupTransactionsWithoutUnnecessaryBuilt([{type:'food',amount:100},{type:'food',amount:50}]);
+
+  // Answer:
+  // { food: 150 }
+}
+
+/////////////////////////////
+
+// PDF Q908. Write clean code for calculate cart total and explain time complexity in comments.
+{
+  function forCalculateCartTotalExplain(cart) {
+    return cart.reduce((total, item) => total + item.price * item.qty, 0);
+  }
+
+  // Input:
+  forCalculateCartTotalExplain([{price:100,qty:2},{price:50,qty:1}]);
+
+  // Answer:
+  // 250
+}
+
+/////////////////////////////
+
+// PDF Q917. Solve a coding problem using group transactions without using unnecessary built-in shortcuts.
+{
+  function groupTransactionsWithoutUnnecessaryBuilt(transactions) {
+    return transactions.reduce((group, item) => {
+      group[item.type] = (group[item.type] || 0) + item.amount;
+      return group;
+    }, {});
+  }
+
+  // Input:
+  groupTransactionsWithoutUnnecessaryBuilt([{type:'food',amount:100},{type:'food',amount:50}]);
+
+  // Answer:
+  // { food: 150 }
+}
+
+/////////////////////////////
+
+// PDF Q918. Write clean code for calculate cart total and explain time complexity in comments.
+{
+  function forCalculateCartTotalExplain(cart) {
+    return cart.reduce((total, item) => total + item.price * item.qty, 0);
+  }
+
+  // Input:
+  forCalculateCartTotalExplain([{price:100,qty:2},{price:50,qty:1}]);
+
+  // Answer:
+  // 250
+}
+
+/////////////////////////////
+
+// PDF Q927. Solve a coding problem using group transactions without using unnecessary built-in shortcuts.
+{
+  function groupTransactionsWithoutUnnecessaryBuilt(transactions) {
+    return transactions.reduce((group, item) => {
+      group[item.type] = (group[item.type] || 0) + item.amount;
+      return group;
+    }, {});
+  }
+
+  // Input:
+  groupTransactionsWithoutUnnecessaryBuilt([{type:'food',amount:100},{type:'food',amount:50}]);
+
+  // Answer:
+  // { food: 150 }
+}
+
+/////////////////////////////
+
+// PDF Q928. Write clean code for calculate cart total and explain time complexity in comments.
+{
+  function forCalculateCartTotalExplain(cart) {
+    return cart.reduce((total, item) => total + item.price * item.qty, 0);
+  }
+
+  // Input:
+  forCalculateCartTotalExplain([{price:100,qty:2},{price:50,qty:1}]);
+
+  // Answer:
+  // 250
+}
+
+/////////////////////////////
+
+// PDF Q937. Solve a coding problem using group transactions without using unnecessary built-in shortcuts.
+{
+  function groupTransactionsWithoutUnnecessaryBuilt(transactions) {
+    return transactions.reduce((group, item) => {
+      group[item.type] = (group[item.type] || 0) + item.amount;
+      return group;
+    }, {});
+  }
+
+  // Input:
+  groupTransactionsWithoutUnnecessaryBuilt([{type:'food',amount:100},{type:'food',amount:50}]);
+
+  // Answer:
+  // { food: 150 }
+}
+
+/////////////////////////////
+
+// PDF Q938. Write clean code for calculate cart total and explain time complexity in comments.
+{
+  function forCalculateCartTotalExplain(cart) {
+    return cart.reduce((total, item) => total + item.price * item.qty, 0);
+  }
+
+  // Input:
+  forCalculateCartTotalExplain([{price:100,qty:2},{price:50,qty:1}]);
+
+  // Answer:
+  // 250
+}
+
+/////////////////////////////
+
+// PDF Q947. Solve a coding problem using group transactions without using unnecessary built-in shortcuts.
+{
+  function groupTransactionsWithoutUnnecessaryBuilt(transactions) {
+    return transactions.reduce((group, item) => {
+      group[item.type] = (group[item.type] || 0) + item.amount;
+      return group;
+    }, {});
+  }
+
+  // Input:
+  groupTransactionsWithoutUnnecessaryBuilt([{type:'food',amount:100},{type:'food',amount:50}]);
+
+  // Answer:
+  // { food: 150 }
+}
+
+/////////////////////////////
+
+// PDF Q948. Write clean code for calculate cart total and explain time complexity in comments.
+{
+  function forCalculateCartTotalExplain(cart) {
+    return cart.reduce((total, item) => total + item.price * item.qty, 0);
+  }
+
+  // Input:
+  forCalculateCartTotalExplain([{price:100,qty:2},{price:50,qty:1}]);
+
+  // Answer:
+  // 250
+}
+
+/////////////////////////////
+

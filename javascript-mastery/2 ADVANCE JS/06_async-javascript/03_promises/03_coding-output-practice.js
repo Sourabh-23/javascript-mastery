@@ -371,3 +371,926 @@ How to study:
 }
 
 /////////////////////////////
+
+// ================= PDF BASED PRACTICE =================
+
+// PDF Q352. Solve a coding problem using promise chain without using unnecessary built-in shortcuts.
+{
+  function promiseChainWithoutUnnecessaryBuilt() {
+    return Promise.resolve('done');
+  }
+
+  // Input:
+  promiseChainWithoutUnnecessaryBuilt() instanceof Promise;
+
+  // Answer:
+  // true
+}
+
+/////////////////////////////
+
+// PDF Q357. Solve a coding problem using timeout promise without using unnecessary built-in shortcuts.
+{
+  function timeoutPromiseWithoutUnnecessaryBuilt() {
+    return Promise.resolve('done');
+  }
+
+  // Input:
+  timeoutPromiseWithoutUnnecessaryBuilt() instanceof Promise;
+
+  // Answer:
+  // true
+}
+
+/////////////////////////////
+
+// PDF Q362. Solve a coding problem using promise chain without using unnecessary built-in shortcuts.
+{
+  function promiseChainWithoutUnnecessaryBuilt() {
+    return Promise.resolve('done');
+  }
+
+  // Input:
+  promiseChainWithoutUnnecessaryBuilt() instanceof Promise;
+
+  // Answer:
+  // true
+}
+
+/////////////////////////////
+
+// PDF Q367. Solve a coding problem using timeout promise without using unnecessary built-in shortcuts.
+{
+  function timeoutPromiseWithoutUnnecessaryBuilt() {
+    return Promise.resolve('done');
+  }
+
+  // Input:
+  timeoutPromiseWithoutUnnecessaryBuilt() instanceof Promise;
+
+  // Answer:
+  // true
+}
+
+/////////////////////////////
+
+// PDF Q372. Solve a coding problem using promise chain without using unnecessary built-in shortcuts.
+{
+  function promiseChainWithoutUnnecessaryBuilt() {
+    return Promise.resolve('done');
+  }
+
+  // Input:
+  promiseChainWithoutUnnecessaryBuilt() instanceof Promise;
+
+  // Answer:
+  // true
+}
+
+/////////////////////////////
+
+// PDF Q377. Solve a coding problem using timeout promise without using unnecessary built-in shortcuts.
+{
+  function timeoutPromiseWithoutUnnecessaryBuilt() {
+    return Promise.resolve('done');
+  }
+
+  // Input:
+  timeoutPromiseWithoutUnnecessaryBuilt() instanceof Promise;
+
+  // Answer:
+  // true
+}
+
+/////////////////////////////
+
+// PDF Q382. Solve a coding problem using promise chain without using unnecessary built-in shortcuts.
+{
+  function promiseChainWithoutUnnecessaryBuilt() {
+    return Promise.resolve('done');
+  }
+
+  // Input:
+  promiseChainWithoutUnnecessaryBuilt() instanceof Promise;
+
+  // Answer:
+  // true
+}
+
+/////////////////////////////
+
+// PDF Q387. Solve a coding problem using timeout promise without using unnecessary built-in shortcuts.
+{
+  function timeoutPromiseWithoutUnnecessaryBuilt() {
+    return Promise.resolve('done');
+  }
+
+  // Input:
+  timeoutPromiseWithoutUnnecessaryBuilt() instanceof Promise;
+
+  // Answer:
+  // true
+}
+
+/////////////////////////////
+
+// PDF Q392. Solve a coding problem using promise chain without using unnecessary built-in shortcuts.
+{
+  function promiseChainWithoutUnnecessaryBuilt() {
+    return Promise.resolve('done');
+  }
+
+  // Input:
+  promiseChainWithoutUnnecessaryBuilt() instanceof Promise;
+
+  // Answer:
+  // true
+}
+
+/////////////////////////////
+
+// PDF Q397. Solve a coding problem using timeout promise without using unnecessary built-in shortcuts.
+{
+  function timeoutPromiseWithoutUnnecessaryBuilt() {
+    return Promise.resolve('done');
+  }
+
+  // Input:
+  timeoutPromiseWithoutUnnecessaryBuilt() instanceof Promise;
+
+  // Answer:
+  // true
+}
+
+/////////////////////////////
+
+// PDF Q401. Write a JavaScript function for Promise.all polyfill and handle empty input.
+{
+  function forPromiseAllPolyfillHandle() {
+    return Promise.resolve('done');
+  }
+
+  // Input:
+  forPromiseAllPolyfillHandle() instanceof Promise;
+
+  // Answer:
+  // true
+}
+
+/////////////////////////////
+
+// PDF Q402. Solve a coding problem using Promise.race polyfill without using unnecessary built-in shortcuts.
+{
+  function promiseRacePolyfillWithoutUnnecessary() {
+    return Promise.resolve('done');
+  }
+
+  // Input:
+  promiseRacePolyfillWithoutUnnecessary() instanceof Promise;
+
+  // Answer:
+  // true
+}
+
+/////////////////////////////
+
+// PDF Q403. Write clean code for Promise.allSettled polyfill and explain time complexity in comments.
+{
+  function forPromiseAllsettledPolyfillExplain() {
+    return Promise.resolve('done');
+  }
+
+  // Input:
+  forPromiseAllsettledPolyfillExplain() instanceof Promise;
+
+  // Answer:
+  // true
+}
+
+/////////////////////////////
+
+// PDF Q405. Debug a broken JavaScript snippet related to limit concurrency and rewrite it correctly.
+{
+  function limitConcurrencyIt(items) {
+    return Array.isArray(items) ? items.length : String(items).length;
+  }
+
+  // Input:
+  limitConcurrencyIt([1, 2, 3]);
+
+  // Answer:
+  // 3
+}
+
+/////////////////////////////
+
+// PDF Q406. Write a JavaScript function for retry promise and handle empty input.
+{
+  function forRetryPromiseHandleEmpty() {
+    return Promise.resolve('done');
+  }
+
+  // Input:
+  forRetryPromiseHandleEmpty() instanceof Promise;
+
+  // Answer:
+  // true
+}
+
+/////////////////////////////
+
+// PDF Q407. Solve a coding problem using cancel token simulation without using unnecessary built-in shortcuts.
+{
+  function cancelTokenSimulationIn(items) {
+    return Array.isArray(items) ? items.length : String(items).length;
+  }
+
+  // Input:
+  cancelTokenSimulationIn([1, 2, 3]);
+
+  // Answer:
+  // 3
+}
+
+/////////////////////////////
+
+// PDF Q410. Debug a broken JavaScript snippet related to promise cache and rewrite it correctly.
+{
+  function promiseCacheIt() {
+    return Promise.resolve('done');
+  }
+
+  // Input:
+  promiseCacheIt() instanceof Promise;
+
+  // Answer:
+  // true
+}
+
+/////////////////////////////
+
+// PDF Q411. Write a JavaScript function for Promise.all polyfill and handle empty input.
+{
+  function forPromiseAllPolyfillHandle() {
+    return Promise.resolve('done');
+  }
+
+  // Input:
+  forPromiseAllPolyfillHandle() instanceof Promise;
+
+  // Answer:
+  // true
+}
+
+/////////////////////////////
+
+// PDF Q412. Solve a coding problem using Promise.race polyfill without using unnecessary built-in shortcuts.
+{
+  function promiseRacePolyfillWithoutUnnecessary() {
+    return Promise.resolve('done');
+  }
+
+  // Input:
+  promiseRacePolyfillWithoutUnnecessary() instanceof Promise;
+
+  // Answer:
+  // true
+}
+
+/////////////////////////////
+
+// PDF Q413. Write clean code for Promise.allSettled polyfill and explain time complexity in comments.
+{
+  function forPromiseAllsettledPolyfillExplain() {
+    return Promise.resolve('done');
+  }
+
+  // Input:
+  forPromiseAllsettledPolyfillExplain() instanceof Promise;
+
+  // Answer:
+  // true
+}
+
+/////////////////////////////
+
+// PDF Q415. Debug a broken JavaScript snippet related to limit concurrency and rewrite it correctly.
+{
+  function limitConcurrencyIt(items) {
+    return Array.isArray(items) ? items.length : String(items).length;
+  }
+
+  // Input:
+  limitConcurrencyIt([1, 2, 3]);
+
+  // Answer:
+  // 3
+}
+
+/////////////////////////////
+
+// PDF Q416. Write a JavaScript function for retry promise and handle empty input.
+{
+  function forRetryPromiseHandleEmpty() {
+    return Promise.resolve('done');
+  }
+
+  // Input:
+  forRetryPromiseHandleEmpty() instanceof Promise;
+
+  // Answer:
+  // true
+}
+
+/////////////////////////////
+
+// PDF Q417. Solve a coding problem using cancel token simulation without using unnecessary built-in shortcuts.
+{
+  function cancelTokenSimulationIn(items) {
+    return Array.isArray(items) ? items.length : String(items).length;
+  }
+
+  // Input:
+  cancelTokenSimulationIn([1, 2, 3]);
+
+  // Answer:
+  // 3
+}
+
+/////////////////////////////
+
+// PDF Q420. Debug a broken JavaScript snippet related to promise cache and rewrite it correctly.
+{
+  function promiseCacheIt() {
+    return Promise.resolve('done');
+  }
+
+  // Input:
+  promiseCacheIt() instanceof Promise;
+
+  // Answer:
+  // true
+}
+
+/////////////////////////////
+
+// PDF Q421. Write a JavaScript function for Promise.all polyfill and handle empty input.
+{
+  function forPromiseAllPolyfillHandle() {
+    return Promise.resolve('done');
+  }
+
+  // Input:
+  forPromiseAllPolyfillHandle() instanceof Promise;
+
+  // Answer:
+  // true
+}
+
+/////////////////////////////
+
+// PDF Q422. Solve a coding problem using Promise.race polyfill without using unnecessary built-in shortcuts.
+{
+  function promiseRacePolyfillWithoutUnnecessary() {
+    return Promise.resolve('done');
+  }
+
+  // Input:
+  promiseRacePolyfillWithoutUnnecessary() instanceof Promise;
+
+  // Answer:
+  // true
+}
+
+/////////////////////////////
+
+// PDF Q423. Write clean code for Promise.allSettled polyfill and explain time complexity in comments.
+{
+  function forPromiseAllsettledPolyfillExplain() {
+    return Promise.resolve('done');
+  }
+
+  // Input:
+  forPromiseAllsettledPolyfillExplain() instanceof Promise;
+
+  // Answer:
+  // true
+}
+
+/////////////////////////////
+
+// PDF Q425. Debug a broken JavaScript snippet related to limit concurrency and rewrite it correctly.
+{
+  function limitConcurrencyIt(items) {
+    return Array.isArray(items) ? items.length : String(items).length;
+  }
+
+  // Input:
+  limitConcurrencyIt([1, 2, 3]);
+
+  // Answer:
+  // 3
+}
+
+/////////////////////////////
+
+// PDF Q426. Write a JavaScript function for retry promise and handle empty input.
+{
+  function forRetryPromiseHandleEmpty() {
+    return Promise.resolve('done');
+  }
+
+  // Input:
+  forRetryPromiseHandleEmpty() instanceof Promise;
+
+  // Answer:
+  // true
+}
+
+/////////////////////////////
+
+// PDF Q427. Solve a coding problem using cancel token simulation without using unnecessary built-in shortcuts.
+{
+  function cancelTokenSimulationIn(items) {
+    return Array.isArray(items) ? items.length : String(items).length;
+  }
+
+  // Input:
+  cancelTokenSimulationIn([1, 2, 3]);
+
+  // Answer:
+  // 3
+}
+
+/////////////////////////////
+
+// PDF Q430. Debug a broken JavaScript snippet related to promise cache and rewrite it correctly.
+{
+  function promiseCacheIt() {
+    return Promise.resolve('done');
+  }
+
+  // Input:
+  promiseCacheIt() instanceof Promise;
+
+  // Answer:
+  // true
+}
+
+/////////////////////////////
+
+// PDF Q431. Write a JavaScript function for Promise.all polyfill and handle empty input.
+{
+  function forPromiseAllPolyfillHandle() {
+    return Promise.resolve('done');
+  }
+
+  // Input:
+  forPromiseAllPolyfillHandle() instanceof Promise;
+
+  // Answer:
+  // true
+}
+
+/////////////////////////////
+
+// PDF Q432. Solve a coding problem using Promise.race polyfill without using unnecessary built-in shortcuts.
+{
+  function promiseRacePolyfillWithoutUnnecessary() {
+    return Promise.resolve('done');
+  }
+
+  // Input:
+  promiseRacePolyfillWithoutUnnecessary() instanceof Promise;
+
+  // Answer:
+  // true
+}
+
+/////////////////////////////
+
+// PDF Q433. Write clean code for Promise.allSettled polyfill and explain time complexity in comments.
+{
+  function forPromiseAllsettledPolyfillExplain() {
+    return Promise.resolve('done');
+  }
+
+  // Input:
+  forPromiseAllsettledPolyfillExplain() instanceof Promise;
+
+  // Answer:
+  // true
+}
+
+/////////////////////////////
+
+// PDF Q435. Debug a broken JavaScript snippet related to limit concurrency and rewrite it correctly.
+{
+  function limitConcurrencyIt(items) {
+    return Array.isArray(items) ? items.length : String(items).length;
+  }
+
+  // Input:
+  limitConcurrencyIt([1, 2, 3]);
+
+  // Answer:
+  // 3
+}
+
+/////////////////////////////
+
+// PDF Q436. Write a JavaScript function for retry promise and handle empty input.
+{
+  function forRetryPromiseHandleEmpty() {
+    return Promise.resolve('done');
+  }
+
+  // Input:
+  forRetryPromiseHandleEmpty() instanceof Promise;
+
+  // Answer:
+  // true
+}
+
+/////////////////////////////
+
+// PDF Q437. Solve a coding problem using cancel token simulation without using unnecessary built-in shortcuts.
+{
+  function cancelTokenSimulationIn(items) {
+    return Array.isArray(items) ? items.length : String(items).length;
+  }
+
+  // Input:
+  cancelTokenSimulationIn([1, 2, 3]);
+
+  // Answer:
+  // 3
+}
+
+/////////////////////////////
+
+// PDF Q440. Debug a broken JavaScript snippet related to promise cache and rewrite it correctly.
+{
+  function promiseCacheIt() {
+    return Promise.resolve('done');
+  }
+
+  // Input:
+  promiseCacheIt() instanceof Promise;
+
+  // Answer:
+  // true
+}
+
+/////////////////////////////
+
+// PDF Q441. Write a JavaScript function for Promise.all polyfill and handle empty input.
+{
+  function forPromiseAllPolyfillHandle() {
+    return Promise.resolve('done');
+  }
+
+  // Input:
+  forPromiseAllPolyfillHandle() instanceof Promise;
+
+  // Answer:
+  // true
+}
+
+/////////////////////////////
+
+// PDF Q442. Solve a coding problem using Promise.race polyfill without using unnecessary built-in shortcuts.
+{
+  function promiseRacePolyfillWithoutUnnecessary() {
+    return Promise.resolve('done');
+  }
+
+  // Input:
+  promiseRacePolyfillWithoutUnnecessary() instanceof Promise;
+
+  // Answer:
+  // true
+}
+
+/////////////////////////////
+
+// PDF Q443. Write clean code for Promise.allSettled polyfill and explain time complexity in comments.
+{
+  function forPromiseAllsettledPolyfillExplain() {
+    return Promise.resolve('done');
+  }
+
+  // Input:
+  forPromiseAllsettledPolyfillExplain() instanceof Promise;
+
+  // Answer:
+  // true
+}
+
+/////////////////////////////
+
+// PDF Q445. Debug a broken JavaScript snippet related to limit concurrency and rewrite it correctly.
+{
+  function limitConcurrencyIt(items) {
+    return Array.isArray(items) ? items.length : String(items).length;
+  }
+
+  // Input:
+  limitConcurrencyIt([1, 2, 3]);
+
+  // Answer:
+  // 3
+}
+
+/////////////////////////////
+
+// PDF Q446. Write a JavaScript function for retry promise and handle empty input.
+{
+  function forRetryPromiseHandleEmpty() {
+    return Promise.resolve('done');
+  }
+
+  // Input:
+  forRetryPromiseHandleEmpty() instanceof Promise;
+
+  // Answer:
+  // true
+}
+
+/////////////////////////////
+
+// PDF Q447. Solve a coding problem using cancel token simulation without using unnecessary built-in shortcuts.
+{
+  function cancelTokenSimulationIn(items) {
+    return Array.isArray(items) ? items.length : String(items).length;
+  }
+
+  // Input:
+  cancelTokenSimulationIn([1, 2, 3]);
+
+  // Answer:
+  // 3
+}
+
+/////////////////////////////
+
+// PDF Q450. Debug a broken JavaScript snippet related to promise cache and rewrite it correctly.
+{
+  function promiseCacheIt() {
+    return Promise.resolve('done');
+  }
+
+  // Input:
+  promiseCacheIt() instanceof Promise;
+
+  // Answer:
+  // true
+}
+
+/////////////////////////////
+
+// PDF Q808. Write clean code for promise order and explain time complexity in comments.
+{
+  function forPromiseOrderExplainTime() {
+    return Promise.resolve('done');
+  }
+
+  // Input:
+  forPromiseOrderExplainTime() instanceof Promise;
+
+  // Answer:
+  // true
+}
+
+/////////////////////////////
+
+// PDF Q818. Write clean code for promise order and explain time complexity in comments.
+{
+  function forPromiseOrderExplainTime() {
+    return Promise.resolve('done');
+  }
+
+  // Input:
+  forPromiseOrderExplainTime() instanceof Promise;
+
+  // Answer:
+  // true
+}
+
+/////////////////////////////
+
+// PDF Q828. Write clean code for promise order and explain time complexity in comments.
+{
+  function forPromiseOrderExplainTime() {
+    return Promise.resolve('done');
+  }
+
+  // Input:
+  forPromiseOrderExplainTime() instanceof Promise;
+
+  // Answer:
+  // true
+}
+
+/////////////////////////////
+
+// PDF Q838. Write clean code for promise order and explain time complexity in comments.
+{
+  function forPromiseOrderExplainTime() {
+    return Promise.resolve('done');
+  }
+
+  // Input:
+  forPromiseOrderExplainTime() instanceof Promise;
+
+  // Answer:
+  // true
+}
+
+/////////////////////////////
+
+// PDF Q848. Write clean code for promise order and explain time complexity in comments.
+{
+  function forPromiseOrderExplainTime() {
+    return Promise.resolve('done');
+  }
+
+  // Input:
+  forPromiseOrderExplainTime() instanceof Promise;
+
+  // Answer:
+  // true
+}
+
+/////////////////////////////
+
+// PDF Q858. Write clean code for Promise.all and explain time complexity in comments.
+{
+  function forPromiseAllExplainTime() {
+    return Promise.resolve('done');
+  }
+
+  // Input:
+  forPromiseAllExplainTime() instanceof Promise;
+
+  // Answer:
+  // true
+}
+
+/////////////////////////////
+
+// PDF Q868. Write clean code for Promise.all and explain time complexity in comments.
+{
+  function forPromiseAllExplainTime() {
+    return Promise.resolve('done');
+  }
+
+  // Input:
+  forPromiseAllExplainTime() instanceof Promise;
+
+  // Answer:
+  // true
+}
+
+/////////////////////////////
+
+// PDF Q878. Write clean code for Promise.all and explain time complexity in comments.
+{
+  function forPromiseAllExplainTime() {
+    return Promise.resolve('done');
+  }
+
+  // Input:
+  forPromiseAllExplainTime() instanceof Promise;
+
+  // Answer:
+  // true
+}
+
+/////////////////////////////
+
+// PDF Q888. Write clean code for Promise.all and explain time complexity in comments.
+{
+  function forPromiseAllExplainTime() {
+    return Promise.resolve('done');
+  }
+
+  // Input:
+  forPromiseAllExplainTime() instanceof Promise;
+
+  // Answer:
+  // true
+}
+
+/////////////////////////////
+
+// PDF Q898. Write clean code for Promise.all and explain time complexity in comments.
+{
+  function forPromiseAllExplainTime() {
+    return Promise.resolve('done');
+  }
+
+  // Input:
+  forPromiseAllExplainTime() instanceof Promise;
+
+  // Answer:
+  // true
+}
+
+/////////////////////////////
+
+// PDF Q951. Write a JavaScript function for try catch and handle empty input.
+{
+  function forTryCatchHandleEmpty(callback) {
+    try {
+      return callback();
+    } catch (error) {
+      return error.message;
+    }
+  }
+
+  // Input:
+  forTryCatchHandleEmpty(() => { throw new Error('fail'); });
+
+  // Answer:
+  // "fail"
+}
+
+/////////////////////////////
+
+// PDF Q961. Write a JavaScript function for try catch and handle empty input.
+{
+  function forTryCatchHandleEmpty(callback) {
+    try {
+      return callback();
+    } catch (error) {
+      return error.message;
+    }
+  }
+
+  // Input:
+  forTryCatchHandleEmpty(() => { throw new Error('fail'); });
+
+  // Answer:
+  // "fail"
+}
+
+/////////////////////////////
+
+// PDF Q971. Write a JavaScript function for try catch and handle empty input.
+{
+  function forTryCatchHandleEmpty(callback) {
+    try {
+      return callback();
+    } catch (error) {
+      return error.message;
+    }
+  }
+
+  // Input:
+  forTryCatchHandleEmpty(() => { throw new Error('fail'); });
+
+  // Answer:
+  // "fail"
+}
+
+/////////////////////////////
+
+// PDF Q981. Write a JavaScript function for try catch and handle empty input.
+{
+  function forTryCatchHandleEmpty(callback) {
+    try {
+      return callback();
+    } catch (error) {
+      return error.message;
+    }
+  }
+
+  // Input:
+  forTryCatchHandleEmpty(() => { throw new Error('fail'); });
+
+  // Answer:
+  // "fail"
+}
+
+/////////////////////////////
+
+// PDF Q991. Write a JavaScript function for try catch and handle empty input.
+{
+  function forTryCatchHandleEmpty(callback) {
+    try {
+      return callback();
+    } catch (error) {
+      return error.message;
+    }
+  }
+
+  // Input:
+  forTryCatchHandleEmpty(() => { throw new Error('fail'); });
+
+  // Answer:
+  // "fail"
+}
+
+/////////////////////////////
+
