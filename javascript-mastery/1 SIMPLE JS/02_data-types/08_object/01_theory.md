@@ -4,15 +4,11 @@ Path: `1 SIMPLE JS\02_data-types\08_object\01_theory.md`
 
 ## Simple Meaning
 
-An object stores data in key-value pairs.
+Object key-value pair ka collection hota hai. Real-world entity represent karne ke liye use hota hai.
 
-## Understand It Like This
+## Real Use
 
-Use objects when one thing has multiple related properties.
-
-## Why We Use It
-
-Users, products, configs, API responses, and settings are usually objects.
+Use it user, product, settings, API response jaise structured data me.
 
 ## Small Example
 
@@ -23,16 +19,9 @@ console.log(user.name);
 
 ## Common Mistake
 
-Objects are compared by reference, not by their visible values.
+Object assignment reference copy karta hai, deep copy nahi.
 
 ## Interview Answer
 
-An object is a non-primitive data type used to group related data and behavior.
+Object ka short interview answer: Object key-value pair ka collection hota hai. Real-world entity represent karne ke liye use hota hai. Saath me ek small example aur common mistake bol doge toh answer strong lagega.
 
-## How To Study
-
-1. Read this theory slowly.
-2. Open `02_snippets.js` and run each example.
-3. Predict output before checking the answer.
-4. Read `03_coding-output-practice.js` for spoken interview answers.
-5. Practice `03_coding-output-practice.js` for confidence.

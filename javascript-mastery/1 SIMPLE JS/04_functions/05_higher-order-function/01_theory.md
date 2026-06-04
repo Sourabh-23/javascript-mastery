@@ -4,40 +4,26 @@ Path: `1 SIMPLE JS\04_functions\05_higher-order-function\01_theory.md`
 
 ## Simple Meaning
 
-a higher-order function receives a function or returns a function.
-
-## Mental Model
-
-When you read this topic, ask three things:
-
-1. What value goes in?
-2. What operation happens?
-3. What value or side effect comes out?
+Higher-order function function ko input leta hai ya function return karta hai.
 
 ## Real Use
 
-You will use Higher Order Function while reading output questions, writing small interview examples, and debugging real code. The main goal is not memorizing the name. The main goal is understanding exactly what JavaScript does line by line.
+Use it map/filter/reduce, middleware, reusable behavior me.
 
 ## Small Example
 
 ```js
-function add(a, b) {
-  return a + b;
+function multiplyBy(n) {
+  return (value) => value * n;
 }
-console.log(add(2, 3));
+console.log(multiplyBy(2)(5));
 ```
 
 ## Common Mistake
 
-The common mistake is reading only the definition and skipping output prediction. Always run the snippet, then change one value and predict again.
+Normal function aur higher-order function ka difference clear rakho.
 
 ## Interview Answer
 
-Higher Order Function is useful because it controls how data is read, changed, compared, stored, or executed in JavaScript. In interviews, explain the behavior first, then give a tiny code example.
+Higher Order Function ka short interview answer: Higher-order function function ko input leta hai ya function return karta hai. Saath me ek small example aur common mistake bol doge toh answer strong lagega.
 
-## How To Study
-
-1. Read this file once.
-2. Run `02_snippets.js`.
-3. Predict every answer in `03_coding-output-practice.js`.
-4. Write two small examples without looking.

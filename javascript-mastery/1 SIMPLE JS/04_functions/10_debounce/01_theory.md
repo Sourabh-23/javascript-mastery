@@ -4,40 +4,29 @@ Path: `1 SIMPLE JS\04_functions\10_debounce\01_theory.md`
 
 ## Simple Meaning
 
-debounce delays a function until the user stops triggering it for a short time.
-
-## Mental Model
-
-When you read this topic, ask three things:
-
-1. What value goes in?
-2. What operation happens?
-3. What value or side effect comes out?
+Debounce function ko tab run karta hai jab action kuch time tak ruk jaye.
 
 ## Real Use
 
-You will use Debounce while reading output questions, writing small interview examples, and debugging real code. The main goal is not memorizing the name. The main goal is understanding exactly what JavaScript does line by line.
+Use it search input, resize, typing events me.
 
 ## Small Example
 
 ```js
-function add(a, b) {
-  return a + b;
+function debounce(fn, delay) {
+  let timer;
+  return (...args) => {
+    clearTimeout(timer);
+    timer = setTimeout(() => fn(...args), delay);
+  };
 }
-console.log(add(2, 3));
 ```
 
 ## Common Mistake
 
-The common mistake is reading only the definition and skipping output prediction. Always run the snippet, then change one value and predict again.
+Debounce immediate repeated calls ko delay/cancel karta hai.
 
 ## Interview Answer
 
-Debounce is useful because it controls how data is read, changed, compared, stored, or executed in JavaScript. In interviews, explain the behavior first, then give a tiny code example.
+Debounce ka short interview answer: Debounce function ko tab run karta hai jab action kuch time tak ruk jaye. Saath me ek small example aur common mistake bol doge toh answer strong lagega.
 
-## How To Study
-
-1. Read this file once.
-2. Run `02_snippets.js`.
-3. Predict every answer in `03_coding-output-practice.js`.
-4. Write two small examples without looking.

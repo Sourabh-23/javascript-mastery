@@ -4,35 +4,24 @@ Path: `1 SIMPLE JS\02_data-types\05_null\01_theory.md`
 
 ## Simple Meaning
 
-null means intentionally empty.
+null intentional empty value hai. Developer khud value empty set karta hai.
 
-## Understand It Like This
+## Real Use
 
-Use null when you want to clearly say: there is no value right now.
-
-## Why We Use It
-
-APIs, databases, and state values often use null for missing data.
+Use it jab abhi object/value nahi hai but future me aa sakti hai.
 
 ## Small Example
 
 ```js
 let selectedUser = null;
-console.log(selectedUser); // null
+console.log(selectedUser);
 ```
 
 ## Common Mistake
 
-typeof null returns "object". This is an old JavaScript bug, but null is still a primitive value.
+null ka typeof object aata hai, ye JavaScript ka old bug-like behavior hai.
 
 ## Interview Answer
 
-null is used to intentionally represent absence of value.
+Null ka short interview answer: null intentional empty value hai. Developer khud value empty set karta hai. Saath me ek small example aur common mistake bol doge toh answer strong lagega.
 
-## How To Study
-
-1. Read this theory slowly.
-2. Open `02_snippets.js` and run each example.
-3. Predict output before checking the answer.
-4. Read `03_coding-output-practice.js` for spoken interview answers.
-5. Practice `03_coding-output-practice.js` for confidence.

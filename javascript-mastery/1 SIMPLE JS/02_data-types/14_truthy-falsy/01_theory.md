@@ -4,36 +4,24 @@ Path: `1 SIMPLE JS\02_data-types\14_truthy-falsy\01_theory.md`
 
 ## Simple Meaning
 
-Truthy and falsy describe how values behave inside conditions.
+Truthy/falsy batata hai condition me value true behave karegi ya false.
 
-## Understand It Like This
+## Real Use
 
-A value does not need to be true/false to behave like true/false in if statements.
-
-## Why We Use It
-
-Conditions, validation, defaults, and short-circuit logic use truthy/falsy behavior.
+Use it guards, fallback, validation me.
 
 ## Small Example
 
 ```js
-if ("hello") {
-  console.log("runs");
-}
+if ("") console.log("truthy");
+else console.log("falsy");
 ```
 
 ## Common Mistake
 
-Empty string, 0, null, undefined, NaN, and false are falsy.
+0, empty string, null, undefined, false, NaN falsy hote hain.
 
 ## Interview Answer
 
-Truthy values act like true in conditions; falsy values act like false.
+Truthy Falsy ka short interview answer: Truthy/falsy batata hai condition me value true behave karegi ya false. Saath me ek small example aur common mistake bol doge toh answer strong lagega.
 
-## How To Study
-
-1. Read this theory slowly.
-2. Open `02_snippets.js` and run each example.
-3. Predict output before checking the answer.
-4. Read `03_coding-output-practice.js` for spoken interview answers.
-5. Practice `03_coding-output-practice.js` for confidence.

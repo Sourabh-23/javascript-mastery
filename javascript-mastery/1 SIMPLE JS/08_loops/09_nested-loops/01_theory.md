@@ -4,38 +4,25 @@ Path: `1 SIMPLE JS\08_loops\09_nested-loops\01_theory.md`
 
 ## Simple Meaning
 
-nested loops are loops inside loops. They are useful for matrices, pairs, and patterns.
-
-## Mental Model
-
-When you read this topic, ask three things:
-
-1. What value goes in?
-2. What operation happens?
-3. What value or side effect comes out?
+Nested loops ka matlab loop ke andar loop.
 
 ## Real Use
 
-You will use Nested Loops while reading output questions, writing small interview examples, and debugging real code. The main goal is not memorizing the name. The main goal is understanding exactly what JavaScript does line by line.
+Use it matrix, patterns, pair comparison me.
 
 ## Small Example
 
 ```js
-const value = "Nested Loops";
-console.log(value);
+for (let r = 1; r <= 2; r++) {
+  for (let c = 1; c <= 2; c++) console.log(r, c);
+}
 ```
 
 ## Common Mistake
 
-The common mistake is reading only the definition and skipping output prediction. Always run the snippet, then change one value and predict again.
+Nested loops usually O(n^2) ho sakte hain.
 
 ## Interview Answer
 
-Nested Loops is useful because it controls how data is read, changed, compared, stored, or executed in JavaScript. In interviews, explain the behavior first, then give a tiny code example.
+Nested Loops ka short interview answer: Nested loops ka matlab loop ke andar loop. Saath me ek small example aur common mistake bol doge toh answer strong lagega.
 
-## How To Study
-
-1. Read this file once.
-2. Run `02_snippets.js`.
-3. Predict every answer in `03_coding-output-practice.js`.
-4. Write two small examples without looking.

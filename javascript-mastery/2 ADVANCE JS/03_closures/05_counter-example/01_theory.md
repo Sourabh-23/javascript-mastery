@@ -4,40 +4,28 @@ Path: `2 ADVANCE JS\03_closures\05_counter-example\01_theory.md`
 
 ## Simple Meaning
 
-A closure happens when an inner function remembers variables from its outer function.
+Closure me inner function outer variables ko yaad rakhta hai even after outer function return.
 
-## Understand It Like This
+## Real Use
 
-The inner function carries its surrounding memory with it.
-
-## Why We Use It
-
-Closures are used for data privacy, counters, callbacks, and function factories.
+Use it private variables, counters, memoization, function factories me.
 
 ## Small Example
 
 ```js
 function counter() {
   let count = 0;
-  return function () {
-    count++;
-    return count;
-  };
+  return () => ++count;
 }
+const c = counter();
+console.log(c());
 ```
 
 ## Common Mistake
 
-Do not think outer variables disappear immediately if an inner function still uses them.
+Closure variable ki value remember karta hai, copy nahi.
 
 ## Interview Answer
 
-A closure is a function bundled with references to its lexical environment.
+Counter Example ka short interview answer: Closure me inner function outer variables ko yaad rakhta hai even after outer function return. Saath me ek small example aur common mistake bol doge toh answer strong lagega.
 
-## How To Study
-
-1. Read this theory slowly.
-2. Open `02_snippets.js` and run each example.
-3. Predict output before checking the answer.
-4. Read `03_coding-output-practice.js` for spoken interview answers.
-5. Practice `03_coding-output-practice.js` for confidence.

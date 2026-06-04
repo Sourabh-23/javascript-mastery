@@ -4,38 +4,23 @@ Path: `2 ADVANCE JS\10_dsa\02_space-complexity\01_theory.md`
 
 ## Simple Meaning
 
-DSA focuses on solving problems efficiently by choosing the right data structure and algorithm pattern.
-
-## Mental Model
-
-When you read this topic, ask three things:
-
-1. What value goes in?
-2. What operation happens?
-3. What value or side effect comes out?
+Space complexity extra memory growth estimate karti hai.
 
 ## Real Use
 
-You will use Space Complexity while reading output questions, writing small interview examples, and debugging real code. The main goal is not memorizing the name. The main goal is understanding exactly what JavaScript does line by line.
+Use it memory-efficient solution compare karne ke liye.
 
 ## Small Example
 
 ```js
-const value = "Space Complexity";
-console.log(value);
+const copy = [...items]; // O(n) extra space
 ```
 
 ## Common Mistake
 
-The common mistake is reading only the definition and skipping output prediction. Always run the snippet, then change one value and predict again.
+Input space aur extra space ko mix mat karo.
 
 ## Interview Answer
 
-Space Complexity is useful because it controls how data is read, changed, compared, stored, or executed in JavaScript. In interviews, explain the behavior first, then give a tiny code example.
+Space Complexity ka short interview answer: Space complexity extra memory growth estimate karti hai. Saath me ek small example aur common mistake bol doge toh answer strong lagega.
 
-## How To Study
-
-1. Read this file once.
-2. Run `02_snippets.js`.
-3. Predict every answer in `03_coding-output-practice.js`.
-4. Write two small examples without looking.

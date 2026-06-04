@@ -4,35 +4,25 @@ Path: `1 SIMPLE JS\09_ES6\03_ES6-destructuring\01_theory.md`
 
 ## Simple Meaning
 
-Destructuring extracts values from arrays or objects into variables.
+Destructuring array/object se values ko directly variables me unpack karne ka shortcut hai.
 
-## Understand It Like This
+## Real Use
 
-Take only the pieces you need from a bigger structure.
-
-## Why We Use It
-
-Function parameters, API responses, React props, and object data often use destructuring.
+Use it API response, function params, object fields, array positions read karne me.
 
 ## Small Example
 
 ```js
 const user = { name: "Amit", age: 25 };
-const { name, age } = user;
+const { name } = user;
+console.log(name);
 ```
 
 ## Common Mistake
 
-Object destructuring uses property names; array destructuring uses position.
+Property name mismatch hua toh undefined milega.
 
 ## Interview Answer
 
-Destructuring is ES6 syntax for unpacking values from arrays or objects.
+ES6 Destructuring ka short interview answer: Destructuring array/object se values ko directly variables me unpack karne ka shortcut hai. Saath me ek small example aur common mistake bol doge toh answer strong lagega.
 
-## How To Study
-
-1. Read this theory slowly.
-2. Open `02_snippets.js` and run each example.
-3. Predict output before checking the answer.
-4. Read `03_coding-output-practice.js` for spoken interview answers.
-5. Practice `03_coding-output-practice.js` for confidence.

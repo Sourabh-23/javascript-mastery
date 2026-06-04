@@ -4,35 +4,24 @@ Path: `1 SIMPLE JS\05_arrays\08_findindex\01_theory.md`
 
 ## Simple Meaning
 
-findIndex returns the index of the first item that matches a condition.
+findIndex first matching element ka index return karta hai.
 
-## Understand It Like This
+## Real Use
 
-It searches and gives the position.
-
-## Why We Use It
-
-Use it when you need to update or locate an item by index.
+Use it item position find karne ke liye.
 
 ## Small Example
 
 ```js
 const users = [{ id: 1 }, { id: 2 }];
-const index = users.findIndex((u) => u.id === 2);
+console.log(users.findIndex((u) => u.id === 2));
 ```
 
 ## Common Mistake
 
-It returns -1 if nothing matches.
+Match nahi mila toh -1 return hota hai.
 
 ## Interview Answer
 
-findIndex returns the index of the first matching item, or -1.
+Findindex ka short interview answer: findIndex first matching element ka index return karta hai. Saath me ek small example aur common mistake bol doge toh answer strong lagega.
 
-## How To Study
-
-1. Read this theory slowly.
-2. Open `02_snippets.js` and run each example.
-3. Predict output before checking the answer.
-4. Read `03_coding-output-practice.js` for spoken interview answers.
-5. Practice `03_coding-output-practice.js` for confidence.

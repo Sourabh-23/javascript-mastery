@@ -4,15 +4,11 @@ Path: `1 SIMPLE JS\01_variables\03_ES6-const\01_theory.md`
 
 ## Simple Meaning
 
-const declares a variable that cannot be reassigned.
+const reassign nahi hota. Lekin object/array ke andar ki values mutate ho sakti hain.
 
-## Understand It Like This
+## Real Use
 
-Use const when the variable name should always point to the same value/reference.
-
-## Why We Use It
-
-Use const by default for values, arrays, objects, functions, and imports.
+Use it by default jab variable ko dobara assign nahi karna.
 
 ## Small Example
 
@@ -24,16 +20,9 @@ console.log(user.name);
 
 ## Common Mistake
 
-const stops reassignment, but object and array contents can still be changed.
+const object ko fully immutable samajhna mistake hai.
 
 ## Interview Answer
 
-const is block-scoped and cannot be reassigned after initialization.
+ES6 Const ka short interview answer: const reassign nahi hota. Lekin object/array ke andar ki values mutate ho sakti hain. Saath me ek small example aur common mistake bol doge toh answer strong lagega.
 
-## How To Study
-
-1. Read this theory slowly.
-2. Open `02_snippets.js` and run each example.
-3. Predict output before checking the answer.
-4. Read `03_coding-output-practice.js` for spoken interview answers.
-5. Practice `03_coding-output-practice.js` for confidence.

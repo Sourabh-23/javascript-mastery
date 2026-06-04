@@ -4,40 +4,31 @@ Path: `1 SIMPLE JS\04_functions\11_throttle\01_theory.md`
 
 ## Simple Meaning
 
-throttle limits a function so it runs at most once in a fixed time window.
-
-## Mental Model
-
-When you read this topic, ask three things:
-
-1. What value goes in?
-2. What operation happens?
-3. What value or side effect comes out?
+Throttle function ko fixed interval me limited baar run karta hai.
 
 ## Real Use
 
-You will use Throttle while reading output questions, writing small interview examples, and debugging real code. The main goal is not memorizing the name. The main goal is understanding exactly what JavaScript does line by line.
+Use it scroll, mousemove, resize repeated events me.
 
 ## Small Example
 
 ```js
-function add(a, b) {
-  return a + b;
+function throttle(fn, delay) {
+  let waiting = false;
+  return (...args) => {
+    if (waiting) return;
+    fn(...args);
+    waiting = true;
+    setTimeout(() => waiting = false, delay);
+  };
 }
-console.log(add(2, 3));
 ```
 
 ## Common Mistake
 
-The common mistake is reading only the definition and skipping output prediction. Always run the snippet, then change one value and predict again.
+Throttle aur debounce ka use case alag hai.
 
 ## Interview Answer
 
-Throttle is useful because it controls how data is read, changed, compared, stored, or executed in JavaScript. In interviews, explain the behavior first, then give a tiny code example.
+Throttle ka short interview answer: Throttle function ko fixed interval me limited baar run karta hai. Saath me ek small example aur common mistake bol doge toh answer strong lagega.
 
-## How To Study
-
-1. Read this file once.
-2. Run `02_snippets.js`.
-3. Predict every answer in `03_coding-output-practice.js`.
-4. Write two small examples without looking.

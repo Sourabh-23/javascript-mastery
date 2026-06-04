@@ -4,38 +4,26 @@ Path: `1 SIMPLE JS\05_arrays\03_shift-unshift\01_theory.md`
 
 ## Simple Meaning
 
-shift removes from the start and unshift adds to the start of an array.
-
-## Mental Model
-
-When you read this topic, ask three things:
-
-1. What value goes in?
-2. What operation happens?
-3. What value or side effect comes out?
+shift start se remove karta hai, unshift start me add karta hai.
 
 ## Real Use
 
-You will use Shift Unshift while reading output questions, writing small interview examples, and debugging real code. The main goal is not memorizing the name. The main goal is understanding exactly what JavaScript does line by line.
+Use it queue-like simple operations me.
 
 ## Small Example
 
 ```js
-const value = "Shift Unshift";
-console.log(value);
+const q = [2, 3];
+q.unshift(1);
+q.shift();
+console.log(q);
 ```
 
 ## Common Mistake
 
-The common mistake is reading only the definition and skipping output prediction. Always run the snippet, then change one value and predict again.
+Large arrays me start operations costly ho sakte hain.
 
 ## Interview Answer
 
-Shift Unshift is useful because it controls how data is read, changed, compared, stored, or executed in JavaScript. In interviews, explain the behavior first, then give a tiny code example.
+Shift Unshift ka short interview answer: shift start se remove karta hai, unshift start me add karta hai. Saath me ek small example aur common mistake bol doge toh answer strong lagega.
 
-## How To Study
-
-1. Read this file once.
-2. Run `02_snippets.js`.
-3. Predict every answer in `03_coding-output-practice.js`.
-4. Write two small examples without looking.

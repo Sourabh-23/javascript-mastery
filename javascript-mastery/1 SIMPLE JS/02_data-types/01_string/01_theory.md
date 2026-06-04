@@ -4,36 +4,24 @@ Path: `1 SIMPLE JS\02_data-types\01_string\01_theory.md`
 
 ## Simple Meaning
 
-A string is text data in JavaScript. Anything written inside quotes is usually a string.
+String text data hota hai, jaise name, email, password, message.
 
-## Understand It Like This
+## Real Use
 
-Use strings when the value is meant to be read as text, not calculated as a number.
-
-## Why We Use It
-
-Names, emails, passwords, messages, API text, and form input usually use strings.
+Use strings jab value ko text ki tarah treat karna ho, calculation ki tarah nahi.
 
 ## Small Example
 
 ```js
-const name = "Rahul";
-const message = "Hello " + name;
-console.log(message);
+const name = "Amit";
+console.log(name.toUpperCase());
 ```
 
 ## Common Mistake
 
-A number inside quotes is a string, so "10" + 5 becomes "105".
+Quotes ke andar number bhi string hota hai: "10" + 5 gives "105".
 
 ## Interview Answer
 
-A string is a primitive data type used to store text. It can be created with single quotes, double quotes, or template literals.
+String ka short interview answer: String text data hota hai, jaise name, email, password, message. Saath me ek small example aur common mistake bol doge toh answer strong lagega.
 
-## How To Study
-
-1. Read this theory slowly.
-2. Open `02_snippets.js` and run each example.
-3. Predict output before checking the answer.
-4. Read `03_coding-output-practice.js` for spoken interview answers.
-5. Practice `03_coding-output-practice.js` for confidence.

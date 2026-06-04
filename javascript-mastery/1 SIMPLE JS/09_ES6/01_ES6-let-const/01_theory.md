@@ -1,41 +1,28 @@
-# Let Const
+# ES6 Let Const
 
 Path: `1 SIMPLE JS\09_ES6\01_ES6-let-const\01_theory.md`
 
 ## Simple Meaning
 
-let creates a block-scoped variable. It is hoisted too, but you cannot use it before declaration because of TDZ.
-
-## Mental Model
-
-When you read this topic, ask three things:
-
-1. What value goes in?
-2. What operation happens?
-3. What value or side effect comes out?
+let modern variable keyword hai. Iski scope block level hoti hai aur value reassign ho sakti hai.
 
 ## Real Use
 
-You will use Let Const while reading output questions, writing small interview examples, and debugging real code. The main goal is not memorizing the name. The main goal is understanding exactly what JavaScript does line by line.
+Use it jab value future me change hogi, jaise counter, loop index, temporary state.
 
 ## Small Example
 
 ```js
-const value = "Let Const";
-console.log(value);
+let count = 1;
+count = count + 1;
+console.log(count);
 ```
 
 ## Common Mistake
 
-The common mistake is reading only the definition and skipping output prediction. Always run the snippet, then change one value and predict again.
+let ko declaration se pehle access karoge toh TDZ ki wajah se ReferenceError aayega.
 
 ## Interview Answer
 
-Let Const is useful because it controls how data is read, changed, compared, stored, or executed in JavaScript. In interviews, explain the behavior first, then give a tiny code example.
+ES6 Let Const ka short interview answer: let modern variable keyword hai. Iski scope block level hoti hai aur value reassign ho sakti hai. Saath me ek small example aur common mistake bol doge toh answer strong lagega.
 
-## How To Study
-
-1. Read this file once.
-2. Run `02_snippets.js`.
-3. Predict every answer in `03_coding-output-practice.js`.
-4. Write two small examples without looking.

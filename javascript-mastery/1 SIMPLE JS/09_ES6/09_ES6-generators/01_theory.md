@@ -1,22 +1,14 @@
-# Generators
+# ES6 Generators
 
 Path: `1 SIMPLE JS\09_ES6\09_ES6-generators\01_theory.md`
 
 ## Simple Meaning
 
-generators are function* functions that can pause with yield and continue later when next() is called.
-
-## Mental Model
-
-Read the code in this order:
-
-1. What is created first?
-2. Which line runs next?
-3. What value is stored or returned?
+Generator function pause aur resume ho sakta hai using yield.
 
 ## Real Use
 
-You will use Generators when tracing interview output questions and debugging real code behavior.
+Use it custom iteration, lazy values, controlled sequence generation me.
 
 ## Small Example
 
@@ -25,21 +17,14 @@ function* ids() {
   yield 1;
   yield 2;
 }
-const gen = ids();
-console.log(gen.next().value);
+console.log(ids().next().value);
 ```
 
 ## Common Mistake
 
-The common mistake is jumping to the answer without tracing each function call, variable value, or returned result.
+Generator call karne se code immediately run nahi hota; iterator object milta hai.
 
 ## Interview Answer
 
-Generators is important because it changes how JavaScript stores work, calls functions, or reads values at runtime.
+ES6 Generators ka short interview answer: Generator function pause aur resume ho sakta hai using yield. Saath me ek small example aur common mistake bol doge toh answer strong lagega.
 
-## How To Study
-
-1. Read this file once.
-2. Run `02_snippets.js`.
-3. Predict every answer in `03_coding-output-practice.js`.
-4. Explain the flow in your own words.

@@ -4,48 +4,27 @@ Path: `2 ADVANCE JS\10_dsa\09_binary-search\01_theory.md`
 
 ## Simple Meaning
 
-DSA focuses on solving problems efficiently by choosing the right data structure and algorithm pattern.
-
-## Mental Model
-
-When you read this topic, ask three things:
-
-1. What value goes in?
-2. What operation happens?
-3. What value or side effect comes out?
+Binary search sorted data me search space half karta hai.
 
 ## Real Use
 
-You will use Binary Search while reading output questions, writing small interview examples, and debugging real code. The main goal is not memorizing the name. The main goal is understanding exactly what JavaScript does line by line.
+Use it sorted array ya monotonic answer space me.
 
 ## Small Example
 
 ```js
-function binarySearch(nums, target) {
-  let left = 0;
-  let right = nums.length - 1;
-  while (left <= right) {
-    const mid = Math.floor((left + right) / 2);
-    if (nums[mid] === target) return mid;
-    if (nums[mid] < target) left = mid + 1;
-    else right = mid - 1;
-  }
-  return -1;
+let left = 0, right = nums.length - 1;
+while (left <= right) {
+  const mid = Math.floor((left + right) / 2);
+  break;
 }
-console.log(binarySearch([1, 3, 5], 5));
 ```
 
 ## Common Mistake
 
-The common mistake is reading only the definition and skipping output prediction. Always run the snippet, then change one value and predict again.
+Unsorted array par binary search mat lagao.
 
 ## Interview Answer
 
-Binary Search is useful because it controls how data is read, changed, compared, stored, or executed in JavaScript. In interviews, explain the behavior first, then give a tiny code example.
+Binary Search ka short interview answer: Binary search sorted data me search space half karta hai. Saath me ek small example aur common mistake bol doge toh answer strong lagega.
 
-## How To Study
-
-1. Read this file once.
-2. Run `02_snippets.js`.
-3. Predict every answer in `03_coding-output-practice.js`.
-4. Write two small examples without looking.

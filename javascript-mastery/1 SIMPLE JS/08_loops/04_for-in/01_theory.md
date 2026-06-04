@@ -4,40 +4,24 @@ Path: `1 SIMPLE JS\08_loops\04_for-in\01_theory.md`
 
 ## Simple Meaning
 
-for-in loops over object keys. It can also loop array indexes, but for arrays for-of is usually clearer.
-
-## Mental Model
-
-When you read this topic, ask three things:
-
-1. What value goes in?
-2. What operation happens?
-3. What value or side effect comes out?
+for-in object keys par loop karta hai.
 
 ## Real Use
 
-You will use For In while reading output questions, writing small interview examples, and debugging real code. The main goal is not memorizing the name. The main goal is understanding exactly what JavaScript does line by line.
+Use it objects ke keys/values traverse karne ke liye.
 
 ## Small Example
 
 ```js
-const user = { name: "Amit", role: "dev" };
-for (const key in user) {
-  console.log(key, user[key]);
-}
+const user = { name: "Amit", age: 25 };
+for (const key in user) console.log(key, user[key]);
 ```
 
 ## Common Mistake
 
-The common mistake is reading only the definition and skipping output prediction. Always run the snippet, then change one value and predict again.
+Arrays ke liye for-in avoid karo.
 
 ## Interview Answer
 
-For In is useful because it controls how data is read, changed, compared, stored, or executed in JavaScript. In interviews, explain the behavior first, then give a tiny code example.
+For In ka short interview answer: for-in object keys par loop karta hai. Saath me ek small example aur common mistake bol doge toh answer strong lagega.
 
-## How To Study
-
-1. Read this file once.
-2. Run `02_snippets.js`.
-3. Predict every answer in `03_coding-output-practice.js`.
-4. Write two small examples without looking.

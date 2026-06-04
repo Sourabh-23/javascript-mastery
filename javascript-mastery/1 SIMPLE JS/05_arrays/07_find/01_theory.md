@@ -4,35 +4,24 @@ Path: `1 SIMPLE JS\05_arrays\07_find\01_theory.md`
 
 ## Simple Meaning
 
-find returns the first item that matches a condition.
+find first matching element return karta hai.
 
-## Understand It Like This
+## Real Use
 
-It searches and gives the item itself.
-
-## Why We Use It
-
-Use it to find one user, product, record, or matching value.
+Use it id ke basis par object find karne ke liye.
 
 ## Small Example
 
 ```js
 const users = [{ id: 1 }, { id: 2 }];
-const user = users.find((u) => u.id === 2);
+console.log(users.find((u) => u.id === 2));
 ```
 
 ## Common Mistake
 
-It returns undefined if nothing matches.
+Match nahi mila toh undefined return hota hai.
 
 ## Interview Answer
 
-find returns the first matching element from an array.
+Find ka short interview answer: find first matching element return karta hai. Saath me ek small example aur common mistake bol doge toh answer strong lagega.
 
-## How To Study
-
-1. Read this theory slowly.
-2. Open `02_snippets.js` and run each example.
-3. Predict output before checking the answer.
-4. Read `03_coding-output-practice.js` for spoken interview answers.
-5. Practice `03_coding-output-practice.js` for confidence.

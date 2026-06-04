@@ -4,35 +4,24 @@ Path: `1 SIMPLE JS\02_data-types\06_bigint\01_theory.md`
 
 ## Simple Meaning
 
-BigInt stores very large integers that normal number cannot safely handle.
+BigInt very large integers ke liye hota hai jo normal number safely store nahi kar pata.
 
-## Understand It Like This
+## Real Use
 
-Use BigInt when integer precision matters for very large values.
-
-## Why We Use It
-
-Large IDs, cryptography, and high precision integer calculations can use BigInt.
+Use it financial IDs, huge counters, large integer calculations me.
 
 ## Small Example
 
 ```js
 const big = 9007199254740993n;
-console.log(big);
+console.log(big + 2n);
 ```
 
 ## Common Mistake
 
-You cannot directly mix BigInt and Number in arithmetic.
+BigInt aur Number ko direct mix karke arithmetic nahi kar sakte.
 
 ## Interview Answer
 
-BigInt is a primitive type for integers larger than Number.MAX_SAFE_INTEGER.
+Bigint ka short interview answer: BigInt very large integers ke liye hota hai jo normal number safely store nahi kar pata. Saath me ek small example aur common mistake bol doge toh answer strong lagega.
 
-## How To Study
-
-1. Read this theory slowly.
-2. Open `02_snippets.js` and run each example.
-3. Predict output before checking the answer.
-4. Read `03_coding-output-practice.js` for spoken interview answers.
-5. Practice `03_coding-output-practice.js` for confidence.

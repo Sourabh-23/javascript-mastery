@@ -4,15 +4,11 @@ Path: `1 SIMPLE JS\05_arrays\09_some\01_theory.md`
 
 ## Simple Meaning
 
-some checks if at least one item passes a condition.
+some check karta hai at least one element condition pass karta hai ya nahi.
 
-## Understand It Like This
+## Real Use
 
-At least one true means result is true.
-
-## Why We Use It
-
-Use it for checks like any admin, any invalid field, any selected item.
+Use it yes/no validation where one match enough hai.
 
 ## Small Example
 
@@ -23,16 +19,9 @@ console.log(nums.some((n) => n % 2 === 0));
 
 ## Common Mistake
 
-some returns a boolean, not the matched item.
+some array return nahi karta, boolean return karta hai.
 
 ## Interview Answer
 
-some returns true if any array item satisfies the condition.
+Some ka short interview answer: some check karta hai at least one element condition pass karta hai ya nahi. Saath me ek small example aur common mistake bol doge toh answer strong lagega.
 
-## How To Study
-
-1. Read this theory slowly.
-2. Open `02_snippets.js` and run each example.
-3. Predict output before checking the answer.
-4. Read `03_coding-output-practice.js` for spoken interview answers.
-5. Practice `03_coding-output-practice.js` for confidence.

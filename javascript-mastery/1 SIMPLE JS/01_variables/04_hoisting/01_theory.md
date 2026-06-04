@@ -4,35 +4,24 @@ Path: `1 SIMPLE JS\01_variables\04_hoisting\01_theory.md`
 
 ## Simple Meaning
 
-Hoisting is JavaScript behavior where declarations are processed before code execution.
+Hoisting me JavaScript memory phase ke time declarations ko pehle register karta hai.
 
-## Understand It Like This
+## Real Use
 
-JavaScript knows about declarations first, but initialization still happens where the code is written.
-
-## Why We Use It
-
-Hoisting explains many output questions involving var, let, const, and functions.
+Use it output questions trace karne ke liye, especially var/function declaration.
 
 ## Small Example
 
 ```js
-console.log(a); // undefined
+console.log(a);
 var a = 10;
 ```
 
 ## Common Mistake
 
-Do not say JavaScript physically moves code. It creates memory during the creation phase.
+Hoisting ka matlab code physically top par move hota hai aisa mat samjho.
 
 ## Interview Answer
 
-Hoisting means declarations are registered before execution, which affects access before declaration.
+Hoisting ka short interview answer: Hoisting me JavaScript memory phase ke time declarations ko pehle register karta hai. Saath me ek small example aur common mistake bol doge toh answer strong lagega.
 
-## How To Study
-
-1. Read this theory slowly.
-2. Open `02_snippets.js` and run each example.
-3. Predict output before checking the answer.
-4. Read `03_coding-output-practice.js` for spoken interview answers.
-5. Practice `03_coding-output-practice.js` for confidence.

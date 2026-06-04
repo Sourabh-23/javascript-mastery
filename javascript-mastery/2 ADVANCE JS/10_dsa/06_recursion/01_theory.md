@@ -4,38 +4,27 @@ Path: `2 ADVANCE JS\10_dsa\06_recursion\01_theory.md`
 
 ## Simple Meaning
 
-recursion happens when a function calls itself. It needs a base condition to stop.
-
-## Mental Model
-
-When you read this topic, ask three things:
-
-1. What value goes in?
-2. What operation happens?
-3. What value or side effect comes out?
+Recursion me function khud ko call karta hai until base condition.
 
 ## Real Use
 
-You will use Recursion while reading output questions, writing small interview examples, and debugging real code. The main goal is not memorizing the name. The main goal is understanding exactly what JavaScript does line by line.
+Use it tree, nested data, factorial, fibonacci jaisi problems me.
 
 ## Small Example
 
 ```js
-const value = "Recursion";
-console.log(value);
+function factorial(n) {
+  if (n <= 1) return 1;
+  return n * factorial(n - 1);
+}
+console.log(factorial(5));
 ```
 
 ## Common Mistake
 
-The common mistake is reading only the definition and skipping output prediction. Always run the snippet, then change one value and predict again.
+Base condition missing hui toh stack overflow ho sakta hai.
 
 ## Interview Answer
 
-Recursion is useful because it controls how data is read, changed, compared, stored, or executed in JavaScript. In interviews, explain the behavior first, then give a tiny code example.
+Recursion ka short interview answer: Recursion me function khud ko call karta hai until base condition. Saath me ek small example aur common mistake bol doge toh answer strong lagega.
 
-## How To Study
-
-1. Read this file once.
-2. Run `02_snippets.js`.
-3. Predict every answer in `03_coding-output-practice.js`.
-4. Write two small examples without looking.

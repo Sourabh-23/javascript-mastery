@@ -4,35 +4,24 @@ Path: `1 SIMPLE JS\04_functions\03_ES6-arrow-function\01_theory.md`
 
 ## Simple Meaning
 
-An arrow function is a shorter ES6 function syntax.
+Arrow function shorter syntax hai. Iska apna this nahi hota.
 
-## Understand It Like This
+## Real Use
 
-It is great for small callbacks and it does not have its own this.
-
-## Why We Use It
-
-Array methods, callbacks, promises, and concise helper functions use arrow functions.
+Use it callbacks aur small functions me.
 
 ## Small Example
 
 ```js
-const double = (num) => num * 2;
-console.log(double(5));
+const add = (a, b) => a + b;
+console.log(add(2, 3));
 ```
 
 ## Common Mistake
 
-Arrow functions do not bind their own this, so avoid them when you need dynamic this.
+Object method ke this ke liye arrow blindly use mat karo.
 
 ## Interview Answer
 
-Arrow functions are ES6 functions with shorter syntax and lexical this.
+ES6 Arrow Function ka short interview answer: Arrow function shorter syntax hai. Iska apna this nahi hota. Saath me ek small example aur common mistake bol doge toh answer strong lagega.
 
-## How To Study
-
-1. Read this theory slowly.
-2. Open `02_snippets.js` and run each example.
-3. Predict output before checking the answer.
-4. Read `03_coding-output-practice.js` for spoken interview answers.
-5. Practice `03_coding-output-practice.js` for confidence.

@@ -4,35 +4,24 @@ Path: `1 SIMPLE JS\02_data-types\11_typeof\01_theory.md`
 
 ## Simple Meaning
 
-typeof checks the type of a value.
+typeof operator value ka type string me batata hai.
 
-## Understand It Like This
+## Real Use
 
-Use it when you want to know what kind of value JavaScript sees.
-
-## Why We Use It
-
-Validation, debugging, and output questions often use typeof.
+Use it quick type checking ke liye.
 
 ## Small Example
 
 ```js
-console.log(typeof "hello"); // string
-console.log(typeof 10); // number
+console.log(typeof "hello");
+console.log(typeof null);
 ```
 
 ## Common Mistake
 
-typeof null returns "object", which is a known JavaScript quirk.
+typeof null "object" deta hai, isliye null separately check karo.
 
 ## Interview Answer
 
-typeof is an operator that returns a string describing the value type.
+Typeof ka short interview answer: typeof operator value ka type string me batata hai. Saath me ek small example aur common mistake bol doge toh answer strong lagega.
 
-## How To Study
-
-1. Read this theory slowly.
-2. Open `02_snippets.js` and run each example.
-3. Predict output before checking the answer.
-4. Read `03_coding-output-practice.js` for spoken interview answers.
-5. Practice `03_coding-output-practice.js` for confidence.

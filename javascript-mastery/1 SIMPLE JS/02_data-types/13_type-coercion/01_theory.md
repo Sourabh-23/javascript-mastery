@@ -4,35 +4,24 @@ Path: `1 SIMPLE JS\02_data-types\13_type-coercion\01_theory.md`
 
 ## Simple Meaning
 
-Type coercion means JavaScript automatically converts types during operations.
+Type coercion me JavaScript automatically type change karta hai.
 
-## Understand It Like This
+## Real Use
 
-JavaScript tries to make both sides compatible, sometimes in surprising ways.
-
-## Why We Use It
-
-Coercion explains many ==, +, truthy/falsy, and output questions.
+Use it output questions samajhne ke liye, real code me avoid/clear raho.
 
 ## Small Example
 
 ```js
-console.log("5" == 5); // true
-console.log("5" + 5); // "55"
+console.log("10" + 5);
+console.log("10" - 5);
 ```
 
 ## Common Mistake
 
-Automatic conversion can produce unexpected results, so prefer ===.
+Coercion unpredictable lag sakti hai agar ==, +, -, truthy/falsy clear nahi hai.
 
 ## Interview Answer
 
-Type coercion is automatic type conversion performed by JavaScript.
+Type Coercion ka short interview answer: Type coercion me JavaScript automatically type change karta hai. Saath me ek small example aur common mistake bol doge toh answer strong lagega.
 
-## How To Study
-
-1. Read this theory slowly.
-2. Open `02_snippets.js` and run each example.
-3. Predict output before checking the answer.
-4. Read `03_coding-output-practice.js` for spoken interview answers.
-5. Practice `03_coding-output-practice.js` for confidence.

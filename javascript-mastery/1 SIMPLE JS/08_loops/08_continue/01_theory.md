@@ -4,38 +4,26 @@ Path: `1 SIMPLE JS\08_loops\08_continue\01_theory.md`
 
 ## Simple Meaning
 
-continue skips the current loop iteration and moves to the next one.
-
-## Mental Model
-
-When you read this topic, ask three things:
-
-1. What value goes in?
-2. What operation happens?
-3. What value or side effect comes out?
+continue current iteration skip karke next iteration par jata hai.
 
 ## Real Use
 
-You will use Continue while reading output questions, writing small interview examples, and debugging real code. The main goal is not memorizing the name. The main goal is understanding exactly what JavaScript does line by line.
+Use it unwanted values skip karne ke liye.
 
 ## Small Example
 
 ```js
-const value = "Continue";
-console.log(value);
+for (let i = 1; i <= 5; i++) {
+  if (i === 3) continue;
+  console.log(i);
+}
 ```
 
 ## Common Mistake
 
-The common mistake is reading only the definition and skipping output prediction. Always run the snippet, then change one value and predict again.
+continue ke baad current iteration ka remaining code run nahi hota.
 
 ## Interview Answer
 
-Continue is useful because it controls how data is read, changed, compared, stored, or executed in JavaScript. In interviews, explain the behavior first, then give a tiny code example.
+Continue ka short interview answer: continue current iteration skip karke next iteration par jata hai. Saath me ek small example aur common mistake bol doge toh answer strong lagega.
 
-## How To Study
-
-1. Read this file once.
-2. Run `02_snippets.js`.
-3. Predict every answer in `03_coding-output-practice.js`.
-4. Write two small examples without looking.

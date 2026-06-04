@@ -4,36 +4,25 @@ Path: `1 SIMPLE JS\02_data-types\07_ES6-symbol\01_theory.md`
 
 ## Simple Meaning
 
-Symbol creates a unique value, even if two symbols have the same description.
+Symbol unique identifier banata hai, mostly unique object keys ke liye.
 
-## Understand It Like This
+## Real Use
 
-Use Symbol when you need a property key that should not accidentally clash.
-
-## Why We Use It
-
-Symbols are used for unique object keys and some advanced JavaScript internals.
+Use it jab object key collision avoid karni ho.
 
 ## Small Example
 
 ```js
 const id = Symbol("id");
-const user = { [id]: 101 };
+const user = { [id]: 1 };
 console.log(user[id]);
 ```
 
 ## Common Mistake
 
-Symbol("id") === Symbol("id") is false because both symbols are unique.
+Do same description wale Symbols equal nahi hote.
 
 ## Interview Answer
 
-Symbol is an ES6 primitive used to create unique identifiers.
+ES6 Symbol ka short interview answer: Symbol unique identifier banata hai, mostly unique object keys ke liye. Saath me ek small example aur common mistake bol doge toh answer strong lagega.
 
-## How To Study
-
-1. Read this theory slowly.
-2. Open `02_snippets.js` and run each example.
-3. Predict output before checking the answer.
-4. Read `03_coding-output-practice.js` for spoken interview answers.
-5. Practice `03_coding-output-practice.js` for confidence.

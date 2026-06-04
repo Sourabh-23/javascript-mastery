@@ -4,45 +4,25 @@ Path: `2 ADVANCE JS\09_oop\02_constructor-function\01_theory.md`
 
 ## Simple Meaning
 
-const creates a block-scoped binding that must be assigned immediately. The binding cannot be reassigned.
-
-## Mental Model
-
-When you read this topic, ask three things:
-
-1. What value goes in?
-2. What operation happens?
-3. What value or side effect comes out?
+const reassign nahi hota. Lekin object/array ke andar ki values mutate ho sakti hain.
 
 ## Real Use
 
-You will use Constructor Function while reading output questions, writing small interview examples, and debugging real code. The main goal is not memorizing the name. The main goal is understanding exactly what JavaScript does line by line.
+Use it by default jab variable ko dobara assign nahi karna.
 
 ## Small Example
 
 ```js
-class User {
-  constructor(name) {
-    this.name = name;
-  }
-  greet() {
-    return "Hi " + this.name;
-  }
-}
-console.log(new User("Amit").greet());
+const user = { name: "Amit" };
+user.name = "Rahul";
+console.log(user.name);
 ```
 
 ## Common Mistake
 
-The common mistake is reading only the definition and skipping output prediction. Always run the snippet, then change one value and predict again.
+const object ko fully immutable samajhna mistake hai.
 
 ## Interview Answer
 
-Constructor Function is useful because it controls how data is read, changed, compared, stored, or executed in JavaScript. In interviews, explain the behavior first, then give a tiny code example.
+Constructor Function ka short interview answer: const reassign nahi hota. Lekin object/array ke andar ki values mutate ho sakti hain. Saath me ek small example aur common mistake bol doge toh answer strong lagega.
 
-## How To Study
-
-1. Read this file once.
-2. Run `02_snippets.js`.
-3. Predict every answer in `03_coding-output-practice.js`.
-4. Write two small examples without looking.

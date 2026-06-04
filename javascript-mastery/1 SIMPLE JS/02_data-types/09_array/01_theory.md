@@ -4,35 +4,24 @@ Path: `1 SIMPLE JS\02_data-types\09_array\01_theory.md`
 
 ## Simple Meaning
 
-An array stores multiple values in an ordered list.
+Array ordered list hoti hai jisme multiple values index ke basis par store hoti hain.
 
-## Understand It Like This
+## Real Use
 
-Use arrays when order matters or when you need to loop over many items.
-
-## Why We Use It
-
-Lists of users, products, tasks, IDs, and search results are arrays.
+Use it lists, collections, table rows, selected items store karne ke liye.
 
 ## Small Example
 
 ```js
-const numbers = [10, 20, 30];
-console.log(numbers[0]); // 10
+const marks = [80, 90, 75];
+console.log(marks[0]);
 ```
 
 ## Common Mistake
 
-Array index starts from 0, not 1.
+Array index 0 se start hota hai.
 
 ## Interview Answer
 
-An array is an object-like structure used to store ordered collections.
+Array ka short interview answer: Array ordered list hoti hai jisme multiple values index ke basis par store hoti hain. Saath me ek small example aur common mistake bol doge toh answer strong lagega.
 
-## How To Study
-
-1. Read this theory slowly.
-2. Open `02_snippets.js` and run each example.
-3. Predict output before checking the answer.
-4. Read `03_coding-output-practice.js` for spoken interview answers.
-5. Practice `03_coding-output-practice.js` for confidence.

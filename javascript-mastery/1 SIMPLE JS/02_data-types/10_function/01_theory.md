@@ -4,15 +4,11 @@ Path: `1 SIMPLE JS\02_data-types\10_function\01_theory.md`
 
 ## Simple Meaning
 
-A function is a reusable block of code.
+Function reusable block of code hai jo input leta hai, kaam karta hai, aur output return kar sakta hai.
 
-## Understand It Like This
+## Real Use
 
-Use a function when you want to run the same logic again with different values.
-
-## Why We Use It
-
-Calculations, validation, API helpers, event handlers, and services use functions.
+Use it repeated logic ko reusable aur readable banane ke liye.
 
 ## Small Example
 
@@ -25,16 +21,9 @@ console.log(add(2, 3));
 
 ## Common Mistake
 
-Calling a function and defining a function are different things.
+return na likhne par function undefined return karta hai.
 
 ## Interview Answer
 
-A function is a reusable block of code that can accept parameters and return a value.
+Function ka short interview answer: Function reusable block of code hai jo input leta hai, kaam karta hai, aur output return kar sakta hai. Saath me ek small example aur common mistake bol doge toh answer strong lagega.
 
-## How To Study
-
-1. Read this theory slowly.
-2. Open `02_snippets.js` and run each example.
-3. Predict output before checking the answer.
-4. Read `03_coding-output-practice.js` for spoken interview answers.
-5. Practice `03_coding-output-practice.js` for confidence.

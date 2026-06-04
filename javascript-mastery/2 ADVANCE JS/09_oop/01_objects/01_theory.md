@@ -4,35 +4,27 @@ Path: `2 ADVANCE JS\09_oop\01_objects\01_theory.md`
 
 ## Simple Meaning
 
-An object stores data in key-value pairs.
+OOP me object data aur behavior ko ek unit me represent karta hai.
 
-## Understand It Like This
+## Real Use
 
-Use objects when one thing has multiple related properties.
-
-## Why We Use It
-
-Users, products, configs, API responses, and settings are usually objects.
+Use it real-world entity model karne ke liye, jaise User, Product, Account.
 
 ## Small Example
 
 ```js
-const user = { name: "Amit", age: 25 };
-console.log(user.name);
+const user = {
+  name: "Amit",
+  greet() { return "Hi " + this.name; }
+};
+console.log(user.greet());
 ```
 
 ## Common Mistake
 
-Objects are compared by reference, not by their visible values.
+Object reference copy hota hai, automatic deep copy nahi.
 
 ## Interview Answer
 
-An object is a non-primitive data type used to group related data and behavior.
+Objects ka short interview answer: OOP me object data aur behavior ko ek unit me represent karta hai. Saath me ek small example aur common mistake bol doge toh answer strong lagega.
 
-## How To Study
-
-1. Read this theory slowly.
-2. Open `02_snippets.js` and run each example.
-3. Predict output before checking the answer.
-4. Read `03_coding-output-practice.js` for spoken interview answers.
-5. Practice `03_coding-output-practice.js` for confidence.

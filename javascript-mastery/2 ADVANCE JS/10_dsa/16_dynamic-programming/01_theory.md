@@ -4,38 +4,25 @@ Path: `2 ADVANCE JS\10_dsa\16_dynamic-programming\01_theory.md`
 
 ## Simple Meaning
 
-DSA focuses on solving problems efficiently by choosing the right data structure and algorithm pattern.
-
-## Mental Model
-
-When you read this topic, ask three things:
-
-1. What value goes in?
-2. What operation happens?
-3. What value or side effect comes out?
+Dynamic programming repeated subproblems ke answers store karta hai.
 
 ## Real Use
 
-You will use Dynamic Programming while reading output questions, writing small interview examples, and debugging real code. The main goal is not memorizing the name. The main goal is understanding exactly what JavaScript does line by line.
+Use it Fibonacci, knapsack, grid paths, optimization problems me.
 
 ## Small Example
 
 ```js
-const value = "Dynamic Programming";
-console.log(value);
+const dp = [0, 1];
+for (let i = 2; i <= 5; i++) dp[i] = dp[i - 1] + dp[i - 2];
+console.log(dp[5]);
 ```
 
 ## Common Mistake
 
-The common mistake is reading only the definition and skipping output prediction. Always run the snippet, then change one value and predict again.
+DP tabhi useful hai jab overlapping subproblems ho.
 
 ## Interview Answer
 
-Dynamic Programming is useful because it controls how data is read, changed, compared, stored, or executed in JavaScript. In interviews, explain the behavior first, then give a tiny code example.
+Dynamic Programming ka short interview answer: Dynamic programming repeated subproblems ke answers store karta hai. Saath me ek small example aur common mistake bol doge toh answer strong lagega.
 
-## How To Study
-
-1. Read this file once.
-2. Run `02_snippets.js`.
-3. Predict every answer in `03_coding-output-practice.js`.
-4. Write two small examples without looking.

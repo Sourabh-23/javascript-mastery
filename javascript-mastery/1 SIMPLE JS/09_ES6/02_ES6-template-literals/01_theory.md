@@ -1,22 +1,14 @@
-# Template Literals
+# ES6 Template Literals
 
 Path: `1 SIMPLE JS\09_ES6\02_ES6-template-literals\01_theory.md`
 
 ## Simple Meaning
 
-template literals use backticks, support multi-line strings, and allow expressions inside ${} placeholders.
-
-## Mental Model
-
-Read the code in this order:
-
-1. What is created first?
-2. Which line runs next?
-3. What value is stored or returned?
+Template literals backtick syntax hai jisme string ke andar variable/expression directly ${} se use kar sakte hain.
 
 ## Real Use
 
-You will use Template Literals when tracing interview output questions and debugging real code behavior.
+Use it readable string interpolation, multiline string, dynamic messages me.
 
 ## Small Example
 
@@ -27,15 +19,9 @@ console.log(`Hello ${name}`);
 
 ## Common Mistake
 
-The common mistake is jumping to the answer without tracing each function call, variable value, or returned result.
+Backticks use karna zaroori hai; normal quotes me ${} evaluate nahi hota.
 
 ## Interview Answer
 
-Template Literals is important because it changes how JavaScript stores work, calls functions, or reads values at runtime.
+ES6 Template Literals ka short interview answer: Template literals backtick syntax hai jisme string ke andar variable/expression directly ${} se use kar sakte hain. Saath me ek small example aur common mistake bol doge toh answer strong lagega.
 
-## How To Study
-
-1. Read this file once.
-2. Run `02_snippets.js`.
-3. Predict every answer in `03_coding-output-practice.js`.
-4. Explain the flow in your own words.

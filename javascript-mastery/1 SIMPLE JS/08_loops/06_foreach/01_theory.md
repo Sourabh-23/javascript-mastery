@@ -4,15 +4,11 @@ Path: `1 SIMPLE JS\08_loops\06_foreach\01_theory.md`
 
 ## Simple Meaning
 
-forEach runs a function once for every array item.
+forEach array ke har element par callback run karta hai.
 
-## Understand It Like This
+## Real Use
 
-Use it for actions, not for creating a new array.
-
-## Why We Use It
-
-Logging, DOM updates, simple iteration, and side effects can use forEach.
+Use it side effects ke liye, jaise print/update external variable.
 
 ## Small Example
 
@@ -23,16 +19,9 @@ nums.forEach((n) => console.log(n));
 
 ## Common Mistake
 
-forEach returns undefined.
+forEach transformed array return nahi karta.
 
 ## Interview Answer
 
-forEach iterates over an array but does not return a transformed array.
+Foreach ka short interview answer: forEach array ke har element par callback run karta hai. Saath me ek small example aur common mistake bol doge toh answer strong lagega.
 
-## How To Study
-
-1. Read this theory slowly.
-2. Open `02_snippets.js` and run each example.
-3. Predict output before checking the answer.
-4. Read `03_coding-output-practice.js` for spoken interview answers.
-5. Practice `03_coding-output-practice.js` for confidence.

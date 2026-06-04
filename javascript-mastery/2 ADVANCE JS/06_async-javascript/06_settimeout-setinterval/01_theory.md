@@ -4,35 +4,23 @@ Path: `2 ADVANCE JS\06_async-javascript\06_settimeout-setinterval\01_theory.md`
 
 ## Simple Meaning
 
-setTimeout runs once after a delay; setInterval runs repeatedly.
+setTimeout delayed one-time task run karta hai, setInterval repeated task run karta hai.
 
-## Understand It Like This
+## Real Use
 
-Timeout is one alarm. Interval is a repeating alarm.
-
-## Why We Use It
-
-Timers, polling, delays, loading states, and repeated tasks use these.
+Use it delay, polling, timer-based logic me.
 
 ## Small Example
 
 ```js
 setTimeout(() => console.log("once"), 1000);
-const id = setInterval(() => console.log("repeat"), 1000);
 ```
 
 ## Common Mistake
 
-Always clear intervals when they are no longer needed.
+Timer exact time guarantee nahi karta; stack busy ho toh delay badh sakta hai.
 
 ## Interview Answer
 
-setTimeout executes once after delay; setInterval executes repeatedly until cleared.
+Settimeout Setinterval ka short interview answer: setTimeout delayed one-time task run karta hai, setInterval repeated task run karta hai. Saath me ek small example aur common mistake bol doge toh answer strong lagega.
 
-## How To Study
-
-1. Read this theory slowly.
-2. Open `02_snippets.js` and run each example.
-3. Predict output before checking the answer.
-4. Read `03_coding-output-practice.js` for spoken interview answers.
-5. Practice `03_coding-output-practice.js` for confidence.

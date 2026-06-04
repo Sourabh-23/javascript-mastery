@@ -4,35 +4,24 @@ Path: `1 SIMPLE JS\05_arrays\05_filter\01_theory.md`
 
 ## Simple Meaning
 
-filter creates a new array with items that pass a condition.
+filter condition pass karne wale elements ka new array return karta hai.
 
-## Understand It Like This
+## Real Use
 
-Keep only the matching items.
-
-## Why We Use It
-
-Search results, active users, valid values, and permissions use filter.
+Use it data search, active users, valid values nikalne me.
 
 ## Small Example
 
 ```js
 const nums = [1, 2, 3, 4];
-const even = nums.filter((n) => n % 2 === 0);
+console.log(nums.filter((n) => n % 2 === 0));
 ```
 
 ## Common Mistake
 
-The callback must return true or false.
+filter callback ko boolean-like value return karni chahiye.
 
 ## Interview Answer
 
-filter returns a new array containing only items that satisfy the condition.
+Filter ka short interview answer: filter condition pass karne wale elements ka new array return karta hai. Saath me ek small example aur common mistake bol doge toh answer strong lagega.
 
-## How To Study
-
-1. Read this theory slowly.
-2. Open `02_snippets.js` and run each example.
-3. Predict output before checking the answer.
-4. Read `03_coding-output-practice.js` for spoken interview answers.
-5. Practice `03_coding-output-practice.js` for confidence.

@@ -4,15 +4,11 @@ Path: `1 SIMPLE JS\03_operators\10_ES6-rest\01_theory.md`
 
 ## Simple Meaning
 
-Rest collects multiple values into one array-like parameter.
+Rest ... multiple values ko ek array/object me collect karta hai.
 
-## Understand It Like This
+## Real Use
 
-Spread opens values; rest gathers values.
-
-## Why We Use It
-
-Use rest when a function can receive many arguments.
+Use it variable arguments aur remaining properties ke liye.
 
 ## Small Example
 
@@ -20,20 +16,14 @@ Use rest when a function can receive many arguments.
 function sum(...nums) {
   return nums.reduce((a, b) => a + b, 0);
 }
+console.log(sum(1, 2, 3));
 ```
 
 ## Common Mistake
 
-Rest must usually be the last parameter.
+Rest parameter function parameters me last hona chahiye.
 
 ## Interview Answer
 
-Rest syntax collects remaining values into an array.
+ES6 Rest ka short interview answer: Rest ... multiple values ko ek array/object me collect karta hai. Saath me ek small example aur common mistake bol doge toh answer strong lagega.
 
-## How To Study
-
-1. Read this theory slowly.
-2. Open `02_snippets.js` and run each example.
-3. Predict output before checking the answer.
-4. Read `03_coding-output-practice.js` for spoken interview answers.
-5. Practice `03_coding-output-practice.js` for confidence.

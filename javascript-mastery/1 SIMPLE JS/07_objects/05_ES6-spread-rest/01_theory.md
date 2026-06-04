@@ -4,35 +4,25 @@ Path: `1 SIMPLE JS\07_objects\05_ES6-spread-rest\01_theory.md`
 
 ## Simple Meaning
 
-Spread expands values from arrays or objects.
+Spread ... array/object ko expand karta hai.
 
-## Understand It Like This
+## Real Use
 
-Spread opens a collection and copies its items/properties into another place.
-
-## Why We Use It
-
-Copying arrays, merging objects, and passing arguments use spread.
+Use it copy, merge, function arguments me.
 
 ## Small Example
 
 ```js
-const a = [1, 2];
-const b = [...a, 3];
+const nums = [1, 2];
+const copy = [...nums, 3];
+console.log(copy);
 ```
 
 ## Common Mistake
 
-Spread makes a shallow copy, not a deep copy.
+Spread shallow copy karta hai, deep copy nahi.
 
 ## Interview Answer
 
-Spread expands iterable or object values using ... syntax.
+ES6 Spread Rest ka short interview answer: Spread ... array/object ko expand karta hai. Saath me ek small example aur common mistake bol doge toh answer strong lagega.
 
-## How To Study
-
-1. Read this theory slowly.
-2. Open `02_snippets.js` and run each example.
-3. Predict output before checking the answer.
-4. Read `03_coding-output-practice.js` for spoken interview answers.
-5. Practice `03_coding-output-practice.js` for confidence.

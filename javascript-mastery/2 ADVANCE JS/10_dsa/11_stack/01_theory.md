@@ -4,38 +4,26 @@ Path: `2 ADVANCE JS\10_dsa\11_stack\01_theory.md`
 
 ## Simple Meaning
 
-DSA focuses on solving problems efficiently by choosing the right data structure and algorithm pattern.
-
-## Mental Model
-
-When you read this topic, ask three things:
-
-1. What value goes in?
-2. What operation happens?
-3. What value or side effect comes out?
+Stack LIFO data structure hai: last in, first out.
 
 ## Real Use
 
-You will use Stack while reading output questions, writing small interview examples, and debugging real code. The main goal is not memorizing the name. The main goal is understanding exactly what JavaScript does line by line.
+Use it parentheses, undo, recursion, browser history jaisi problems me.
 
 ## Small Example
 
 ```js
-const value = "Stack";
-console.log(value);
+const stack = [];
+stack.push(1);
+stack.push(2);
+console.log(stack.pop());
 ```
 
 ## Common Mistake
 
-The common mistake is reading only the definition and skipping output prediction. Always run the snippet, then change one value and predict again.
+Stack me remove usually top se hota hai.
 
 ## Interview Answer
 
-Stack is useful because it controls how data is read, changed, compared, stored, or executed in JavaScript. In interviews, explain the behavior first, then give a tiny code example.
+Stack ka short interview answer: Stack LIFO data structure hai: last in, first out. Saath me ek small example aur common mistake bol doge toh answer strong lagega.
 
-## How To Study
-
-1. Read this file once.
-2. Run `02_snippets.js`.
-3. Predict every answer in `03_coding-output-practice.js`.
-4. Write two small examples without looking.

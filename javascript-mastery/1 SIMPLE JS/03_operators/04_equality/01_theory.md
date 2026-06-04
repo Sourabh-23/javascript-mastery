@@ -4,35 +4,24 @@ Path: `1 SIMPLE JS\03_operators\04_equality\01_theory.md`
 
 ## Simple Meaning
 
-Equality checks whether two values are considered equal.
+== type convert karke compare karta hai, === type aur value dono compare karta hai.
 
-## Understand It Like This
+## Real Use
 
-== allows type coercion, while === checks value and type.
-
-## Why We Use It
-
-Comparisons, conditions, and interviews heavily test equality.
+Use === by default; == mostly output questions ke liye samjho.
 
 ## Small Example
 
 ```js
-console.log(5 == "5"); // true
-console.log(5 === "5"); // false
+console.log(5 == "5");
+console.log(5 === "5");
 ```
 
 ## Common Mistake
 
-Using == can hide type conversion bugs.
+== ka coercion interview me trap ban sakta hai.
 
 ## Interview Answer
 
-== compares with coercion; === compares without coercion and is usually preferred.
+Equality ka short interview answer: == type convert karke compare karta hai, === type aur value dono compare karta hai. Saath me ek small example aur common mistake bol doge toh answer strong lagega.
 
-## How To Study
-
-1. Read this theory slowly.
-2. Open `02_snippets.js` and run each example.
-3. Predict output before checking the answer.
-4. Read `03_coding-output-practice.js` for spoken interview answers.
-5. Practice `03_coding-output-practice.js` for confidence.

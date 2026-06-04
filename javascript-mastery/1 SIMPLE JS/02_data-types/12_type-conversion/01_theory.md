@@ -4,35 +4,24 @@ Path: `1 SIMPLE JS\02_data-types\12_type-conversion\01_theory.md`
 
 ## Simple Meaning
 
-Type conversion means manually changing a value from one type to another.
+Type conversion me hum manually value ka type change karte hain.
 
-## Understand It Like This
+## Real Use
 
-You decide the conversion using Number(), String(), or Boolean().
-
-## Why We Use It
-
-Forms and API data often need conversion before calculation or comparison.
+Use it form input ko number, boolean, string me convert karne ke liye.
 
 ## Small Example
 
 ```js
-const age = Number("25");
-console.log(age + 5);
+const total = Number("10") + 5;
+console.log(total);
 ```
 
 ## Common Mistake
 
-If conversion fails, Number() can return NaN.
+Invalid conversion NaN de sakti hai.
 
 ## Interview Answer
 
-Type conversion is explicit conversion from one data type to another.
+Type Conversion ka short interview answer: Type conversion me hum manually value ka type change karte hain. Saath me ek small example aur common mistake bol doge toh answer strong lagega.
 
-## How To Study
-
-1. Read this theory slowly.
-2. Open `02_snippets.js` and run each example.
-3. Predict output before checking the answer.
-4. Read `03_coding-output-practice.js` for spoken interview answers.
-5. Practice `03_coding-output-practice.js` for confidence.

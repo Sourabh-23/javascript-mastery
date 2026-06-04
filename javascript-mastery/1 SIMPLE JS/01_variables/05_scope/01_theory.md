@@ -4,37 +4,26 @@ Path: `1 SIMPLE JS\01_variables\05_scope\01_theory.md`
 
 ## Simple Meaning
 
-Scope decides where a variable can be accessed.
+Scope decide karta hai variable code ke kis area me accessible hai.
 
-## Understand It Like This
+## Real Use
 
-Think of scope as the visibility boundary of a variable.
-
-## Why We Use It
-
-Scope helps you avoid name conflicts and understand output questions.
+Use it bugs avoid karne ke liye jab same variable name multiple blocks/functions me ho.
 
 ## Small Example
 
 ```js
-function demo() {
-  const message = "inside";
+if (true) {
+  let message = "inside";
   console.log(message);
 }
 ```
 
 ## Common Mistake
 
-A variable declared inside a block or function may not be available outside.
+Block scope, function scope aur global scope mix karna common confusion hai.
 
 ## Interview Answer
 
-Scope is the area where a variable is accessible.
+Scope ka short interview answer: Scope decide karta hai variable code ke kis area me accessible hai. Saath me ek small example aur common mistake bol doge toh answer strong lagega.
 
-## How To Study
-
-1. Read this theory slowly.
-2. Open `02_snippets.js` and run each example.
-3. Predict output before checking the answer.
-4. Read `03_coding-output-practice.js` for spoken interview answers.
-5. Practice `03_coding-output-practice.js` for confidence.

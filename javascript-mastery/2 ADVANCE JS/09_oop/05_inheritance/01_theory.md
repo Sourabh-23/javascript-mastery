@@ -4,45 +4,25 @@ Path: `2 ADVANCE JS\09_oop\05_inheritance\01_theory.md`
 
 ## Simple Meaning
 
-OOP organizes code around objects, classes, prototypes, inheritance, and reusable behavior.
-
-## Mental Model
-
-When you read this topic, ask three things:
-
-1. What value goes in?
-2. What operation happens?
-3. What value or side effect comes out?
+Inheritance me child class parent class ke features use kar sakti hai.
 
 ## Real Use
 
-You will use Inheritance while reading output questions, writing small interview examples, and debugging real code. The main goal is not memorizing the name. The main goal is understanding exactly what JavaScript does line by line.
+Use it shared behavior avoid duplicate code ke liye.
 
 ## Small Example
 
 ```js
-class User {
-  constructor(name) {
-    this.name = name;
-  }
-  greet() {
-    return "Hi " + this.name;
-  }
+class Admin extends User {
+  deleteUser() { return true; }
 }
-console.log(new User("Amit").greet());
 ```
 
 ## Common Mistake
 
-The common mistake is reading only the definition and skipping output prediction. Always run the snippet, then change one value and predict again.
+Over-inheritance code ko complex bana sakta hai.
 
 ## Interview Answer
 
-Inheritance is useful because it controls how data is read, changed, compared, stored, or executed in JavaScript. In interviews, explain the behavior first, then give a tiny code example.
+Inheritance ka short interview answer: Inheritance me child class parent class ke features use kar sakti hai. Saath me ek small example aur common mistake bol doge toh answer strong lagega.
 
-## How To Study
-
-1. Read this file once.
-2. Run `02_snippets.js`.
-3. Predict every answer in `03_coding-output-practice.js`.
-4. Write two small examples without looking.

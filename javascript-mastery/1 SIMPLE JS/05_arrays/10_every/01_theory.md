@@ -4,35 +4,24 @@ Path: `1 SIMPLE JS\05_arrays\10_every\01_theory.md`
 
 ## Simple Meaning
 
-every checks if all items pass a condition.
+every check karta hai saare elements condition pass karte hain ya nahi.
 
-## Understand It Like This
+## Real Use
 
-All true means result is true.
-
-## Why We Use It
-
-Use it for validations like all fields filled or all items approved.
+Use it full-list validation me.
 
 ## Small Example
 
 ```js
-const marks = [80, 90, 70];
-console.log(marks.every((m) => m >= 35));
+const nums = [2, 4, 6];
+console.log(nums.every((n) => n % 2 === 0));
 ```
 
 ## Common Mistake
 
-every returns false as soon as one item fails.
+Empty array par every true return karta hai.
 
 ## Interview Answer
 
-every returns true only if all items satisfy the condition.
+Every ka short interview answer: every check karta hai saare elements condition pass karte hain ya nahi. Saath me ek small example aur common mistake bol doge toh answer strong lagega.
 
-## How To Study
-
-1. Read this theory slowly.
-2. Open `02_snippets.js` and run each example.
-3. Predict output before checking the answer.
-4. Read `03_coding-output-practice.js` for spoken interview answers.
-5. Practice `03_coding-output-practice.js` for confidence.

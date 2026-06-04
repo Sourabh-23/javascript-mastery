@@ -4,35 +4,24 @@ Path: `1 SIMPLE JS\02_data-types\04_undefined\01_theory.md`
 
 ## Simple Meaning
 
-undefined means a variable exists but no value has been assigned yet.
+undefined ka matlab variable declared hai but value assign nahi hui.
 
-## Understand It Like This
+## Real Use
 
-JavaScript gives undefined when something is declared but still empty.
-
-## Why We Use It
-
-You see undefined in missing object properties, missing function returns, or unassigned variables.
+Use it samajhne ke liye jab function return nahi karta ya missing property read hoti hai.
 
 ## Small Example
 
 ```js
-let userName;
-console.log(userName); // undefined
+let city;
+console.log(city);
 ```
 
 ## Common Mistake
 
-undefined is different from null. undefined usually means JavaScript has not received a value.
+undefined ko null ke equal meaning me use mat karo.
 
 ## Interview Answer
 
-undefined is a primitive value automatically assigned when a variable or property has no value.
+Undefined ka short interview answer: undefined ka matlab variable declared hai but value assign nahi hui. Saath me ek small example aur common mistake bol doge toh answer strong lagega.
 
-## How To Study
-
-1. Read this theory slowly.
-2. Open `02_snippets.js` and run each example.
-3. Predict output before checking the answer.
-4. Read `03_coding-output-practice.js` for spoken interview answers.
-5. Practice `03_coding-output-practice.js` for confidence.

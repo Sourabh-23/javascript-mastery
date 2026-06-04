@@ -4,43 +4,25 @@ Path: `2 ADVANCE JS\01_execution-context\01_global-execution-context\01_theory.m
 
 ## Simple Meaning
 
-global execution context is the first context JavaScript creates for top-level code.
-
-## Mental Model
-
-Read the code in this order:
-
-1. What is created first?
-2. Which line runs next?
-3. What value is stored or returned?
+Execution context JavaScript ka environment hai jahan code execute hota hai.
 
 ## Real Use
 
-You will use Global Execution Context when tracing interview output questions and debugging real code behavior.
+Use it hoisting, scope, this, output questions samajhne ke liye.
 
 ## Small Example
 
 ```js
-function first() {
-  return second();
-}
-function second() {
-  return "done";
-}
-console.log(first());
+var a = 10;
+function show() { return a; }
+console.log(show());
 ```
 
 ## Common Mistake
 
-The common mistake is jumping to the answer without tracing each function call, variable value, or returned result.
+Memory phase aur execution phase ko mix mat karo.
 
 ## Interview Answer
 
-Global Execution Context is important because it changes how JavaScript stores work, calls functions, or reads values at runtime.
+Global Execution Context ka short interview answer: Execution context JavaScript ka environment hai jahan code execute hota hai. Saath me ek small example aur common mistake bol doge toh answer strong lagega.
 
-## How To Study
-
-1. Read this file once.
-2. Run `02_snippets.js`.
-3. Predict every answer in `03_coding-output-practice.js`.
-4. Explain the flow in your own words.

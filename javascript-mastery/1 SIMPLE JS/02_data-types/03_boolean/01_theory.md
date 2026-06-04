@@ -4,37 +4,24 @@ Path: `1 SIMPLE JS\02_data-types\03_boolean\01_theory.md`
 
 ## Simple Meaning
 
-A boolean stores only two values: true or false.
+Boolean sirf true ya false value hoti hai.
 
-## Understand It Like This
+## Real Use
 
-Use boolean when the answer is yes/no, on/off, valid/invalid.
-
-## Why We Use It
-
-Login status, form validation, permissions, and conditions use booleans.
+Use it conditions, flags, validation, yes/no state ke liye.
 
 ## Small Example
 
 ```js
 const isLoggedIn = true;
-if (isLoggedIn) {
-  console.log("Show dashboard");
-}
+if (isLoggedIn) console.log("dashboard");
 ```
 
 ## Common Mistake
 
-Do not confuse the boolean false with the string "false". The string is truthy.
+Truthy/falsy aur actual boolean ko same mat samjho.
 
 ## Interview Answer
 
-A boolean is a primitive type that represents true or false and is mostly used in conditions.
+Boolean ka short interview answer: Boolean sirf true ya false value hoti hai. Saath me ek small example aur common mistake bol doge toh answer strong lagega.
 
-## How To Study
-
-1. Read this theory slowly.
-2. Open `02_snippets.js` and run each example.
-3. Predict output before checking the answer.
-4. Read `03_coding-output-practice.js` for spoken interview answers.
-5. Practice `03_coding-output-practice.js` for confidence.

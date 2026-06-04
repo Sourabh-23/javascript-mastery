@@ -4,35 +4,25 @@ Path: `1 SIMPLE JS\05_arrays\04_map\01_theory.md`
 
 ## Simple Meaning
 
-map creates a new array by transforming every item.
+map har element ko transform karke same length ka new array return karta hai.
 
-## Understand It Like This
+## Real Use
 
-Input array in, transformed array out.
-
-## Why We Use It
-
-Use map when you need a new array of changed values.
+Use it when input list se transformed list chahiye.
 
 ## Small Example
 
 ```js
 const nums = [1, 2, 3];
 const doubled = nums.map((n) => n * 2);
+console.log(doubled);
 ```
 
 ## Common Mistake
 
-Do not use map only for console.log side effects. Use forEach for that.
+map callback me return bhoolna common bug hai.
 
 ## Interview Answer
 
-map returns a new array; forEach does not.
+Map ka short interview answer: map har element ko transform karke same length ka new array return karta hai. Saath me ek small example aur common mistake bol doge toh answer strong lagega.
 
-## How To Study
-
-1. Read this theory slowly.
-2. Open `02_snippets.js` and run each example.
-3. Predict output before checking the answer.
-4. Read `03_coding-output-practice.js` for spoken interview answers.
-5. Practice `03_coding-output-practice.js` for confidence.

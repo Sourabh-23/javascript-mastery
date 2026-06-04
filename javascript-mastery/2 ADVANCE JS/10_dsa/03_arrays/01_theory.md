@@ -4,35 +4,24 @@ Path: `2 ADVANCE JS\10_dsa\03_arrays\01_theory.md`
 
 ## Simple Meaning
 
-An array stores multiple values in an ordered list.
+DSA arrays continuous indexed data structure hain jisme elements position ke basis par access hote hain.
 
-## Understand It Like This
+## Real Use
 
-Use arrays when order matters or when you need to loop over many items.
-
-## Why We Use It
-
-Lists of users, products, tasks, IDs, and search results are arrays.
+Use it traversal, searching, sorting, prefix sum, two pointer problems me.
 
 ## Small Example
 
 ```js
-const numbers = [10, 20, 30];
-console.log(numbers[0]); // 10
+const nums = [1, 2, 3];
+for (const num of nums) console.log(num);
 ```
 
 ## Common Mistake
 
-Array index starts from 0, not 1.
+Array insertion/deletion middle me costly ho sakti hai because shifting hoti hai.
 
 ## Interview Answer
 
-An array is an object-like structure used to store ordered collections.
+Arrays ka short interview answer: DSA arrays continuous indexed data structure hain jisme elements position ke basis par access hote hain. Saath me ek small example aur common mistake bol doge toh answer strong lagega.
 
-## How To Study
-
-1. Read this theory slowly.
-2. Open `02_snippets.js` and run each example.
-3. Predict output before checking the answer.
-4. Read `03_coding-output-practice.js` for spoken interview answers.
-5. Practice `03_coding-output-practice.js` for confidence.

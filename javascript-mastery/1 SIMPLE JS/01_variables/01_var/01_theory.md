@@ -4,37 +4,27 @@ Path: `1 SIMPLE JS\01_variables\01_var\01_theory.md`
 
 ## Simple Meaning
 
-var is the old way to declare variables in JavaScript.
+var purana variable keyword hai. Iski scope function level hoti hai, block level nahi.
 
-## Understand It Like This
+## Real Use
 
-var is function-scoped, not block-scoped.
-
-## Why We Use It
-
-You mostly see var in old codebases and interview questions.
+Use it mostly old code samajhne ke liye; new code me let/const prefer karo.
 
 ## Small Example
 
 ```js
+var name = "Amit";
 if (true) {
-  var count = 10;
+  var name = "Rahul";
 }
-console.log(count); // 10
+console.log(name);
 ```
 
 ## Common Mistake
 
-var can be redeclared and is hoisted, which can create confusing bugs.
+var ko block scoped samajhna common mistake hai.
 
 ## Interview Answer
 
-var is function-scoped and hoisted. Modern JavaScript usually prefers let and const.
+Var ka short interview answer: var purana variable keyword hai. Iski scope function level hoti hai, block level nahi. Saath me ek small example aur common mistake bol doge toh answer strong lagega.
 
-## How To Study
-
-1. Read this theory slowly.
-2. Open `02_snippets.js` and run each example.
-3. Predict output before checking the answer.
-4. Read `03_coding-output-practice.js` for spoken interview answers.
-5. Practice `03_coding-output-practice.js` for confidence.

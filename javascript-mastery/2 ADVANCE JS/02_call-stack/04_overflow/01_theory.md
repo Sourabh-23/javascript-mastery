@@ -4,41 +4,25 @@ Path: `2 ADVANCE JS\02_call-stack\04_overflow\01_theory.md`
 
 ## Simple Meaning
 
-stack overflow happens when function calls keep adding to the call stack until it becomes too deep, usually because recursion has no safe stop condition.
-
-## Mental Model
-
-Read the code in this order:
-
-1. What is created first?
-2. Which line runs next?
-3. What value is stored or returned?
+Call stack function calls ko LIFO order me manage karta hai.
 
 ## Real Use
 
-You will use Overflow when tracing interview output questions and debugging real code behavior.
+Use it nested calls aur recursion trace karne ke liye.
 
 ## Small Example
 
 ```js
-function count(n) {
-  if (n === 0) return 0;
-  return 1 + count(n - 1);
-}
-console.log(count(3));
+function a() { b(); }
+function b() { console.log("b"); }
+a();
 ```
 
 ## Common Mistake
 
-The common mistake is jumping to the answer without tracing each function call, variable value, or returned result.
+Async callback stack me tab aata hai jab stack empty hota hai.
 
 ## Interview Answer
 
-Overflow is important because it changes how JavaScript stores work, calls functions, or reads values at runtime.
+Overflow ka short interview answer: Call stack function calls ko LIFO order me manage karta hai. Saath me ek small example aur common mistake bol doge toh answer strong lagega.
 
-## How To Study
-
-1. Read this file once.
-2. Run `02_snippets.js`.
-3. Predict every answer in `03_coding-output-practice.js`.
-4. Explain the flow in your own words.

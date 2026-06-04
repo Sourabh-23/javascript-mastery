@@ -4,15 +4,11 @@ Path: `1 SIMPLE JS\04_functions\02_function-expression\01_theory.md`
 
 ## Simple Meaning
 
-A function expression stores a function inside a variable.
+Function expression me function ko variable me store karte hain.
 
-## Understand It Like This
+## Real Use
 
-The variable receives a function value, so hoisting behaves differently from declarations.
-
-## Why We Use It
-
-Callbacks, handlers, and assigned utilities often use function expressions.
+Use it callbacks, conditional functions, assigned behavior me.
 
 ## Small Example
 
@@ -20,20 +16,14 @@ Callbacks, handlers, and assigned utilities often use function expressions.
 const add = function (a, b) {
   return a + b;
 };
+console.log(add(2, 3));
 ```
 
 ## Common Mistake
 
-You cannot safely call a const function expression before initialization.
+const/let function expression declaration se pehle call nahi kar sakte.
 
 ## Interview Answer
 
-A function expression is a function assigned to a variable.
+Function Expression ka short interview answer: Function expression me function ko variable me store karte hain. Saath me ek small example aur common mistake bol doge toh answer strong lagega.
 
-## How To Study
-
-1. Read this theory slowly.
-2. Open `02_snippets.js` and run each example.
-3. Predict output before checking the answer.
-4. Read `03_coding-output-practice.js` for spoken interview answers.
-5. Practice `03_coding-output-practice.js` for confidence.

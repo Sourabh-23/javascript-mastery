@@ -4,36 +4,23 @@ Path: `2 ADVANCE JS\06_async-javascript\03_promises\01_theory.md`
 
 ## Simple Meaning
 
-A Promise represents a future async result.
+Promise future value represent karta hai: pending, fulfilled, rejected.
 
-## Understand It Like This
+## Real Use
 
-It can be pending, fulfilled, or rejected.
-
-## Why We Use It
-
-API calls, database calls, file operations, and async workflows use promises.
+Use it async operations jaise API call, file read, timers me.
 
 ## Small Example
 
 ```js
-fetch("/api/users")
-  .then((res) => res.json())
-  .catch((err) => console.log(err));
+Promise.resolve("done").then(console.log);
 ```
 
 ## Common Mistake
 
-Forgetting return inside then chains can break promise flow.
+Promise result synchronously available nahi hota.
 
 ## Interview Answer
 
-A Promise is an object representing eventual completion or failure of async work.
+Promises ka short interview answer: Promise future value represent karta hai: pending, fulfilled, rejected. Saath me ek small example aur common mistake bol doge toh answer strong lagega.
 
-## How To Study
-
-1. Read this theory slowly.
-2. Open `02_snippets.js` and run each example.
-3. Predict output before checking the answer.
-4. Read `03_coding-output-practice.js` for spoken interview answers.
-5. Practice `03_coding-output-practice.js` for confidence.

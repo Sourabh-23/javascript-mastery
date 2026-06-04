@@ -1,38 +1,28 @@
-# ES6 TDZ
+# ES6 Tdz
 
 Path: `1 SIMPLE JS\01_variables\06_ES6-tdz\01_theory.md`
 
 ## Simple Meaning
 
-TDZ means Temporal Dead Zone: the time before let or const can be accessed.
+TDZ woh period hai jahan let/const variable memory me hota hai but access allowed nahi hota.
 
-## Understand It Like This
+## Real Use
 
-The variable exists, but JavaScript does not allow you to use it before declaration.
-
-## Why We Use It
-
-TDZ explains why let and const throw ReferenceError before declaration.
+Use it let/const hoisting questions samajhne ke liye.
 
 ## Small Example
 
 ```js
-console.log(name); // ReferenceError
-let name = "Amit";
+// console.log(age); // ReferenceError
+let age = 25;
+console.log(age);
 ```
 
 ## Common Mistake
 
-Do not think let and const are not hoisted. They are hoisted but not initialized.
+TDZ ko hoisting nahi hoti aisa bolna wrong hai; hoisting hoti hai, access blocked hota hai.
 
 ## Interview Answer
 
-TDZ is the period between entering scope and variable initialization for let and const.
+ES6 Tdz ka short interview answer: TDZ woh period hai jahan let/const variable memory me hota hai but access allowed nahi hota. Saath me ek small example aur common mistake bol doge toh answer strong lagega.
 
-## How To Study
-
-1. Read this theory slowly.
-2. Open `02_snippets.js` and run each example.
-3. Predict output before checking the answer.
-4. Read `03_coding-output-practice.js` for spoken interview answers.
-5. Practice `03_coding-output-practice.js` for confidence.

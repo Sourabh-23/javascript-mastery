@@ -4,38 +4,26 @@ Path: `1 SIMPLE JS\07_objects\08_deep-copy\01_theory.md`
 
 ## Simple Meaning
 
-objects store key-value data. This topic focuses on reading, updating, copying, and organizing object data.
-
-## Mental Model
-
-When you read this topic, ask three things:
-
-1. What value goes in?
-2. What operation happens?
-3. What value or side effect comes out?
+Deep copy nested levels ko bhi separate copy banata hai.
 
 ## Real Use
 
-You will use Deep Copy while reading output questions, writing small interview examples, and debugging real code. The main goal is not memorizing the name. The main goal is understanding exactly what JavaScript does line by line.
+Use it jab nested object modify karna ho without original change.
 
 ## Small Example
 
 ```js
-const user = { name: "Amit", role: "dev" };
-console.log(user.name);
+const a = { user: { name: "Amit" } };
+const b = structuredClone(a);
+b.user.name = "Rahul";
+console.log(a.user.name);
 ```
 
 ## Common Mistake
 
-The common mistake is reading only the definition and skipping output prediction. Always run the snippet, then change one value and predict again.
+JSON copy functions/date/undefined handle nahi karta.
 
 ## Interview Answer
 
-Deep Copy is useful because it controls how data is read, changed, compared, stored, or executed in JavaScript. In interviews, explain the behavior first, then give a tiny code example.
+Deep Copy ka short interview answer: Deep copy nested levels ko bhi separate copy banata hai. Saath me ek small example aur common mistake bol doge toh answer strong lagega.
 
-## How To Study
-
-1. Read this file once.
-2. Run `02_snippets.js`.
-3. Predict every answer in `03_coding-output-practice.js`.
-4. Write two small examples without looking.

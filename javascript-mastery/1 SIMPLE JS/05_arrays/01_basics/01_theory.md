@@ -4,38 +4,24 @@ Path: `1 SIMPLE JS\05_arrays\01_basics\01_theory.md`
 
 ## Simple Meaning
 
-arrays store ordered values. This topic focuses on reading, changing, searching, or transforming array data.
-
-## Mental Model
-
-When you read this topic, ask three things:
-
-1. What value goes in?
-2. What operation happens?
-3. What value or side effect comes out?
+Basics array topic hai. Isme list data ko read, update, transform ya search karna seekhte hain.
 
 ## Real Use
 
-You will use Basics while reading output questions, writing small interview examples, and debugging real code. The main goal is not memorizing the name. The main goal is understanding exactly what JavaScript does line by line.
+Use it jab multiple values ek sequence me handle karni ho.
 
 ## Small Example
 
 ```js
-const value = "Basics";
-console.log(value);
+const items = [1, 2, 3];
+console.log(items.length);
 ```
 
 ## Common Mistake
 
-The common mistake is reading only the definition and skipping output prediction. Always run the snippet, then change one value and predict again.
+Array methods me mutate vs non-mutate behavior clear rakho.
 
 ## Interview Answer
 
-Basics is useful because it controls how data is read, changed, compared, stored, or executed in JavaScript. In interviews, explain the behavior first, then give a tiny code example.
+Basics ka short interview answer: Basics array topic hai. Isme list data ko read, update, transform ya search karna seekhte hain. Saath me ek small example aur common mistake bol doge toh answer strong lagega.
 
-## How To Study
-
-1. Read this file once.
-2. Run `02_snippets.js`.
-3. Predict every answer in `03_coding-output-practice.js`.
-4. Write two small examples without looking.

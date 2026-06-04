@@ -4,15 +4,11 @@ Path: `1 SIMPLE JS\04_functions\01_function-declaration\01_theory.md`
 
 ## Simple Meaning
 
-A function is a reusable block of code.
+Function declaration named reusable function hota hai jo hoist hota hai.
 
-## Understand It Like This
+## Real Use
 
-Use a function when you want to run the same logic again with different values.
-
-## Why We Use It
-
-Calculations, validation, API helpers, event handlers, and services use functions.
+Use it normal reusable logic ke liye.
 
 ## Small Example
 
@@ -25,16 +21,9 @@ console.log(add(2, 3));
 
 ## Common Mistake
 
-Calling a function and defining a function are different things.
+Function declaration aur expression hoisting behavior same nahi hota.
 
 ## Interview Answer
 
-A function is a reusable block of code that can accept parameters and return a value.
+Function Declaration ka short interview answer: Function declaration named reusable function hota hai jo hoist hota hai. Saath me ek small example aur common mistake bol doge toh answer strong lagega.
 
-## How To Study
-
-1. Read this theory slowly.
-2. Open `02_snippets.js` and run each example.
-3. Predict output before checking the answer.
-4. Read `03_coding-output-practice.js` for spoken interview answers.
-5. Practice `03_coding-output-practice.js` for confidence.

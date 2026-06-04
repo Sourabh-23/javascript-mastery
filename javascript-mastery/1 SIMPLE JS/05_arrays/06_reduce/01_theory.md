@@ -4,35 +4,25 @@ Path: `1 SIMPLE JS\05_arrays\06_reduce\01_theory.md`
 
 ## Simple Meaning
 
-reduce converts an array into one final value.
+reduce array ko single value me convert karta hai.
 
-## Understand It Like This
+## Real Use
 
-Carry an accumulator through each item.
-
-## Why We Use It
-
-Totals, grouping, counts, and object building often use reduce.
+Use it sum, count, group, object banana, total calculate karna.
 
 ## Small Example
 
 ```js
 const nums = [1, 2, 3];
 const total = nums.reduce((sum, n) => sum + n, 0);
+console.log(total);
 ```
 
 ## Common Mistake
 
-Forgetting the initial value can cause confusing behavior.
+Initial value na dena empty array par error de sakta hai.
 
 ## Interview Answer
 
-reduce processes every item and returns one accumulated result.
+Reduce ka short interview answer: reduce array ko single value me convert karta hai. Saath me ek small example aur common mistake bol doge toh answer strong lagega.
 
-## How To Study
-
-1. Read this theory slowly.
-2. Open `02_snippets.js` and run each example.
-3. Predict output before checking the answer.
-4. Read `03_coding-output-practice.js` for spoken interview answers.
-5. Practice `03_coding-output-practice.js` for confidence.
